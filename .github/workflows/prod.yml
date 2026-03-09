@@ -45,32 +45,13 @@ jobs:
       - name: Render English site
         run: quarto render --to html
 
-      # Step 6: Copy missing PDF folders into _site
-      - name: Copy additional PDF folders to _site
+      # Step 6: Copy entire pdfs/ folder into _site
+      - name: Copy pdfs folder to _site
         run: |
-          echo "--- PDF folder structure before copy ---"
-          find pdfs/ -type d | sort || echo "No pdfs/ directory found at root"
-
-          # Ensure destination exists
-          mkdir -p _site/pdfs
-
-          # Copy practical_works if it exists
-          if [ -d "pdfs/practical_works" ]; then
-            cp -r pdfs/practical_works _site/pdfs/
-            echo "Copied pdfs/practical_works → _site/pdfs/practical_works"
-          else
-            echo "WARNING: pdfs/practical_works not found — skipping"
-          fi
-
-          # Copy directed_works if it exists
-          if [ -d "pdfs/directed_works" ]; then
-            cp -r pdfs/directed_works _site/pdfs/
-            echo "Copied pdfs/directed_works → _site/pdfs/directed_works"
-          else
-            echo "WARNING: pdfs/directed_works not found — skipping"
-          fi
-
-          echo "--- _site/pdfs structure after copy ---"
+          echo "--- pdfs/ structure ---"
+          find pdfs/ -type f | sort || echo "WARNING: No pdfs/ directory found"
+          cp -r pdfs/ _site/pdfs/
+          echo "--- _site/pdfs/ structure after copy ---"
           find _site/pdfs/ -type f | sort
 
       # Step 7: Fix absolute paths for GitHub Pages
