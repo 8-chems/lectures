@@ -1,5 +1,5 @@
 # Get all PDF paths from the repository
-curl -s "https://api.github.com/repos/8-chems/myportfolio-src/git/trees/main?recursive=1" \
+curl -H "Authorization: token $GITHUB_TOKEN" -s "https://api.github.com/repos/8-chems/myportfolio-src/git/trees/main?recursive=1" \
   | jq -r '.tree[]? | select(.path | endswith(".pdf")) | .path' \
   | while read -r pdf_path; do
       # Create directory structure

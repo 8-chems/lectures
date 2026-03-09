@@ -16,9 +16,11 @@ jobs:
 
       # Step 1: Get the PDF files
       - name: Get PDF files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x ./build/get-pdfs.sh
-          sudo ./build/get-pdfs.sh
+          ./build/get-pdfs.sh
 
       # Step 2: Set up Quarto
       - name: Set up Quarto
@@ -43,15 +45,9 @@ jobs:
       - name: Render English site
         run: quarto render --to html
 
-      # Step 6: Ensure PDFs are copied to _site folder and fix absolute paths for GitHub Pages
+      # Step 6: Fix absolute paths for GitHub Pages
       - name: Copy PDFs and Fix Paths
         run: |
-          if [ -d "pdfs" ]; then
-            cp -rf pdfs _site/
-            echo "PDFs copied successfully to _site/"
-          else
-            echo "Warning: No pdfs folder found in root"
-          fi
           # Fix absolute PDF paths in HTML files to include the repository name sub-path
           REPO_NAME=${{ github.event.repository.name }}
           find _site -type f -name "*.html" -exec sed -i "s|\"/pdfs/|\"/$REPO_NAME/pdfs/|g" {} +
