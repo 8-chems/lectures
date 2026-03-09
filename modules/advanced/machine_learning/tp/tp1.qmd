@@ -1,0 +1,6 @@
+---
+title: "TP 1: UI-Based Exploration"
+---
+
+# 🛠️ Practical Work
+* Practice Titanic dataset using UI-based exploration tools like Teachable Machine or Google AutoML Tables.

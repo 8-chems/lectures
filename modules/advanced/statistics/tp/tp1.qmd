@@ -1,0 +1,9 @@
+---
+title: "TP 1: Introduction Practical"
+---
+
+# 🛠️ Practical (Python)
+* Load dataset with `pd.read_csv()`
+* Inspect structure: `df.info()`, `df.describe()`
+* Identify categorical vs numerical variables
+* Extract random sample: `df.sample(n=50)` to illustrate sample vs population

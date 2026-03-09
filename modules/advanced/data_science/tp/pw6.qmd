@@ -1,0 +1,9 @@
+---
+title: "PW6 — Data Visualization"
+sidebar: data-science
+number-sections: false
+---
+
+```{=html}
+<iframe src="/pdfs/courses/fds/practical_works/PW6.pdf" width="100%" height="820px" style="border:1px solid #ddd;border-radius:8px"></iframe>
+```

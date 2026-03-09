@@ -2,10 +2,11 @@
 title: Page Not Found
 listing:
     id: sample-listings
-    contents: content/**/index.qmd
+    contents:
+      - modules/fundamental/*/index.qmd
+      - modules/advanced/*/index.qmd
     type: grid
-    sort: "number"
-    categories: true
+    categories: false
 ---
 
 

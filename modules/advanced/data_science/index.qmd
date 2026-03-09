@@ -1,0 +1,84 @@
+---
+title: "Data Science Foundations"
+description: "A 5-chapter course on data science workflows, EDA, visualization, and experimental design."
+image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80
+categories: [advanced]
+number-sections: false
+toc: true
+toc-depth: 2
+listing:
+  - id: chapters-grid
+    contents:
+      - "course/chapter_1/index.qmd"
+      - "course/chapter_2/index.qmd"
+      - "course/chapter_3/index.qmd"
+      - "course/chapter_4/index.qmd"
+      - "course/chapter_5/index.qmd"
+    type: grid
+    grid-columns: 3
+    fields: [image, title, subtitle, description]
+    image-height: 180px
+    categories: false
+    sort: false
+  - id: chapters-list
+    contents:
+      - "course/chapter_1/index.qmd"
+      - "course/chapter_2/index.qmd"
+      - "course/chapter_3/index.qmd"
+      - "course/chapter_4/index.qmd"
+      - "course/chapter_5/index.qmd"
+    type: table
+    fields: [title, subtitle, description]
+    categories: false
+    sort: false
+---
+
+## Course Structure
+
+Each chapter combines theoretical content with hands-on Python exercises.
+
+<div class="view-toggle-bar">
+  <button class="view-btn active" id="ch-btn-grid" onclick="toggleChapters('grid')">⊞ Grid</button>
+  <button class="view-btn" id="ch-btn-list" onclick="toggleChapters('list')">☰ List</button>
+</div>
+
+<div id="chapters-grid-wrap">
+::: {#chapters-grid}
+:::
+</div>
+<div id="chapters-list-wrap" style="display:none">
+::: {#chapters-list}
+:::
+</div>
+
+<script>
+function toggleChapters(type) {
+  document.getElementById('chapters-grid-wrap').style.display = type === 'grid' ? '' : 'none';
+  document.getElementById('chapters-list-wrap').style.display = type === 'list' ? '' : 'none';
+  document.getElementById('ch-btn-grid').classList.toggle('active', type === 'grid');
+  document.getElementById('ch-btn-list').classList.toggle('active', type === 'list');
+}
+</script>
+
+<style>
+.view-toggle-bar { display: flex; gap: 8px; margin-bottom: 16px; }
+.view-btn { padding: 6px 16px; border: 1.5px solid #ddd; border-radius: 6px; background: transparent; cursor: pointer; font-size: 0.9em; transition: all 0.2s; }
+.view-btn:hover { border-color: #666; background: #f5f5f5; }
+.view-btn.active { background: #2c3e50; color: white; border-color: #2c3e50; }
+</style>
+
+---
+
+## 📝 Directed Works & 🧪 Practical Works
+
+Browse exercises using the sidebar — or jump directly:
+
+<br>
+
+[📝 Directed Works (DW)](td/dw1.html){.btn .btn-primary role="button"} &nbsp; [🧪 Practical Works (PW)](tp/pw1.html){.btn .btn-success role="button"}
+
+## References
+
+1. Dietrich, D. — *Data Science & Big Data Analytics*, Wiley, 2015
+2. Lutz, M. & Biernat, E. — *Data Science: Fondamentaux et Études de Cas*, Eyrolles, 2015
+

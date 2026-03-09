@@ -1,0 +1,7 @@
+---
+title: "TD 1: Stats Environment Setup"
+---
+
+# Introduction to Stats Environment
+* Setting up your Python environment for data exploration
+* Reading the base concepts of Data Types.

@@ -1,0 +1,47 @@
+---
+title: "Databases"
+description: "Relational databases, SQL, NoSQL, normalization, and transaction management."
+image: https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=600&q=80
+categories: [fundamental]
+number-sections: false
+---
+
+## 📋 Module Overview
+
+This module provides an in-depth introduction to **Relational and Non-Relational Databases**, from data modelling to query optimization.
+
+## 📚 Course Structure
+
+::: {.callout-note}
+## Module Contents
+- **Chapter 1** — Introduction to Databases: Concepts & Architecture
+- **Chapter 2** — Relational Model & Entity-Relationship Diagrams
+- **Chapter 3** — SQL: DDL, DML, DQL, DCL
+- **Chapter 4** — Normalization (1NF, 2NF, 3NF, BCNF)
+- **Chapter 5** — Transactions, ACID Properties & Concurrency Control
+- **Chapter 6** — Introduction to NoSQL (MongoDB, Redis, Cassandra)
+- **Chapter 7** — Database Administration & Query Optimization
+:::
+
+## 📂 Resources
+
+### Lectures
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture slides for this module are being prepared.
+:::
+
+### Directed Works (TD)
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Directed work series for this module are being prepared.
+:::
+
+### Practical Works (TP)
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lab exercises for this module are being prepared.
+:::

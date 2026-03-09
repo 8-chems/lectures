@@ -1,0 +1,285 @@
+---
+title: "Machine Learning — Professional Program"
+description: "A 23-week program from ML foundations to deployment-ready skills and a capstone project."
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+categories: [advanced]
+number-sections: false
+toc: true
+toc-depth: 2
+---
+
+## 🎯 Program Overview
+
+**Duration:** 23 Weeks (~5.5 Months)
+**Format:** 2 × 1.5h lectures/week (Theory + Walkthrough) + 4–6 hrs/week practice
+**Outcome:** Capstone-ready ML practitioner with theory-based modeling skills, practical pipelines, and a professional portfolio.
+
+---
+
+## 📅 Week-by-Week Curriculum
+
+### Week 1 — ML Foundations & Workflow
+
+- What is ML? Supervised vs Unsupervised vs Reinforcement Learning
+- The ML pipeline: framing → data → modeling → evaluation → deployment
+- Overview of prediction tasks (regression, classification)
+- Setting up the Python environment: Jupyter, Anaconda, virtual environments
+
+**Math Tools:** Vectors, matrices, dot product, Probability basics, Bayes' theorem
+
+**Practice:** Titanic dataset EDA; Python/NumPy crash course
+**Reading:** Géron Ch. 1, I2ML Introduction, DeepLearningBook Ch. 2–3
+
+---
+
+### Week 2 — Data Preprocessing & Pipelines
+
+- Handling missing data, detecting outliers
+- Encoding: one-hot, label, ordinal
+- Normalization vs standardization
+- Building Scikit-learn Pipelines
+
+**Practice:** California Housing preprocessing pipeline; Ridge Regression from scratch
+**Reading:** Géron Ch. 2–4
+
+---
+
+### Week 3 — Math & Information Theory
+
+- Linear algebra review: vectors, dot products, matrix multiplication
+- Probability: conditional, Bayes' theorem
+- Entropy, cross-entropy, mutual information
+
+**Practice:** Math + probability notebooks; Khan Academy modules
+**Reading:** DeepLearningBook Ch. 2–3
+
+---
+
+### Week 4 — Linear Models for Regression
+
+- Linear Regression: formula, interpretation, closed-form solution
+- Polynomial regression
+- Loss functions: MSE, MAE; Regularization: Ridge, Lasso
+- Bias–variance tradeoff
+
+**Practice:** Housing price prediction; polynomial regression
+**Reading:** Géron Ch. 4, I2ML Ch. 5
+
+---
+
+### Week 5 — Logistic Regression & Classification
+
+- Logistic function, decision boundaries, sigmoid
+- Binary vs multiclass: One-vs-Rest, One-vs-One
+- Cross-entropy loss
+
+**Practice:** Titanic and Iris classification
+**Reading:** Géron Ch. 3, I2ML Ch. 7
+
+---
+
+### Week 6 — Model Evaluation
+
+- Regression metrics: MAE, MSE, RMSE, R²
+- Classification metrics: Accuracy, Precision, Recall, F1-Score
+- ROC, AUC, PR curves; cross-validation strategies
+
+**Practice:** Compare models using multiple metrics; ROC and PR curves
+**Reading:** I2ML Ch. 8, sklearn.metrics docs
+
+---
+
+### Week 7 — Bias–Variance Tradeoff
+
+- Underfitting vs overfitting; bias-variance decomposition
+- Learning curves, validation curves
+
+**Practice:** Bias–variance analysis with synthetic data
+**Reading:** I2ML Ch. 6
+
+---
+
+### Week 8 — Data Sampling & Validation Techniques
+
+- Hold-out split, stratified sampling
+- Cross-validation: k-fold, LOOCV
+- Bootstrap and confidence intervals
+
+**Practice:** CV + grid search for model selection
+**Reading:** I2ML Ch. 9
+
+---
+
+### Week 9 — k-Nearest Neighbors
+
+- KNN for regression and classification
+- Distance metrics and scaling sensitivity
+- Curse of dimensionality
+
+**Practice:** KNN from scratch and with sklearn
+**Reading:** I2ML Ch. 10
+
+---
+
+### Week 10 — Decision Trees
+
+- Splitting criteria: Gini, Entropy
+- Tree growth, pruning, overfitting
+- Interpreting tree decisions
+
+**Practice:** Build and visualize decision trees on tabular data
+**Reading:** Géron Ch. 6
+
+---
+
+### Week 11 — Random Forests & Bagging
+
+- Bagging: theory and bias reduction
+- Random Forests: feature bagging, OOB error
+- Feature importance
+
+**Practice:** Feature ranking using Random Forest
+**Reading:** Géron Ch. 7
+
+---
+
+### Week 12 — Boosting Algorithms
+
+- Boosting concepts: ensemble of weak learners
+- AdaBoost and Gradient Boosting
+- Early stopping and learning rate
+
+**Practice:** Compare boosting to random forest
+**Reading:** I2ML Ch. 13
+
+---
+
+### Week 13 — Modern Boosting Libraries
+
+- XGBoost, LightGBM, CatBoost
+- Handling missing values and categorical features
+- Hyperparameter tuning strategies
+
+**Practice:** Benchmark all 3 libraries on the same dataset
+**Reading:** Library documentation
+
+---
+
+### Week 14 — Feature Engineering & Feature Selection
+
+- Custom transformers, interaction features
+- Encoding strategies: frequency, target
+- Selection: filter, wrapper, embedded methods
+
+**Practice:** Ames housing dataset with custom pipeline
+**Reading:** Géron pipeline section, I2ML Ch. 10
+
+---
+
+### Week 15 — Imbalanced & Noisy Data
+
+- Resampling: SMOTE, undersampling
+- Weighted loss, cost-sensitive learning
+- Detecting and mitigating noisy labels
+
+**Practice:** Credit card fraud or churn prediction
+**Reading:** I2ML Ch. 15
+
+---
+
+### Week 16 — Clustering & Dimensionality Reduction
+
+- Clustering: K-Means, DBSCAN, Hierarchical
+- PCA: explained variance, reconstruction
+- t-SNE, UMAP for visualization
+
+**Practice:** Customer segmentation pipeline
+**Reading:** Géron Ch. 8
+
+---
+
+### Week 17 — Neural Networks & MLPs
+
+- Perceptron, hidden layers, activation functions (ReLU, sigmoid, tanh)
+- Forward and backpropagation; gradient descent, Adam optimizer
+- Regularization: dropout, L2
+
+**Practice:** MLP in NumPy; MNIST classification with Keras
+**Reading:** Géron Ch. 10–11, CS231n backprop notes
+
+---
+
+### Week 18 — CNNs & Image Classification
+
+- Convolution, pooling, deep architectures (LeNet, AlexNet, VGG)
+- Transfer learning: feature extraction vs fine-tuning
+- Data augmentation; Keras Applications (ResNet, Inception)
+
+**Practice:** CIFAR-10 / Fashion MNIST; custom dataset with transfer learning
+**Reading:** Géron Ch. 14, TensorFlow CNN guide
+
+---
+
+### Week 19 — NLP & Time Series
+
+- NLP: tokenization, stemming, TF-IDF, Word2Vec, GloVe
+- Time series: lag features, moving averages, trends
+- Introduction to RNNs and LSTMs
+
+**Practice:** IMDB sentiment classification; stock price forecasting with LSTM
+**Reading:** Géron Ch. 15–16, TensorFlow NLP + time series docs
+
+---
+
+### Week 20 — Full ML Pipeline: Mini Project
+
+- Dataset selection and objective definition
+- End-to-end: cleaning → modeling → evaluation → documentation
+- Document assumptions, limitations, and improvements
+
+**Practice:** Build a complete ML project from scratch
+
+---
+
+### Week 21 — Capstone Development (Part 1)
+
+- Final project scoping and planning
+- Dataset curation, baseline models
+- Peer review and mentoring checkpoints
+
+---
+
+### Week 22 — Capstone Development (Part 2)
+
+- Full modeling and evaluation pipeline
+- Documentation: README, notebooks, visualizations
+- Polish, test, and finalize
+
+---
+
+### Week 23 — Capstone Presentations & Career Prep
+
+- Project showcase and peer feedback
+- Portfolio walkthrough (GitHub + Notion)
+- Interview preparation: model choices, metrics, trade-offs
+
+**Bonus Reading:** Chip Huyen – *Designing ML Systems*, Burkov – *The ML Engineering Book*
+
+---
+
+## 🏆 Capstone Project Ideas
+
+| Project | Track |
+|---|---|
+| Resume Matcher | NLP |
+| Car Price Estimator | Regression |
+| Medical Image Classifier | Computer Vision |
+| Movie Recommender | Collaborative Filtering |
+| Credit Risk Model | Classification |
+
+## 📂 Resources
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture slides, TD series, and TP notebooks for this module are being prepared.
+:::

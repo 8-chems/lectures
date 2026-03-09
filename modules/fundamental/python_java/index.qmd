@@ -1,0 +1,54 @@
+---
+title: "Python & Java"
+description: "Practical programming in Python and Java: syntax, libraries, and real-world applications."
+image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80
+categories: [fundamental]
+number-sections: false
+---
+
+## 📋 Module Overview
+
+This module offers hands-on practice in both **Python** and **Java**, two of the most widely used languages in industry and academia.
+
+## 📚 Course Structure
+
+::: {.callout-note}
+## Module Contents — Python Track
+- **P1** — Python Syntax, Data Types, and I/O
+- **P2** — Lists, Dicts, Sets, and Tuples
+- **P3** — Functions, Lambdas, and Comprehensions
+- **P4** — File Handling and Exceptions
+- **P5** — Standard Library and Popular Packages (NumPy, Pandas intro)
+:::
+
+::: {.callout-note}
+## Module Contents — Java Track
+- **J1** — Java Environment, Syntax, and Types
+- **J2** — OOP in Java: Classes, Interfaces, and Inheritance
+- **J3** — Collections Framework
+- **J4** — Exception Handling and I/O
+- **J5** — Introduction to Threads and Concurrency
+:::
+
+## 📂 Resources
+
+### Lectures
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture slides for this module are being prepared.
+:::
+
+### Directed Works (TD)
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Directed work series for this module are being prepared.
+:::
+
+### Practical Works (TP)
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lab exercises for this module are being prepared.
+:::

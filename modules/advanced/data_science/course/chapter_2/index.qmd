@@ -1,0 +1,31 @@
+---
+title: "Chapter 2 — Data Acquisition & Storage"
+subtitle: "Collection methods, storage systems, integration, ethics"
+description: "Learn how to collect, store, and integrate data from multiple sources. Covers Big Data concepts, ETL pipelines, and data ethics (GDPR, HIPAA)."
+image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80
+categories: [data-science, data-engineering]
+number-sections: false
+bibliography: ../../../../../reference.bib
+---
+
+## Chapter Summary
+
+Data integration is a critical aspect of modern data management, involving combining data from multiple sources to provide a unified view. This chapter covers collections, storage systems, Big Data, and how to ensure ethical data handling.
+
+::: {.callout-tip collapse="true"}
+## Skills you will acquire in this chapter
+- Identify data types: numerical, categorical, ordinal, nominal
+- Apply data collection methods and storage systems
+- Understand Big Data challenges and infrastructure
+- Perform data integration using ETL and schema matching
+- Apply ethical frameworks: GDPR, HIPAA, anonymization
+:::
+
+## 📄 Lecture Slides
+
+{{< slide-viewer /pdfs/courses/fds/lectures/chapter_2.pdf title="Chapter 2" >}}
+
+# References {-}
+
+::: {#refs}
+:::

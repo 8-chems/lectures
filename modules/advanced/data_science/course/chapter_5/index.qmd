@@ -1,0 +1,31 @@
+---
+title: "Chapter 5 — Experimental Design"
+subtitle: "A/B testing, RCTs, reproducibility, and data modeling intro"
+description: "Learn to design rigorous experiments: A/B tests, randomized controlled trials, sampling methods, validity, reproducibility, and an introduction to data modeling."
+image: https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=600&q=80
+categories: [data-science, experimentation]
+number-sections: false
+bibliography: ../../../../../reference.bib
+---
+
+## Chapter Summary
+
+Experimental design is a fundamental approach enabling the investigation of causal relationships between variables. This chapter introduces RCTs, A/B testing, sampling methods, and the foundations of data modeling.
+
+::: {.callout-tip collapse="true"}
+## Skills you will acquire in this chapter
+- Understand principles of experimental design (RCTs, quasi-experimental)
+- Define and classify variables: independent, dependent, confounding
+- Design and analyze A/B tests and matched-pair models
+- Understand internal vs external validity
+- Introduction to the data mining project lifecycle
+:::
+
+## 📄 Lecture Slides
+
+{{< slide-viewer /pdfs/courses/fds/lectures/chapter_5.pdf title="Chapter 5" >}}
+
+# References {-}
+
+::: {#refs}
+:::

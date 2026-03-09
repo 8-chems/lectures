@@ -1,0 +1,32 @@
+---
+title: "Chapter 1 — Introduction to Data Science"
+subtitle: "Definitions, workflows, ecosystem and methodology"
+description: "Understand what data science is, learn key workflows (CRISP-DM, KDD, TDSP), and explore the tools and roles in a data science project."
+image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80
+categories: [data-science, foundations]
+number-sections: false
+bibliography: ../../../../../reference.bib
+---
+
+## Chapter Summary
+
+Data Science combines a collection of methods, tools, and techniques aimed at extracting useful knowledge or reusable patterns from raw data. This process involves several key stages — acquiring, preparing, modeling, and visualizing data, followed by deploying appropriate analytical tools.
+
+In a world where most decisions are made based on partial information and uncertain outcomes, data science helps reduce uncertainty by applying robust computational methods.
+
+::: {.callout-tip collapse="true"}
+## Skills you will acquire in this chapter
+- Definition and scope of data science
+- Key workflows: CRISP-DM, KDD, TDSP, Agile Data Science
+- Roles and tools in a data science ecosystem
+- Overview of the 6 main stages of a DS project
+:::
+
+## 📄 Lecture Slides
+
+{{< slide-viewer /pdfs/courses/fds/lectures/chapter_1.pdf title="Chapter 1" >}}
+
+# References {-}
+
+::: {#refs}
+:::

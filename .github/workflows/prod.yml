@@ -43,15 +43,14 @@ jobs:
       - name: Render English site
         run: quarto render --to html
 
-      # Step 6: Copy PDFs to _site folder
+      # Step 6: Ensure PDFs are copied to _site folder
       - name: Copy PDFs to site
         run: |
           if [ -d "pdfs" ]; then
-            cp -r pdfs _site/
-            echo "PDFs copied to _site/"
-            ls -la _site/pdfs/
+            cp -rf pdfs _site/
+            echo "PDFs copied successfully to _site/"
           else
-            echo "No pdfs folder found"
+            echo "Warning: No pdfs folder found in root"
           fi
 
       # Step 7: Deploy to GitHub Pages

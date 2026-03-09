@@ -1,0 +1,66 @@
+---
+title: "Practical Works (PW) — Data Science Foundations"
+sidebar: data-science
+number-sections: false
+format:
+  html:
+    raw-html: true
+---
+
+This section contains all **Practical Work** (PW) lab series for the Data Science Foundations course.
+
+---
+
+## PW 1 — Getting Started with Python & Data Science Tools
+
+```{=html}
+<iframe src="/pdfs/courses/fds/practical_works/PW1.pdf" width="100%" height="750px" style="border:1px solid #ddd;border-radius:8px"></iframe>
+```
+
+---
+
+## PW 2 — NumPy for Data Science
+
+```{=html}
+<iframe src="/pdfs/courses/fds/practical_works/PW2_Numpy.pdf" width="100%" height="750px" style="border:1px solid #ddd;border-radius:8px"></iframe>
+```
+
+---
+
+## PW 3 — Data Loading & Exploration with Pandas
+
+```{=html}
+<iframe src="/pdfs/courses/fds/practical_works/PW3.pdf" width="100%" height="750px" style="border:1px solid #ddd;border-radius:8px"></iframe>
+```
+
+---
+
+## PW 4 — Exploratory Data Analysis
+
+```{=html}
+<iframe src="/pdfs/courses/fds/practical_works/PW4.pdf" width="100%" height="750px" style="border:1px solid #ddd;border-radius:8px"></iframe>
+```
+
+---
+
+## PW 5 — Data Transformation & Preprocessing
+
+```{=html}
+<iframe src="/pdfs/courses/fds/practical_works/PW5.pdf" width="100%" height="750px" style="border:1px solid #ddd;border-radius:8px"></iframe>
+```
+
+---
+
+## PW 6 — Data Visualization
+
+```{=html}
+<iframe src="/pdfs/courses/fds/practical_works/PW6.pdf" width="100%" height="750px" style="border:1px solid #ddd;border-radius:8px"></iframe>
+```
+
+---
+
+## PW 7 — Experimental Design & A/B Testing
+
+```{=html}
+<iframe src="/pdfs/courses/fds/practical_works/PW7.pdf" width="100%" height="750px" style="border:1px solid #ddd;border-radius:8px"></iframe>
+```

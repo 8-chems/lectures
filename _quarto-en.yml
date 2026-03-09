@@ -20,27 +20,27 @@ website:
     - id: chapter_1
       title: "Introduction"
       contents:
-        - href: content/chapter_1/index.qmd
+        - href: modules/data_science/course/chapter_1/index.qmd
           text: "Introduction to data science"
     - id: chapter_2
       title: "Data Integration"
       contents:
-        - href: content/chapter_2/index.qmd
+        - href: modules/data_science/course/chapter_2/index.qmd
           text: "Data Integration"
     - id: chapter_3
       title: "Exploratory Data Analysis"
       contents:
-        - href: content/chapter_3/index.qmd
+        - href: modules/data_science/course/chapter_3/index.qmd
           text: "Exploratory Data Analysis"
     - id: chapter_4
       title: "Data Visualization"
       contents:
-        - href: content/chapter_4/index.qmd
+        - href: modules/data_science/course/chapter_4/index.qmd
           text: "Data Visualization"
     - id: chapter_5
       title: "Experimental Design"
       contents:
-        - href: content/chapter_5/index.qmd
+        - href: modules/data_science/course/chapter_5/index.qmd
           text: "Experimental Design"
 
 citation:

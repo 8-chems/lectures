@@ -1,0 +1,45 @@
+---
+title: "Object-Oriented Programming"
+description: "Master OOP principles: classes, inheritance, polymorphism, and design patterns."
+image: https://images.unsplash.com/photo-1607706189992-eae578626c86?w=600&q=80
+categories: [fundamental]
+number-sections: false
+---
+
+## 📋 Module Overview
+
+This module introduces the core principles of **Object-Oriented Programming**, which forms the foundation for modern software development.
+
+## 📚 Course Structure
+
+::: {.callout-note}
+## Module Contents
+- **Chapter 1** — Introduction to OOP: Classes & Objects
+- **Chapter 2** — Encapsulation & Abstraction
+- **Chapter 3** — Inheritance & Polymorphism
+- **Chapter 4** — Design Patterns (Singleton, Factory, Observer)
+- **Chapter 5** — Advanced OOP: Interfaces & Abstract Classes
+:::
+
+## 📂 Resources
+
+### Lectures
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture slides for this module are being prepared. Check back soon!
+:::
+
+### Directed Works (TD)
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Directed work series for this module are being prepared.
+:::
+
+### Practical Works (TP)
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lab exercises for this module are being prepared.
+:::

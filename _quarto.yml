@@ -3,31 +3,54 @@ project:
   render:
     - index.qmd
     - 404.qmd
-    - content/chapter_1/*.qmd
-    - content/chapter_2/*.qmd
-    - content/chapter_3/*.qmd
-    - content/chapter_4/*.qmd
-    - content/chapter_5/*.qmd
+    # Fundamental modules
+    - modules/fundamental/oop/index.qmd
+    - modules/fundamental/data_structures/index.qmd
+    - modules/fundamental/database/index.qmd
+    - modules/fundamental/programming/index.qmd
+    - modules/fundamental/python_java/index.qmd
+    # Advanced modules
+    - modules/advanced/data_science/index.qmd
+    - modules/advanced/data_science/course/chapter_1/index.qmd
+    - modules/advanced/data_science/course/chapter_2/index.qmd
+    - modules/advanced/data_science/course/chapter_3/index.qmd
+    - modules/advanced/data_science/course/chapter_4/index.qmd
+    - modules/advanced/data_science/course/chapter_5/index.qmd
+    - modules/advanced/data_science/td/td1.qmd
+    - modules/advanced/data_science/td/dw1.qmd
+    - modules/advanced/data_science/td/dw2_part1.qmd
+    - modules/advanced/data_science/td/dw2_part2.qmd
+    - modules/advanced/data_science/td/dw3_part2.qmd
+    - modules/advanced/data_science/td/dw3_part3.qmd
+    - modules/advanced/data_science/td/dw3_part4.qmd
+    - modules/advanced/data_science/td/dw4_part1.qmd
+    - modules/advanced/data_science/td/dw4_part2.qmd
+    - modules/advanced/data_science/td/dw5.qmd
+    - modules/advanced/data_science/tp/tp1.qmd
+    - modules/advanced/data_science/tp/pw1.qmd
+    - modules/advanced/data_science/tp/pw2.qmd
+    - modules/advanced/data_science/tp/pw3.qmd
+    - modules/advanced/data_science/tp/pw4.qmd
+    - modules/advanced/data_science/tp/pw5.qmd
+    - modules/advanced/data_science/tp/pw6.qmd
+    - modules/advanced/data_science/tp/pw7.qmd
+    - modules/advanced/statistics/index.qmd
+    - modules/advanced/statistics/course/module_1.qmd
+    - modules/advanced/statistics/td/td1.qmd
+    - modules/advanced/statistics/tp/tp1.qmd
+    - modules/advanced/machine_learning/index.qmd
+    - modules/advanced/machine_learning/course/week_1.qmd
+    - modules/advanced/machine_learning/td/td1.qmd
+    - modules/advanced/machine_learning/tp/tp1.qmd
+    - modules/advanced/ai/index.qmd
 
 resources:
+  - pdfs/
   - pdfjs/
 
 
-profile:
-  default: en
-  group: [ fr, en ]
-  en:
-    project:
-      output-dir: _site  # English goes to root
-    website:
-      title: "Fundamentals of Data Science"
 
-  fr:
-    project:
-      output-dir: _site/fr  # French goes to subfolder
-    website:
-      title: "Mon Site"
-
+lang: en
 
 execute:
   cache: true
@@ -36,30 +59,129 @@ execute:
 # WEBSITE ARCHITECTURE ---------------------
 
 website:
+  title: "Data Science Academy"
   page-navigation: true
   back-to-top-navigation: true
   reader-mode: true
   favicon: content/images/icon.png
+
   navbar:
     background: "white"
     search: true
     title: false
     left:
       - file: index.qmd
-        text: Home
-      - sidebar:chapter_1
-      - sidebar:chapter_2
-      - sidebar:chapter_3
-      - sidebar:chapter_4
-      - sidebar:chapter_5
-
+        text: "🏠 Home"
+      - text: "🎓 Fundamental Modules"
+        menu:
+          - text: "🔷 OOP"
+            href: modules/fundamental/oop/index.qmd
+          - text: "🌲 Data Structures"
+            href: modules/fundamental/data_structures/index.qmd
+          - text: "🗄️ Databases"
+            href: modules/fundamental/database/index.qmd
+          - text: "💻 Programming"
+            href: modules/fundamental/programming/index.qmd
+          - text: "🐍 Python & Java"
+            href: modules/fundamental/python_java/index.qmd
+      - text: "🚀 Advanced Modules"
+        menu:
+          - text: "📊 Data Science"
+            href: modules/advanced/data_science/index.qmd
+          - text: "🤖 Machine Learning"
+            href: modules/advanced/machine_learning/index.qmd
+          - text: "📈 Statistics"
+            href: modules/advanced/statistics/index.qmd
+          - text: "🧠 Artificial Intelligence"
+            href: modules/advanced/ai/index.qmd
 
     tools:
       - icon: github
         href: https://github.com/8-chems/lectures
-  comments:
-    giscus:
-      repo: 8-chems/lectures
+
+  sidebar:
+    - id: data-science
+      title: "Data Science"
+      style: "docked"
+      collapse-level: 1
+      contents:
+        - modules/advanced/data_science/index.qmd
+        - section: "Lectures"
+          contents:
+            - modules/advanced/data_science/course/chapter_1/index.qmd
+            - modules/advanced/data_science/course/chapter_2/index.qmd
+            - modules/advanced/data_science/course/chapter_3/index.qmd
+            - modules/advanced/data_science/course/chapter_4/index.qmd
+            - modules/advanced/data_science/course/chapter_5/index.qmd
+        - section: "📝 Directed Works (DW)"
+          contents:
+            - text: "📄 DW1 — Introduction"
+              href: modules/advanced/data_science/td/dw1.qmd
+            - text: "📄 DW2 Part 1 — Data Acquisition"
+              href: modules/advanced/data_science/td/dw2_part1.qmd
+            - text: "📄 DW2 Part 2 — Data Acquisition"
+              href: modules/advanced/data_science/td/dw2_part2.qmd
+            - text: "📄 DW3 Part 2 — EDA"
+              href: modules/advanced/data_science/td/dw3_part2.qmd
+            - text: "📄 DW3 Part 3 — EDA"
+              href: modules/advanced/data_science/td/dw3_part3.qmd
+            - text: "📄 DW3 Part 4 — EDA"
+              href: modules/advanced/data_science/td/dw3_part4.qmd
+            - text: "📄 DW4 Part 1 — Visualization"
+              href: modules/advanced/data_science/td/dw4_part1.qmd
+            - text: "📄 DW4 Part 2 — Visualization"
+              href: modules/advanced/data_science/td/dw4_part2.qmd
+            - text: "📄 DW5 — Experimental Design"
+              href: modules/advanced/data_science/td/dw5.qmd
+        - section: "🧪 Practical Works (PW)"
+          contents:
+            - text: "💻 PW1 — Getting Started"
+              href: modules/advanced/data_science/tp/pw1.qmd
+            - text: "💻 PW2 — NumPy"
+              href: modules/advanced/data_science/tp/pw2.qmd
+            - text: "💻 PW3 — Pandas"
+              href: modules/advanced/data_science/tp/pw3.qmd
+            - text: "💻 PW4 — EDA"
+              href: modules/advanced/data_science/tp/pw4.qmd
+            - text: "💻 PW5 — Preprocessing"
+              href: modules/advanced/data_science/tp/pw5.qmd
+            - text: "💻 PW6 — Visualization"
+              href: modules/advanced/data_science/tp/pw6.qmd
+            - text: "💻 PW7 — Experimental Design"
+              href: modules/advanced/data_science/tp/pw7.qmd
+
+    - id: machine-learning
+      title: "Machine Learning"
+      style: "docked"
+      collapse-level: 1
+      contents:
+        - modules/advanced/machine_learning/index.qmd
+        - section: "Lectures"
+          contents:
+            - modules/advanced/machine_learning/course/week_1.qmd
+        - section: "Directed Works (TD)"
+          contents:
+            - modules/advanced/machine_learning/td/td1.qmd
+        - section: "Practical Works (TP)"
+          contents:
+            - modules/advanced/machine_learning/tp/tp1.qmd
+
+    - id: statistics
+      title: "Statistics"
+      style: "docked"
+      collapse-level: 1
+      contents:
+        - modules/advanced/statistics/index.qmd
+        - section: "Lectures"
+          contents:
+            - modules/advanced/statistics/course/module_1.qmd
+        - section: "Directed Works (TD)"
+          contents:
+            - modules/advanced/statistics/td/td1.qmd
+        - section: "Practical Works (TP)"
+          contents:
+            - modules/advanced/statistics/tp/tp1.qmd
+
   twitter-card: true
   site-url: https://8-chems.github.io
   repo-url: https://github.com/8-chems/lectures
@@ -93,22 +215,17 @@ format:
 
 filters:
   - at: pre-ast
-    path: _extensions/linogaliana/lang-switch/lang-notebook.lua
-  - at: pre-ast
     path: _extensions/linogaliana/callout/callout-notebook.lua
-  - at: pre-ast
-    path: _extensions/linogaliana/lang-switch/warninglang.lua
   - include-code-files
   - build/replace-title.lua
   - _extensions/linogaliana/details-iframe/details.lua
-  - _extensions/linogaliana/lang-switch/button.lua
   - _extensions/slide-viewer/slide-viewer.lua
 
 crossref:
   chapters: true
 
 date-format: iso
-number-sections: true
+number-sections: false
 wrap: preserve
 format-links: false
 validate-yaml: false

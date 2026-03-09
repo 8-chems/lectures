@@ -1,0 +1,11 @@
+---
+title: "Module 1: Introduction to Data & Statistics"
+---
+
+# 📚 Theory
+* **Role of statistics in data science**: Organizing, summarizing, and interpreting data to make decisions
+* **Descriptive vs inferential statistics**: Summarizing data vs generalizing from sample to population
+* **Data analysis workflow**: Data collection → cleaning → exploration → modeling → interpretation
+* **Population vs sample**: Population is the entire set; sample is a subset used to estimate population characteristics
+* **Parameters vs statistics**: Parameter = population metric, Statistic = sample metric
+* **Sources of data**: Surveys, experiments, administrative records, web logs

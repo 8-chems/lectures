@@ -1,0 +1,30 @@
+---
+title: "Chapter 4 — Data Visualization"
+subtitle: "Principles, tools, advanced and interactive techniques"
+description: "Design effective charts and dashboards. Covers visualization principles, multivariate and temporal techniques, interactive tools, and real-world case studies."
+image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80
+categories: [data-science, visualization]
+number-sections: false
+bibliography: ../../../../../reference.bib
+---
+
+## Chapter Summary
+
+Data visualization is a crucial component of data analysis, enabling the effective communication of insights through graphical representations. This chapter covers the fundamentals, advanced techniques, and tools.
+
+::: {.callout-tip collapse="true"}
+## Skills you will acquire in this chapter
+- Select the right visualization for each data type
+- Apply principles of effective visualization (readability, clarity, color)
+- Use advanced techniques: multivariate, temporal, interactive visualizations
+- Avoid common pitfalls: misleading graphs, information overload, axis distortion
+:::
+
+## 📄 Lecture Slides
+
+{{< slide-viewer /pdfs/courses/fds/lectures/chapter_4.pdf title="Chapter 4" >}}
+
+# References {-}
+
+::: {#refs}
+:::

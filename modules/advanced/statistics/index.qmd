@@ -1,0 +1,334 @@
+---
+title: "Statistics & Data Analysis for Data Science"
+description: "A 20-module course from descriptive statistics to multivariate exploratory methods."
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+categories: [advanced]
+number-sections: false
+toc: true
+toc-depth: 2
+---
+
+## 🎯 Course Objectives
+
+By the end of this course, students will be able to:
+
+- Correctly identify data types and measurement scales
+- Choose appropriate descriptive statistics and visualizations
+- Understand probability, randomness, and distributions
+- Apply inferential reasoning to draw conclusions from data
+- Perform hypothesis testing and interpret results
+- Detect, quantify, and handle outliers
+- Analyze relationships between variables of different types
+- Apply multivariate exploratory methods (PCA, CA, MCA)
+- Communicate statistical findings clearly and ethically
+
+## 📚 Course Structure
+
+---
+
+### Module 1 — Introduction to Data & Statistics
+
+**Theory**
+
+- Role of statistics in data science: organizing, summarizing, and interpreting data to make decisions
+- Descriptive vs inferential statistics
+- Data analysis workflow: collection → cleaning → exploration → modeling → interpretation
+- Population vs sample; parameters vs statistics
+- Sources of data: surveys, experiments, web logs
+
+**Python Practical**
+
+- Load dataset: `pd.read_csv()`
+- Inspect structure: `df.info()`, `df.describe()`
+- Identify categorical vs numerical variables
+- Random sampling: `df.sample(n=50)` to illustrate sample vs population
+
+---
+
+### Module 2 — Types of Data & Measurement Scales
+
+**Theory**
+
+- Qualitative: Nominal (no order), Ordinal (ordered categories)
+- Quantitative: Discrete (countable), Continuous (measurable)
+- Measurement scales: Nominal, Ordinal, Interval, Ratio
+- Data structures: Cross-sectional, Time series, Panel
+
+**Python Practical**
+
+- `df['col'].astype('category')`
+- Encode ordinal variables numerically
+- `df.dtypes.value_counts().plot(kind='bar')`
+
+---
+
+### Module 3 — Descriptive Statistics: Central Tendency
+
+**Theory**
+
+- Mean (sensitive to outliers), Median (robust), Mode (categorical)
+- Skewness and distribution shape
+- Choosing the right measure
+
+**Python Practical**
+
+- `df['col'].mean()`, `.median()`, `.mode()`
+- Compare metrics before/after adding outliers
+- `df.describe()`
+
+---
+
+### Module 4 — Descriptive Statistics: Dispersion
+
+**Theory**
+
+- Range, IQR, Variance, Standard Deviation
+- Coefficient of Variation (CV = std / mean)
+- Outlier detection: IQR rule, z-scores
+
+**Python Practical**
+
+- `df['col'].var()`, `.std()`, `.quantile([0.25, 0.75])`
+- Outlier thresholds: `Q1 - 1.5*IQR`, `Q3 + 1.5*IQR`
+- `sns.boxplot(df['col'])`
+
+---
+
+### Module 5 — Data Visualization & Graphical Description
+
+**Theory**
+
+- Visualization by variable type: bar charts, histograms, scatter plots, pair plots, heatmaps
+- Principles: correct scales, color for clarity, avoid misleading graphs
+
+**Python Practical**
+
+- `sns.countplot()`, `sns.histplot()`, `sns.scatterplot()`, `sns.pairplot()`
+- `sns.heatmap(df.corr(), annot=True)`
+
+---
+
+### Module 6 — Probability Fundamentals
+
+**Theory**
+
+- Random experiments, events, sample space
+- Probability axioms; conditional probability; independence
+
+**Python Practical**
+
+- Simulate coin toss: `np.random.choice(['H','T'], size=1000)`
+- Conditional probability by filtering samples
+
+---
+
+### Module 7 — Random Variables & Probability Distributions
+
+**Theory**
+
+- Discrete: Bernoulli, Binomial, Poisson
+- Continuous: Uniform, Normal, Exponential
+- Distribution characteristics: mean, variance, skewness, kurtosis
+
+**Python Practical**
+
+- `np.random.binomial(10, 0.3, 1000)`
+- Histogram + PDF overlay
+
+---
+
+### Module 8 — Normal Distribution & Standardization
+
+**Theory**
+
+- Properties: symmetrical, bell-shaped, defined by μ and σ
+- Empirical rule (68–95–99.7%)
+- Z-score: (x − μ) / σ; normality assumption for parametric tests
+
+**Python Practical**
+
+- Compute z-scores: `(df['col'] - df['col'].mean()) / df['col'].std()`
+- Normality test: `scipy.stats.shapiro(df['col'])`
+
+---
+
+### Module 9 — Sampling & Sampling Distributions
+
+**Theory**
+
+- Random, stratified, systematic sampling; sampling bias
+- Law of Large Numbers; Central Limit Theorem
+
+**Python Practical**
+
+- `df.sample(n=30)`
+- Histogram of sample means for different n
+
+---
+
+### Module 10 — Estimation & Confidence Intervals
+
+**Theory**
+
+- Point vs interval estimation
+- CI = estimate ± margin of error; confidence level interpretation; effect size
+
+**Python Practical**
+
+- `stats.t.interval(0.95, df=len(sample)-1, loc=sample.mean(), scale=stats.sem(sample))`
+- `statsmodels.stats.proportion.proportion_confint()`
+
+---
+
+### Module 11 — Hypothesis Testing: Foundations
+
+**Theory**
+
+- H₀ and H₁, test statistic, p-value, significance level α
+- Type I & II errors; statistical power; effect size vs p-value
+
+**Python Practical**
+
+- `scipy.stats.ttest_1samp()`
+- Simulate Type I & II errors
+
+---
+
+### Module 12 — Hypothesis Testing: Statistical Tests
+
+**Theory**
+
+- Parametric: t-tests, ANOVA
+- Non-parametric: Mann–Whitney, Wilcoxon, Kruskal–Wallis
+- Categorical: Chi-square, Fisher's exact
+
+**Python Practical**
+
+- `ttest_ind()`, `ttest_rel()`, `f_oneway()`
+- `mannwhitneyu()`, `wilcoxon()`, `kruskal()`
+- `chi2_contingency(pd.crosstab(df['cat1'], df['cat2']))`
+
+---
+
+### Module 13 — Assumptions & Test Selection
+
+**Theory**
+
+- Normality, independence, homogeneity of variance, sample size
+- Decision logic table for test selection
+
+**Python Practical**
+
+- `shapiro()`, `levene()`
+- Build decision table
+
+---
+
+### Module 14 — Relationships Between Variables
+
+**Theory**
+
+- Quant ↔ Quant: Pearson/Spearman correlation, covariance
+- Qual ↔ Qual: contingency, Cramér's V, Phi
+- Quant ↔ Qual: ANOVA, η², point-biserial
+- Regression basics
+
+**Python Practical**
+
+- `df.corr()`, `spearmanr()`
+- `pd.crosstab()`; `statsmodels.OLS(y, X).fit()`
+
+---
+
+### Module 15 — Exploratory Data Analysis (EDA)
+
+**Theory**
+
+- Missing values, outlier detection (IQR, z-score), correlation vs causation
+
+**Python Practical**
+
+- `df.isna().sum()`
+- `sns.boxplot()`, `sns.heatmap(df.corr(), annot=True)`, `sns.pairplot()`
+
+---
+
+### Module 16 — Principal Component Analysis (PCA)
+
+**Theory**
+
+- Quantitative variables, variance maximization, eigenvectors/values, orthogonality
+- Interpretation: scree plot, correlation circle, factor map
+
+**Python Practical**
+
+- `StandardScaler()` → `sklearn.decomposition.PCA`
+- Plot scree plot and 2D factor map
+
+---
+
+### Module 17 — Correspondence Analysis (CA)
+
+**Theory**
+
+- Categorical variables, contingency table, chi-square distance, inertia
+- Row/column maps, contribution interpretation
+
+**Python Practical**
+
+- `prince.CA()`, plot maps
+
+---
+
+### Module 18 — Multiple Correspondence Analysis (MCA)
+
+**Theory**
+
+- Multiple categorical variables, inertia decomposition
+- Category/individual representation
+
+**Python Practical**
+
+- `prince.MCA()`, 2D plots
+
+---
+
+### Module 19 — End-to-End Case Study
+
+Full workflow: **Problem → Data → Descriptive → Visualization → Relationships → Hypothesis Testing → Multivariate → Report**
+
+**Python Practical**
+
+- Full analysis on a real dataset
+- Annotated report with visualizations
+
+---
+
+### Module 20 — Ethics & Bias in Statistics
+
+**Theory**
+
+- Sampling bias, p-hacking, misleading graphs, responsible reporting
+
+**Python Practical**
+
+- Detect bias in a dataset
+- Visualize and interpret results responsibly
+
+---
+
+## 📊 Assessment
+
+| Method | Weight |
+|---|---|
+| Conceptual quizzes | 20% |
+| Python-based exercises | 20% |
+| Paper-based statistical reasoning | 20% |
+| End-of-course case study | 40% |
+
+## 📂 Resources
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture slides, TD series, and TP notebooks for this module are being prepared.
+:::

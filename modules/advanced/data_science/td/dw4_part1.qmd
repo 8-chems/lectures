@@ -1,0 +1,9 @@
+---
+title: "DW4 Part 1 — Data Visualization"
+sidebar: data-science
+number-sections: false
+---
+
+```{=html}
+<iframe src="/pdfs/courses/fds/directed_works/DW4_part1.pdf" width="100%" height="820px" style="border:1px solid #ddd;border-radius:8px"></iframe>
+```

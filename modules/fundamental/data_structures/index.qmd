@@ -1,0 +1,47 @@
+---
+title: "Data Structures & Algorithms"
+description: "Learn arrays, linked lists, trees, graphs, sorting and searching algorithms."
+image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80
+categories: [fundamental]
+number-sections: false
+---
+
+## 📋 Module Overview
+
+This module covers fundamental **Data Structures** and the algorithms that operate on them — the cornerstone of efficient programming.
+
+## 📚 Course Structure
+
+::: {.callout-note}
+## Module Contents
+- **Chapter 1** — Arrays and Dynamic Arrays
+- **Chapter 2** — Linked Lists (singly, doubly, circular)
+- **Chapter 3** — Stacks, Queues, and Deques
+- **Chapter 4** — Trees: Binary, BST, AVL, Heap
+- **Chapter 5** — Graphs: Representation, BFS, DFS, Shortest Paths
+- **Chapter 6** — Sorting Algorithms: Bubble, Merge, Quick, Radix
+- **Chapter 7** — Searching: Binary Search, Hash Tables
+:::
+
+## 📂 Resources
+
+### Lectures
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture slides for this module are being prepared.
+:::
+
+### Directed Works (TD)
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Directed work series for this module are being prepared.
+:::
+
+### Practical Works (TP)
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lab exercises for this module are being prepared.
+:::

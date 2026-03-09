@@ -1,0 +1,30 @@
+---
+title: "Chapter 3 — Exploratory Data Analysis"
+subtitle: "Outlier handling, transformations, smoothing, preprocessing"
+description: "Master EDA techniques: outlier detection (IQR, Z-score), data transformations, smoothing methods (Holt-Winters, Lowess), and feature engineering."
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+categories: [data-science, EDA]
+number-sections: false
+bibliography: ../../../../../reference.bib
+---
+
+## Chapter Summary
+
+Exploratory Data Analysis (EDA) is a fundamental step in the data science workflow, aimed at understanding the underlying structure, patterns, and relationships within a dataset. This chapter introduces key techniques for analyzing and preparing data.
+
+::: {.callout-tip collapse="true"}
+## Skills you will acquire in this chapter
+- Detect and handle outliers: Z-score, IQR, distance-based, clustering-based
+- Apply data transformations: discretization, temporal and textual data
+- Use smoothing techniques: Moving averages, Exponential smoothing (Holt-Winters), Lowess, Savitzky-Golay
+- Perform basic and advanced preprocessing including feature engineering
+:::
+
+## 📄 Lecture Slides
+
+{{< slide-viewer /pdfs/courses/fds/lectures/chapter_3.pdf title="Chapter 3" >}}
+
+# References {-}
+
+::: {#refs}
+:::

@@ -1,0 +1,192 @@
+---
+title: "Resources — Data Science Foundations"
+subtitle: "Directed Works (DW) and Practical Works (PW)"
+sidebar: data-science
+number-sections: false
+toc: false
+---
+
+```{=html}
+<style>
+#resources-page {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 0;
+  min-height: 85vh;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: "Inter", system-ui, sans-serif;
+}
+#tree-panel {
+  background: #f8f9fa;
+  border-right: 1px solid #e0e0e0;
+  overflow-y: auto;
+  padding: 8px 0;
+}
+.tree-category-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #fff;
+  margin: 6px 10px 4px;
+  border-radius: 6px;
+}
+.tree-category-label.dw { background: #1a56db; }
+.tree-category-label.pw { background: #0e9f6e; }
+.tree-divider {
+  height: 1px;
+  background: #e0e0e0;
+  margin: 10px 14px;
+}
+.tree-root { list-style: none; margin: 0; padding: 0; }
+details.tree-group { padding: 0; }
+details.tree-group > summary {
+  display: flex; align-items: center; gap: 7px;
+  padding: 7px 14px; cursor: pointer;
+  font-size: 0.86rem; font-weight: 600; color: #333;
+  list-style: none; user-select: none; transition: background 0.15s;
+}
+details.tree-group > summary:hover { background: #eef0f3; }
+details.tree-group > summary::before {
+  content: "▶"; font-size: 0.6rem; color: #aaa;
+  transition: transform 0.2s; display: inline-block; width: 12px;
+}
+details.tree-group[open] > summary::before { transform: rotate(90deg); }
+.tree-group ul { list-style: none; margin: 0; padding: 0 0 4px; }
+.tree-leaf {
+  display: flex; align-items: center; gap: 8px;
+  padding: 5px 14px 5px 30px; cursor: pointer;
+  font-size: 0.83rem; color: #444;
+  border-left: 3px solid transparent; transition: background 0.12s, border-color 0.12s;
+}
+.tree-leaf:hover { background: #eef0f3; }
+.tree-leaf.active { background: #e8f0fe; border-left-color: #1a56db; color: #1a56db; font-weight: 600; }
+.tree-leaf.active.pw { background: #e3f9f1; border-left-color: #0e9f6e; color: #0e9f6e; }
+details.tree-sub > summary {
+  display: flex; align-items: center; gap: 7px;
+  padding: 5px 14px 5px 26px; cursor: pointer;
+  font-size: 0.82rem; font-weight: 500; color: #555;
+  list-style: none; user-select: none;
+}
+details.tree-sub > summary:hover { background: #eef0f3; }
+details.tree-sub > summary::before {
+  content: "▶"; font-size: 0.58rem; color: #bbb;
+  transition: transform 0.2s; display: inline-block; width: 10px;
+}
+details.tree-sub[open] > summary::before { transform: rotate(90deg); }
+.tree-sub ul { padding: 0; }
+.tree-sub .tree-leaf { padding-left: 50px; }
+
+#viewer-panel { display: flex; flex-direction: column; background: #fff; }
+#viewer-header {
+  padding: 12px 20px; border-bottom: 1px solid #e0e0e0;
+  background: #fafafa; font-size: 0.88rem; font-weight: 600; color: #333;
+  display: flex; align-items: center; gap: 10px; min-height: 48px;
+}
+#viewer-badge {
+  font-size: 0.72rem; font-weight: 700; padding: 2px 8px;
+  border-radius: 20px; background: #1a56db; color: #fff;
+}
+#viewer-badge.pw { background: #0e9f6e; }
+#pdf-frame { flex: 1; width: 100%; border: none; min-height: 80vh; background: #f5f5f5; display: none; }
+#viewer-placeholder {
+  flex: 1; display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  color: #bbb; gap: 12px; min-height: 80vh;
+}
+#viewer-placeholder .icon { font-size: 3.5rem; }
+#viewer-placeholder p { font-size: 0.9rem; }
+</style>
+
+<div id="resources-page">
+
+  <!-- TREE PANEL -->
+  <div id="tree-panel">
+
+    <!-- DIRECTED WORKS -->
+    <div class="tree-category-label dw">📝 Directed Works (DW)</div>
+    <ul class="tree-root">
+      <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/directed_works/DW1.pdf','DW1 — Introduction to Data Science','dw',this)">
+        📄 DW 1 — Introduction
+      </li>
+      <details class="tree-sub" open>
+        <summary>📁 DW 2 — Data Acquisition</summary>
+        <ul>
+          <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/directed_works/DW2_Part1.pdf','DW2 Part 1 — Data Acquisition','dw',this)">📄 Part 1</li>
+          <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/directed_works/DW2_Part2.pdf','DW2 Part 2 — Data Acquisition','dw',this)">📄 Part 2</li>
+        </ul>
+      </details>
+      <details class="tree-sub">
+        <summary>📁 DW 3 — Exploratory Analysis</summary>
+        <ul>
+          <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/directed_works/DW3_part2.pdf','DW3 Part 2 — EDA','dw',this)">📄 Part 2</li>
+          <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/directed_works/DW3_part3.pdf','DW3 Part 3 — EDA','dw',this)">📄 Part 3</li>
+          <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/directed_works/DW3_part4.pdf','DW3 Part 4 — EDA','dw',this)">📄 Part 4</li>
+        </ul>
+      </details>
+      <details class="tree-sub">
+        <summary>📁 DW 4 — Visualization</summary>
+        <ul>
+          <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/directed_works/DW4_part1.pdf','DW4 Part 1 — Visualization','dw',this)">📄 Part 1</li>
+          <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/directed_works/DW4_part2.pdf','DW4 Part 2 — Visualization','dw',this)">📄 Part 2</li>
+        </ul>
+      </details>
+      <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/directed_works/DW5.pdf','DW5 — Experimental Design','dw',this)">
+        📄 DW 5 — Experimental Design
+      </li>
+    </ul>
+
+    <div class="tree-divider"></div>
+
+    <!-- PRACTICAL WORKS -->
+    <div class="tree-category-label pw">🧪 Practical Works (PW)</div>
+    <ul class="tree-root">
+      <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/practical_works/PW1.pdf','PW1 — Getting Started','pw',this)">📄 PW 1 — Getting Started</li>
+      <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/practical_works/PW2_Numpy.pdf','PW2 — NumPy','pw',this)">📄 PW 2 — NumPy</li>
+      <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/practical_works/PW3.pdf','PW3 — Pandas','pw',this)">📄 PW 3 — Pandas</li>
+      <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/practical_works/PW4.pdf','PW4 — EDA','pw',this)">📄 PW 4 — EDA</li>
+      <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/practical_works/PW5.pdf','PW5 — Preprocessing','pw',this)">📄 PW 5 — Preprocessing</li>
+      <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/practical_works/PW6.pdf','PW6 — Visualization','pw',this)">📄 PW 6 — Visualization</li>
+      <li class="tree-leaf" onclick="loadPDF('/pdfs/courses/fds/practical_works/PW7.pdf','PW7 — Experimental Design','pw',this)">📄 PW 7 — Experimental Design</li>
+    </ul>
+
+  </div>
+
+  <!-- VIEWER PANEL -->
+  <div id="viewer-panel">
+    <div id="viewer-header">
+      <span id="viewer-badge">DW</span>
+      <span id="viewer-title">Select a document from the tree</span>
+    </div>
+    <div id="viewer-placeholder">
+      <div class="icon">📂</div>
+      <p>Click any document in the tree to view it here</p>
+    </div>
+    <iframe id="pdf-frame"></iframe>
+  </div>
+
+</div>
+
+<script>
+var activeLeaf = null;
+function loadPDF(url, label, type, el) {
+  if (activeLeaf) { activeLeaf.classList.remove('active'); }
+  el.classList.add('active');
+  activeLeaf = el;
+  var badge = document.getElementById('viewer-badge');
+  badge.textContent = type === 'dw' ? 'DW' : 'PW';
+  badge.className = type === 'pw' ? 'pw' : '';
+  document.getElementById('viewer-title').textContent = label;
+  var frame = document.getElementById('pdf-frame');
+  document.getElementById('viewer-placeholder').style.display = 'none';
+  frame.style.display = 'block';
+  frame.src = url;
+}
+</script>
+```

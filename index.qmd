@@ -1,28 +1,61 @@
 ---
-pagetitle: "Fundamentals of Data Science"
+pagetitle: "Data Science Academy"
 page-layout: custom
 section-divs: false
 toc: false
+number-sections: false
 css: styles/homepage.css
 description: |
-  Fundamental Data Science Course: originally written for ESTIN's students.
+  A comprehensive teaching platform covering Fundamental and Advanced CS & Data Science modules.
 hide-description: true
 image: https://minio.lab.sspcloud.fr/lgaliana/generative-art/pythonds/kiddos.png
 listing:
-    id: sample-listings
+  - id: fundamental-grid
     contents:
-        - "content/chapter_1/index.qmd"
-        - "content/chapter_2/index.qmd"
-        - "content/chapter_3/index.qmd"
-        - "content/chapter_4/index.qmd"
-        - "content/chapter_5/index.qmd"
-
+      - "modules/fundamental/oop/index.qmd"
+      - "modules/fundamental/data_structures/index.qmd"
+      - "modules/fundamental/database/index.qmd"
+      - "modules/fundamental/programming/index.qmd"
+      - "modules/fundamental/python_java/index.qmd"
     type: grid
-    sort: "number"
-    categories: true
+    grid-columns: 3
+    categories: false
+    sort: false
+    fields: [image, title, description]
+  - id: fundamental-list
+    contents:
+      - "modules/fundamental/oop/index.qmd"
+      - "modules/fundamental/data_structures/index.qmd"
+      - "modules/fundamental/database/index.qmd"
+      - "modules/fundamental/programming/index.qmd"
+      - "modules/fundamental/python_java/index.qmd"
+    type: table
+    categories: false
+    sort: false
+    fields: [title, description]
+  - id: advanced-grid
+    contents:
+      - "modules/advanced/data_science/index.qmd"
+      - "modules/advanced/machine_learning/index.qmd"
+      - "modules/advanced/statistics/index.qmd"
+      - "modules/advanced/ai/index.qmd"
+    type: grid
+    grid-columns: 3
+    categories: false
+    sort: false
+    fields: [image, title, description]
+  - id: advanced-list
+    contents:
+      - "modules/advanced/data_science/index.qmd"
+      - "modules/advanced/machine_learning/index.qmd"
+      - "modules/advanced/statistics/index.qmd"
+      - "modules/advanced/ai/index.qmd"
+    type: table
+    categories: false
+    sort: false
+    fields: [title, description]
 echo: false
 ---
-
 
 
 :::::: {.hero-banner}
@@ -31,46 +64,34 @@ echo: false
 
 :::: {.hero-text}
 
-
-::: {.content-visible when-profile="en"}
-
-# Fundamentals of _Data Science_ {{< fa brands python >}} {.mt-1 .unnumbered}
-
-
-## [Chemseddine Berbague](https://www.example.example/) {.mt-1 .unnumbered}
+# Data Science Academy 🎓 {.mt-1 .unnumbered}
 
 ```{=html}
-<div style="text-align: right;">
-<a class="github-button" href="https://github.com/linogaliana/python-datascientist" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this website on Github">Star this website on Github</a><script async defer src="https://buttons.github.io/buttons.js"></script>
+<div class="hero-about">
+  <img class="hero-avatar"
+       src="https://avatars.githubusercontent.com/u/8-chems"
+       onerror="this.src='https://ui-avatars.com/api/?name=Chemseddine+Berbague&size=120&background=2c3e50&color=ffffff&bold=true&rounded=true'"
+       alt="Chemseddine Berbague" />
+  <div>
+    <strong>Chemseddine Berbague</strong> &mdash; Computer Science Lecturer &middot; ESTIN, Algeria<br>
+    <a href="https://github.com/8-chems" target="_blank">GitHub ↗</a>
+  </div>
 </div>
+<style>
+.hero-about { display:flex; align-items:center; gap:14px; margin:14px 0 18px; font-size:0.88rem; color:#555; }
+.hero-avatar { width:56px; height:56px; border-radius:50%; border:2px solid rgba(255,255,255,0.6); flex-shrink:0; object-fit:cover; }
+.hero-about a { color:inherit; text-decoration:underline; }
+</style>
 ```
 
-### An introduction to [`Data Science` {{< fa brands python >}}](https://www.example.example) {-}
+A **free teaching platform** with lectures, directed works, and practical labs — covering two tracks:
 
-Second year engineering course from [`ESTIN`](https://www.example.example) (Secondary Cycle).
-
-
-The entire content of this course is freely available here
-or on [`Github`](https://www.example.example)
-<a href="https://www.example.example" class="github"><i class="fab fa-github"></i></a> and can be tested
-as _notebooks_ [`Jupyter` {{< iconify simple-icons:jupyter >}}](https://en.wikipedia.org/wiki/Project_Jupyter).
-
-```{=html}
-<div class="lang-switch-button" style="text-align:right; margin-top:1rem; margin-bottom:1rem;">
-  <a href="/index.html" class="button-cta">
-    <button class="btn disabled"><i class="fa fa-language"></i> La version francaise n'est pas disponible.
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20" style="vertical-align: middle; margin-left: 0.5em; display: inline-block;"><mask id="circleFlagsLangFr"><circle cx="256" cy="256" r="256" fill="#fff"/></mask><g mask="url(#circleFlagsLangFr)"><path fill="#0055A4" d="M0 0h512v512H0z"/><path fill="#fff" d="M170.7 0h170.6v512H170.7z"/><path fill="#EF4135" d="M341.3 0H512v512H341.3z"/></g></svg>
-    </button>
-  </a>
-</div>
-```
-
-:::
+- **🟦 Fundamental** — Programming · OOP · Data Structures · Databases · Python/Java  
+- **🟧 Advanced** — Data Science · Machine Learning · Statistics · AI
 
 <br>
 
-[Get Started](/content/chapter_1/index.qmd){.btn-action-primary .btn-action .btn .btn-lg .w-100 role="button"}
-
+[Explore Modules ↓](#fundamental-modules){.btn-action-primary .btn-action .btn .btn-lg .w-100 role="button"}
 
 ::::
 
@@ -80,289 +101,93 @@ as _notebooks_ [`Jupyter` {{< iconify simple-icons:jupyter >}}](https://en.wikip
 
 :::::
 
-
 ::::::
 
 
 :::: {.content-block .py-4}
 
-```{ojs}
-html`${viewof ordre}`
-```
+## 🟦 Fundamental Modules {#fundamental-modules .unnumbered}
 
-::: {.content-visible when-profile="en"}
+These modules provide the core Computer Science foundations required for any advanced specialisation.
 
-```{ojs}
-labels = ["Chapters in order", "Chapters in mosaic"]
-version_ui = "en"
-```
+<div class="view-toggle-bar">
+  <button class="view-btn active" id="fund-btn-grid" onclick="toggleView('fundamental', 'grid')">⊞ Grid</button>
+  <button class="view-btn" id="fund-btn-list" onclick="toggleView('fundamental', 'list')">☰ List</button>
+</div>
 
+<div id="fundamental-grid-wrap">
+::: {#fundamental-grid}
 :::
-
-
-```{python}
-#| output: asis
-#| echo: false
-from build.homepage.chapterlist import create_div_chapter_list
-
-text_en = (
-  "A step-by-step course to explore fundamentals of data science with {{< fa brands python >}}, "
-  "structured into complementary yet standalone chapters.\n\n"
-)
-
-
-final_html_en = create_div_chapter_list(
-  version="en",
-  introductory_text=text_en
-)
-
-# The function already creates <div class="list-chapter-ordered-en">
-# So we wrap it in the parent div
-final_html = (
-  "<div class='list-chapter-ordered'>"
-  f'{final_html_en}'
-  "</div>"
-)
-
-print(final_html)
-```
-
-
-
-::: {#sample-listings .list-chapter-unordered}
+</div>
+<div id="fundamental-list-wrap" style="display:none">
+::: {#fundamental-list}
 :::
+</div>
 
+---
+
+## 🟧 Advanced Modules {#advanced-modules .unnumbered}
+
+These modules cover specialised topics in Data Science, Machine Learning, Statistics, and Artificial Intelligence.
+
+<div class="view-toggle-bar">
+  <button class="view-btn active" id="adv-btn-grid" onclick="toggleView('advanced', 'grid')">⊞ Grid</button>
+  <button class="view-btn" id="adv-btn-list" onclick="toggleView('advanced', 'list')">☰ List</button>
+</div>
+
+<div id="advanced-grid-wrap">
+::: {#advanced-grid}
+:::
+</div>
+<div id="advanced-list-wrap" style="display:none">
+::: {#advanced-list}
+:::
+</div>
 
 ::::
 
-
-```{ojs}
-//| echo: false
-viewof ordre = ToggleSwitch({
-  labels: labels,
-  values: ["ordre", "vrac"],
-  value: "ordre",
-  sliderColor: quartoThemeIsDark ? "#e7c582" : "#444",
-  textColor: quartoThemeIsDark ? "#e7c582" : "#444"
-})
-```
-
-```{ojs}
-// Capture the content - need to get the PARENT div that contains language-specific divs
-initialOrdered = Array.from(document.querySelectorAll('.list-chapter-ordered'))
-  .map(div => div.innerHTML)
-
-initialUnordered = Array.from(document.querySelectorAll('.list-chapter-unordered'))
-  .map(div => div.innerHTML)
-```
-
-```{ojs}
-//| output: false
-{
-  const orderedDivs = document.querySelectorAll('.list-chapter-ordered-en, .list-chapter-ordered-fr');
-  const unorderedDivs = document.querySelectorAll('.list-chapter-unordered');
-
-
-  const lang = version_ui; // 'en'
-  const otherLang =  'fr';
-
-  if (ordre === 'vrac') {
-    unorderedDivs.forEach((div, i) => div.innerHTML = initialUnordered[i]);
-    orderedDivs.forEach(div => div.innerHTML = '');
+<script>
+function toggleView(section, type) {
+  var gridWrap = document.getElementById(section + '-grid-wrap');
+  var listWrap = document.getElementById(section + '-list-wrap');
+  var btnGrid  = document.getElementById(section.substring(0,4) === 'fund' ? 'fund-btn-grid' : 'adv-btn-grid');
+  var btnList  = document.getElementById(section.substring(0,4) === 'fund' ? 'fund-btn-list' : 'adv-btn-list');
+  if (type === 'grid') {
+    gridWrap.style.display = '';
+    listWrap.style.display = 'none';
+    btnGrid.classList.add('active');
+    btnList.classList.remove('active');
   } else {
-    orderedDivs.forEach((div, i) => {
-      // Restore the initial content
-      div.innerHTML = initialOrdered[i];
-
-      // Now remove the other language version (French in your case)
-      // The inner div has class "list-chapter-ordered-fr" or "list-chapter-ordered-en"
-      const otherLangBlock = div.querySelector(`.list-chapter-ordered-${otherLang}`);
-      if (otherLangBlock) {
-        otherLangBlock.remove();
-      }
-    });
-
-    // Hide unordered
-    unorderedDivs.forEach(div => div.innerHTML = '');
+    gridWrap.style.display = 'none';
+    listWrap.style.display = '';
+    btnGrid.classList.remove('active');
+    btnList.classList.add('active');
   }
 }
-```
+</script>
 
-
-
-
-```{ojs}
-viewof quartoThemeIsDark = {
-  const span = html`<span style="display: none;"></span>`;
-
-  function updateTheme() {
-    const isDark = document.body.classList.contains("quarto-dark");
-    span.value = isDark;
-    span.dispatchEvent(new CustomEvent("input"));
-  }
-
-  // Initial check
-  updateTheme();
-
-  // Observer les changements de classe sur <body>
-  const observer = new MutationObserver(() => updateTheme());
-
-  observer.observe(document.body, {
-    attributes: true,
-    attributeFilter: ["class"]
-  });
-
-  // Nettoyage si jamais nécessaire
-  span.remove = () => observer.disconnect();
-
-  return span;
-}
-
-```
-
-
-```{ojs}
-//| echo: false
-ToggleSwitch = ({
-  labels = ["Gauche", "Droite"],
-  values = ["left", "right"],
-  value = values[0],
-  sliderColor = "#275EFE",
-  textColor = "#444"
-} = {}) => {
-  const [labelLeft, labelRight] = labels;
-  const [valLeft, valRight] = values;
-
-  const node = html`<div class="toggle-wrapper"
-                       style="--slider-color: ${sliderColor}; --text-color: ${textColor}">
-    <span class="label left">${labelLeft}</span>
-
-    <label class="toggle-ios">
-      <input type="checkbox" ${value === valRight ? "checked" : ""}>
-      <span class="slider"></span>
-    </label>
-
-    <span class="label right">${labelRight}</span>
-
-    <style>
-    ${styleOptions}
-    </style>
-  </div>`;
-
-  const input = node.querySelector("input");
-
-  const updateLabels = () => {
-    node.querySelector(".label.left").classList.toggle("active", !input.checked);
-    node.querySelector(".label.right").classList.toggle("active", input.checked);
-  };
-
-  Object.defineProperty(node, "value", {
-    get: () => (input.checked ? valRight : valLeft),
-    set: (v) => {
-      input.checked = (v === valRight);
-      updateLabels();
-    }
-  });
-
-  input.addEventListener("change", () => {
-    updateLabels();
-    node.dispatchEvent(new CustomEvent("input"));
-  });
-
-  updateLabels();
-  return node;
-}
-
-styleOptions = `
-.toggle-wrapper {
+<style>
+.view-toggle-bar {
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-family: sans-serif;
-  font-size: 14px;
-  color: var(--text-color);
+  gap: 8px;
+  margin-bottom: 16px;
 }
-
-.label {
-  transition: font-weight 0.2s;
-}
-
-.label.active {
-  font-weight: bold;
-}
-
-.toggle-ios {
-  position: relative;
-  display: inline-block;
-  width: 44px;
-  height: 24px;
-}
-
-.toggle-ios input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
+.view-btn {
+  padding: 6px 16px;
+  border: 1.5px solid #ddd;
+  border-radius: 6px;
+  background: transparent;
   cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  transition: 0.3s;
-  border-radius: 34px;
+  font-size: 0.9em;
+  transition: all 0.2s;
 }
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 18px;
-  width: 18px;
-  left: 3px;
-  top: 3px;
-  background-color: white;
-  transition: 0.3s;
-  border-radius: 50%;
+.view-btn:hover {
+  border-color: #666;
+  background: #f5f5f5;
 }
-
-input:checked + .slider {
-  background-color: var(--slider-color);
+.view-btn.active {
+  background: #2c3e50;
+  color: white;
+  border-color: #2c3e50;
 }
-
-input:checked + .slider:before {
-  transform: translateX(20px);
-}
-`
-```
-
-
-```{ojs}
-//| output: false
-{
-  const appendix = document.querySelector('#quarto-appendix');
-  if (appendix) {
-    const wrapper = document.createElement('div');
-    wrapper.className = 'content-block py-4';
-    wrapper.innerHTML = appendix.innerHTML;
-    // Optional: replace the original appendix in the DOM
-    appendix.replaceWith(wrapper);
-    wrapper;
-  } else {
-    "appendix not found";
-  }
-}
-```
-
-
-```{ojs}
-//| output: false
-{
-  setTimeout(() => {
-    const giscus = document.querySelector('.giscus');
-    if (giscus) giscus.style.display = "none";
-  }, 3000); // 3000ms = 3 seconds
-}
-```
+</style>

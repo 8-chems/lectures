@@ -1,0 +1,9 @@
+---
+title: "PW4 — Exploratory Data Analysis"
+sidebar: data-science
+number-sections: false
+---
+
+```{=html}
+<iframe src="/pdfs/courses/fds/practical_works/PW4.pdf" width="100%" height="820px" style="border:1px solid #ddd;border-radius:8px"></iframe>
+```

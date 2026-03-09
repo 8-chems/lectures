@@ -1,0 +1,46 @@
+---
+title: "Programming Fundamentals"
+description: "Core programming concepts: variables, control flow, functions, and problem solving."
+image: https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=600&q=80
+categories: [fundamental]
+number-sections: false
+---
+
+## 📋 Module Overview
+
+This module establishes core **Programming Fundamentals** applicable across languages, with a focus on logical thinking and problem decomposition.
+
+## 📚 Course Structure
+
+::: {.callout-note}
+## Module Contents
+- **Chapter 1** — Introduction to Programming & Computational Thinking
+- **Chapter 2** — Variables, Data Types, and Operators
+- **Chapter 3** — Control Flow: Conditionals and Loops
+- **Chapter 4** — Functions & Modular Programming
+- **Chapter 5** — Recursion
+- **Chapter 6** — Introduction to Complexity (Big-O)
+:::
+
+## 📂 Resources
+
+### Lectures
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture slides for this module are being prepared.
+:::
+
+### Directed Works (TD)
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Directed work series for this module are being prepared.
+:::
+
+### Practical Works (TP)
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lab exercises for this module are being prepared.
+:::

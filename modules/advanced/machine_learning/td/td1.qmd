@@ -1,0 +1,7 @@
+---
+title: "TD 1: Titanic Dataset Discovery"
+---
+
+# 🛠️ Practice
+* Titanic dataset: EDA and basic analysis
+* Python/Numpy crash course notebook (or Kaggle micro-challenge)

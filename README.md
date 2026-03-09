@@ -1,110 +1,121 @@
----
-title: "Data Science with Python"
-author: "Chemseddine Berbague"
-date: "2024-10-28"
-format: html
-execute: 
-  enabled: false
----
+# Data Science Academy
 
 <img height="28" width="28" src="https://cdn.simpleicons.org/python/00ccff99" alt="python" />
 
-[![DOI](https://zenodo.org/badge/280161677.svg)](https://zenodo.org/badge/latestdoi/280161677)
-[![Deployment](https://github.com/chemseddineberbague/python-datascience/actions/workflows/prod.yml/badge.svg)](https://github.com/chemseddineberbague/python-datascience/actions/workflows/prod.yml)
+[![Deployment](https://github.com/8-chems/lectures/actions/workflows/prod.yml/badge.svg)](https://github.com/8-chems/lectures/actions/workflows/prod.yml)
 
-> [!NOTE]
-> **English version 🇬🇧🇺🇸**  
-> For the **French 🇫🇷 version**, see [README-fr.md](https://github.com/chemseddineberbague/python-datascience/blob/main/doc/README-fr.md)
-
----
-
-# 📚 Overview
-
-This repository contains the source files for the course **Data Science with Python**, developed by **Chemseddine Berbague**.  
-It provides a practical introduction to Python for data analysis and machine learning.
-
-> 🧩 *Adapted from and inspired by the open-source course* **[Python for Data Science](https://github.com/linogaliana/python-datascientist)** *by Lino Galiana.*
-
-Planned site: **datasciencewithpython.chemseddineberbague.fr**
+> **Author:** Chemseddine Berbague  
+> **Site:** [8-chems.github.io](https://8-chems.github.io)  
+> **Language:** English 🇬🇧
 
 ---
 
-# 🎨 Gallery
+## 📚 Overview
 
-Some example visualizations produced in the course:
+A comprehensive **multi-module teaching platform** built with [Quarto](https://quarto.org/), covering two categories of courses:
 
-| | |
-|--|--|
-| ![](https://minio.lab.sspcloud.fr/lgaliana/python-ENSAE/screenshots/fig1.png) | ![](https://minio.lab.sspcloud.fr/lgaliana/python-ENSAE/screenshots/fig3.png) |
-| ![](https://minio.lab.sspcloud.fr/lgaliana/python-ENSAE/screenshots/fig7.png) | ![](https://minio.lab.sspcloud.fr/lgaliana/python-ENSAE/screenshots/fig8.png) |
+| Category | Modules |
+|---|---|
+| 🟦 **Fundamental** | OOP · Data Structures · Databases · Programming · Python & Java |
+| 🟧 **Advanced** | Data Science Foundations · Machine Learning (23 weeks) · Statistics (20 modules) · Artificial Intelligence |
 
----
-
-# 📖 Course Modules
-
-The course covers five main modules suitable for beginners and intermediate learners.
-
-<details>
-  <summary><strong>1. Getting Started</strong></summary>
-  - Python environment setup  
-  - Data handling basics  
-  - Core syntax for analysis  
-</details>
-
-<details>
-  <summary><strong>2. Data Wrangling</strong></summary>
-  - NumPy & Pandas  
-  - Data cleaning & transformation  
-  - GeoPandas  
-  - APIs & web scraping  
-  - Regular expressions  
-</details>
-
-<details>
-  <summary><strong>3. Data Visualization</strong></summary>
-  - Effective graphics  
-  - Storytelling with data  
-  - Maps & spatial visuals  
-</details>
-
-<details>
-  <summary><strong>4. Modeling & Evaluation</strong></summary>
-  - Preprocessing  
-  - Regression & classification  
-  - Clustering  
-  - Feature selection  
-</details>
-
-<details>
-  <summary><strong>5. Natural Language Processing (NLP)</strong></summary>
-  - Text cleaning  
-  - Bag-of-words & embeddings  
-  - Sentiment analysis  
-</details>
+The site features:
+- **Grid / List** toggle display for all module cards and chapter listings
+- **Embedded PDF viewer** for all lecture slides, directed works (DW), and practical works (PW)
+- **Structured module pages** with full syllabus, resources, and navigation sidebar
 
 ---
 
-# 🔗 Resources
+## 🗂️ Project Structure
 
-Open datasets from [data.gouv.fr](https://www.data.gouv.fr), [Insee](https://www.insee.fr), and other public sources.  
-Each notebook includes examples and references.
+```
+8-chems-lectures/
+├── _quarto.yml                  # Site config: navbar, sidebars, render list
+├── index.qmd                    # Home page (grid/list module cards)
+├── requirements.txt             # Python dependencies
+│
+├── modules/
+│   ├── fundamental/
+│   │   ├── oop/                 # OOP module
+│   │   ├── data_structures/     # Data Structures
+│   │   ├── database/            # Databases
+│   │   ├── programming/         # Programming Fundamentals
+│   │   └── python_java/         # Python & Java
+│   │
+│   └── advanced/
+│       ├── data_science/        # Data Science Foundations (5 chapters)
+│       │   ├── course/          # Chapter pages with embedded lecture PDFs
+│       │   ├── td/              # Directed Works (DW1–DW5)
+│       │   └── tp/              # Practical Works (PW1–PW7)
+│       ├── machine_learning/    # ML Program (23 weeks)
+│       ├── statistics/          # Statistics (20 modules)
+│       └── ai/                  # Artificial Intelligence
+│
+├── pdfs/
+│   └── courses/
+│       └── fds/
+│           ├── lectures/        # chapter_1.pdf … chapter_5.pdf
+│           └── exercises/       # DW1.pdf … DW5.pdf, PW1.pdf … PW7.pdf
+│
+├── styles/                      # Custom CSS and SCSS
+├── content/                     # Images and legacy assets
+└── _extensions/                 # Quarto extensions (slide-viewer, etc.)
+```
 
 ---
 
-# 🚀 Try Online
+## 🚀 Getting Started
 
-Run notebooks directly in the cloud:  
-👉 [Open Pandas notebook in Colab](https://colab.research.google.com/github/chemseddineberbague/python-datascience/blob/main/notebooks/en/manipulation/02_pandas_intro.ipynb)
+### Prerequisites
+
+- [Quarto](https://quarto.org/docs/get-started/) ≥ 1.8
+- Python ≥ 3.11
+
+### Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/8-chems/lectures.git
+cd lectures
+
+# 2. Create and activate a virtual environment
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Launch the local preview
+quarto preview
+```
+
+The site will open at `http://localhost:XXXX/`.
 
 ---
 
-# 🤝 Contributing
+## 📦 PDF Resources
 
-Contributions are welcome!  
-See `doc/CONTRIBUTING.md` for details.
+All PDFs are served as static resources from `pdfs/courses/fds/`:
+
+| Type | Files |
+|---|---|
+| Lectures | `chapter_1.pdf` … `chapter_5.pdf` |
+| Directed Works | `DW1.pdf`, `DW2_Part1.pdf`, `DW2_Part2.pdf`, `DW3_part2–4.pdf`, `DW4_part1–2.pdf`, `DW5.pdf` |
+| Practical Works | `PW1.pdf` … `PW7.pdf` (including `PW2_Numpy.pdf`) |
+
+To add new PDFs, place them in the appropriate folder and update the corresponding `.qmd` page.
 
 ---
 
-# ✨ Acknowledgment
+## 🤝 Contributing
 
-This material builds upon **Lino Galiana’s** original *Python for Data Science* course and has been adapted by **Chemseddine Berbague** for applied and reproducible data science teaching.
+Contributions are welcome! Please open an issue or a pull request on [GitHub](https://github.com/8-chems/lectures).
+
+---
+
+## ✨ Acknowledgment
+
+This material builds upon **Lino Galiana's** open-source *Python for Data Science* course and has been adapted and significantly extended by **Chemseddine Berbague** into a full multi-module teaching platform.

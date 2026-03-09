@@ -1,0 +1,20 @@
+---
+title: "Week 1: Foundations: ML Mindset & Math Tools"
+---
+
+# 📚 Lectures
+### Lecture 1: Introduction to Machine Learning
+* What is ML? Differences between Supervised, Unsupervised, and Reinforcement Learning
+* The ML pipeline: from problem definition to deployment
+* Real-world applications (e.g., fraud detection, recommendation engines)
+* Setting up the Python environment: Jupyter, Anaconda, virtual environments
+
+### Lecture 2: Math for ML – Linear Algebra & Probability
+* Linear Algebra: vectors, matrices, dot product, matrix multiplication
+* Probability: basic rules, conditional probability, Bayes’ theorem
+* Statistics: expectation, variance, standard deviation, distributions
+
+# 📖 Readings
+* DeepLearningBook.org (Ch. 2–3)
+* Khan Academy: Linear Algebra & Probability
+* Géron: Hands-on ML Ch. 1
