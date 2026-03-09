@@ -48,10 +48,32 @@ jobs:
       # Step 6: Fix absolute paths for GitHub Pages
       - name: Copy PDFs and Fix Paths
         run: |
-          # Fix absolute PDF paths in HTML files to include the repository name sub-path
           REPO_NAME=${{ github.event.repository.name }}
+
+          # Fix double-quoted absolute paths: "/pdfs/ → "/REPO/pdfs/
           find _site -type f -name "*.html" -exec sed -i "s|\"/pdfs/|\"/$REPO_NAME/pdfs/|g" {} +
-          echo "Fixed PDF paths in HTML files for /$REPO_NAME/pdfs/"
+
+          # Fix single-quoted absolute paths: '/pdfs/ → '/REPO/pdfs/
+          find _site -type f -name "*.html" -exec sed -i "s|'/pdfs/|'/$REPO_NAME/pdfs/|g" {} +
+
+          # Fix unquoted attribute paths: =/pdfs/ → =/REPO/pdfs/
+          find _site -type f -name "*.html" -exec sed -i "s|=/pdfs/|=/$REPO_NAME/pdfs/|g" {} +
+
+          # Fix backtick template literals: `/pdfs/ → `/REPO/pdfs/
+          find _site -type f -name "*.html" -exec sed -i "s|\`/pdfs/|\`/$REPO_NAME/pdfs/|g" {} +
+
+          # Fix .js files (PDF viewers like PDF.js construct URLs in JS)
+          find _site -type f -name "*.js" -exec sed -i "s|\"/pdfs/|\"/$REPO_NAME/pdfs/|g" {} +
+          find _site -type f -name "*.js" -exec sed -i "s|'/pdfs/|'/$REPO_NAME/pdfs/|g" {} +
+          find _site -type f -name "*.js" -exec sed -i "s|\`/pdfs/|\`/$REPO_NAME/pdfs/|g" {} +
+
+          echo "Fixed PDF paths in HTML/JS files for /$REPO_NAME/pdfs/"
+
+          # Verify — show any remaining absolute /pdfs/ references
+          echo "--- Remaining unfixed /pdfs/ references ---"
+          grep -rn '"/pdfs/' _site/ && echo "WARNING: double-quote refs remain" || echo "OK: no double-quote refs"
+          grep -rn "'/pdfs/" _site/ && echo "WARNING: single-quote refs remain" || echo "OK: no single-quote refs"
+          grep -rn '`/pdfs/' _site/ && echo "WARNING: backtick refs remain"     || echo "OK: no backtick refs"
 
       # Step 7: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
