@@ -1,0 +1,30 @@
+---
+title: "Week 8 — Pricing & Revenue Optimisation"
+subtitle: "Phase 3 — Revenue & product"
+description: "Price elasticity, dynamic pricing, and revenue management strategies."
+image: https://images.unsplash.com/photo-1554224155-169641357599?w=600&q=80
+---
+
+**Format:** Lecture + simulation exercise
+
+## Topics covered
+- Price elasticity of demand — intuition, how to measure it, and where it breaks down
+- Dynamic pricing: how Uber, airlines, and hotels do it, and why
+- Discount strategy analysis: short-term revenue gains vs long-term customer behaviour change
+- Segmented pricing: willingness-to-pay differences and ethical price discrimination
+- Revenue management: yield optimisation basics for capacity-constrained businesses
+- The promotional trap: when frequent discounting destroys margin permanently
+
+## Simulation exercise
+Scenario: an e-commerce brand is considering a 10% price cut across its main product line. Students:
+1. Use provided elasticity data to estimate demand change
+2. Model revenue impact across 3 customer segments (price-sensitive, loyal, occasional)
+3. Account for margin impact, not just topline revenue
+4. Deliver a go / no-go memo with a quantified recommendation
+
+## Tools
+`pandas` or Excel for scenario modelling — emphasis on interpreting the numbers, not the tooling
+
+## Deliverable
+- Revenue impact model (spreadsheet or notebook)
+- Go / no-go pricing memo (1 page, numbers required)

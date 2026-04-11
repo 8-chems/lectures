@@ -1,0 +1,31 @@
+---
+title: "Week 10 — Demand Forecasting & Supply Chain"
+subtitle: "Phase 4 — Advanced topics & ethics"
+description: "Time series decomposition, Prophet for business forecasting, and inventory optimization."
+image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80
+---
+
+**Format:** Lecture + project
+
+## Topics covered
+- Time series decomposition: trend, seasonality, noise — reading each component
+- Moving average and exponential smoothing — intuitive explanation before any formula
+- Facebook Prophet for business forecasting: appropriate use cases and known limits
+- Forecast error metrics reframed as business costs: MAE and MAPE expressed in euros, not percentages
+- Inventory optimisation: Economic Order Quantity, safety stock, service level targets
+- The asymmetric cost curve: why being out of stock is typically more expensive than overstock
+
+## Project
+A retail chain needs to plan orders for next month across 3 product lines (stable, seasonal, volatile). Students:
+1. Build a forecast for each product line
+2. Recommend order quantities with a safety stock rationale
+3. Quantify the cost of over- vs under-ordering using provided cost data
+4. Write a one-page supply recommendation addressed to the operations manager
+
+## Tools
+`Prophet`, `statsmodels`, `pandas` — focus on reading and interpreting output correctly
+
+## Deliverable
+- Forecast notebook with commentary
+- Order quantity recommendations per product line
+- Supply memo to operations manager (1 page)

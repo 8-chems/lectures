@@ -1,0 +1,89 @@
+---
+title: "Data Analytics for Business Decisions"
+description: "A 14-week course focused on solving business problems through data-driven decisions."
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+categories: [advanced]
+number-sections: false
+toc: true
+toc-depth: 2
+listing:
+  - id: phases-grid
+    contents:
+      - "weeks/week_01.qmd"
+      - "weeks/week_02.qmd"
+      - "weeks/week_03.qmd"
+      - "weeks/week_04.qmd"
+      - "weeks/week_05.qmd"
+      - "weeks/week_06.qmd"
+      - "weeks/week_07.qmd"
+      - "weeks/week_08.qmd"
+      - "weeks/week_09.qmd"
+      - "weeks/week_10.qmd"
+      - "weeks/week_11.qmd"
+      - "weeks/week_12.qmd"
+      - "weeks/week_13.qmd"
+      - "weeks/week_14.qmd"
+    type: grid
+    grid-columns: 3
+    fields: [image, title, description]
+    image-height: 180px
+    categories: false
+    sort: false
+---
+
+## Course Philosophy
+
+This course is structured around a single inversion: **start with the business problem, then introduce the data method** — never the other way around. Every week begins with a decision that needs to be made, and ends with a deliverable that makes that decision.
+
+> "You have 3 models. Which one do you deploy, and why — from a business perspective?" — the kind of question that runs through every module.
+
+## Course Overview
+
+| Phase | Weeks | Theme |
+|---|---|---|
+| 1 — Foundations | 1–2 | Decision mindset, data quality, problem framing |
+| 2 — Analytics core | 3–5 | Experimentation, storytelling, customer intelligence |
+| 3 — Revenue & product | 6–9 | Product, recommenders, pricing, fraud |
+| 4 — Advanced & ethics | 10–11 | Forecasting, GDPR, EU AI Act |
+| 5 — Capstone | 12–14 | Team AI product + investor pitch |
+
+## Assessment Philosophy
+
+### What gets graded
+Every major deliverable in this course asks for a **recommendation**, not just an analysis. A segmentation notebook without a marketing strategy gets partial credit. A fraud threshold without a business justification gets partial credit. A pitch with great model accuracy but no ROI argument fails the pitch component.
+
+### Grading Breakdown
+| Type | Weight |
+|---|---|
+| Weekly deliverables (memos, notebooks, briefs) | 40% |
+| Midterm case exam (week 7) | 15% |
+| Participation (debates, presentations) | 15% |
+| Capstone | 30% |
+
+## Tools & Stack
+
+| Category | Tools |
+|---|---|
+| Data wrangling | `pandas`, `numpy` |
+| Visualisation | `matplotlib`, `seaborn`, `plotly` |
+| Statistics & experiments | `scipy.stats`, `pingouin` |
+| Machine learning | `scikit-learn` |
+| Forecasting | `Prophet`, `statsmodels` |
+| Notebooks | Jupyter |
+| Version control | GitHub (mandatory from week 2) |
+
+## Reading
+
+- *Thinking Fast and Slow* — Kahneman
+- *Naked Statistics* — Wheelan
+- *Storytelling with Data* — Knaflic
+- *The Elements of Statistical Learning* — Hastie et al.
+- EU AI Act full text
+- GDPR Articles 5, 6, 13, 17, 22
+
+---
+
+## Weekly Schedule
+
+::: {#phases-grid}
+:::

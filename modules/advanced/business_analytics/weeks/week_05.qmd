@@ -1,0 +1,31 @@
+---
+title: "Week 5 — Customer Segmentation & Lifetime Value"
+subtitle: "Phase 2 — Analytics core"
+description: "RFM analysis, CLV, and segmentation for targeted marketing strategies."
+image: https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=600&q=80
+---
+
+**Format:** Lecture + project
+
+## Topics covered
+- RFM analysis (Recency, Frequency, Monetary) — construction, interpretation, limits
+- Customer Lifetime Value: the simple formula and what it implies strategically
+- Churn signals: leading indicators vs lagging indicators
+- K-means clustering — conceptual foundations and practical use; how to avoid over-clustering
+- Segment naming: make it business-readable ("High-value dormant buyers", not "Cluster 2")
+- Translating segment insights into marketing budget allocation decisions
+
+## Project
+Using a provided e-commerce customer dataset, students:
+1. Build an RFM model and apply K-means segmentation
+2. Name and describe each segment in plain business language
+3. Propose a targeted marketing strategy for each segment
+4. Estimate the revenue impact of prioritising the highest-value segment
+
+## Tools
+`scikit-learn` (KMeans), `pandas`, `matplotlib`, `seaborn`
+
+## Deliverable
+- Segmentation notebook (annotated)
+- Marketing strategy memo — one page per segment
+- Revenue impact estimate with assumptions stated clearly

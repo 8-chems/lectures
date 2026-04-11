@@ -1,0 +1,31 @@
+---
+title: "Week 4 — Data Visualization & Executive Storytelling"
+subtitle: "Phase 2 — Analytics core"
+description: "Choosing the right charts and building narratives for executives."
+image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80
+---
+
+**Format:** Lecture + presentation
+
+## Topics covered
+- Choosing chart type from the business question, not the data shape
+- The SCR structure for data narratives: Situation → Complication → Resolution
+- Dashboard design for decision-makers, not analysts
+- Common chart crimes: dual axes, 3D pie charts, truncated y-axes, and why they mislead
+- Annotation and narrative — making charts argue a point, not just display one
+- When to use a table instead of a chart
+
+## Case study
+*"Sales dropped 15% last quarter — explain why and propose actions."*
+
+Students receive raw data (not pre-built charts) and must:
+1. Explore and diagnose the drop
+2. Build a 5-slide executive deck for a fictional CEO briefing
+3. Deliver a 5-minute live presentation — timed, with interruptions and questions
+
+The interruptions are intentional: students must defend a recommendation, not just present slides.
+
+## Deliverable
+- 5-slide executive deck
+- 5-minute live presentation
+- Graded on: clarity of recommendation, visual choices, ability to handle Q&A

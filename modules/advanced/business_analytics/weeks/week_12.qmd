@@ -1,0 +1,20 @@
+---
+title: "Week 12 — Scoping & Business Case"
+subtitle: "Phase 5 — Capstone"
+description: "Defining problems, users, and success metrics for the AI product capstone."
+image: https://images.unsplash.com/photo-1454165833767-027ffcb58c1e?w=600&q=80
+---
+
+The business case must be approved by the instructor before week 13 begins. This gate prevents over-engineering and forces students to think before they build.
+
+## Business case requirements
+Your document must include:
+- Problem statement (precise, not vague)
+- Target user and how they will interact with the output
+- Success metric (one primary KPI)
+- ROI estimate — even a rough one requires assumptions to be stated
+- Data source and known limitations
+- Risks and ethical considerations
+
+## Deliverable
+- Signed-off business case document

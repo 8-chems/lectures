@@ -1,0 +1,25 @@
+---
+title: "Week 1 — Business Mindset & the Decision Framework"
+subtitle: "Phase 1 — Foundations"
+description: "Understanding the decision gap and the importance of actionable metrics."
+image: https://images.unsplash.com/photo-1454165833767-027ffcb58c1e?w=600&q=80
+---
+
+**Format:** Lecture + group case study | **No code this week — intentional**
+
+## Topics covered
+- The decision gap: why data alone doesn't decide anything
+- KPIs vs vanity metrics — what actually moves the business
+- Actionable vs descriptive metrics, with real industry examples
+- Cost of bad decisions: how poor analysis destroys money and trust
+- The decision brief: a one-page format students will use throughout the entire course
+
+## Case study
+A product launch that failed despite "good" data. Students identify which KPIs were tracked vs which ones actually mattered, then debate in groups: *what decision should have been made, and when?*
+
+## Why no code in week 1?
+Intentional. The goal is to build reasoning skills before introducing tools. Students who learn to frame decisions first will write better code later — because they know what they're trying to answer.
+
+## Deliverable
+- One-page decision brief on the case study
+- Graded on quality of reasoning, not on "correctness" — there is no single right answer

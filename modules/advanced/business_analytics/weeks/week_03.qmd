@@ -1,0 +1,29 @@
+---
+title: "Week 3 — Causal Thinking & Experimentation"
+subtitle: "Phase 2 — Analytics core"
+description: "Understanding correlation vs causation and designing effective A/B tests."
+image: https://images.unsplash.com/photo-1543286386-713bcd534bf5?w=600&q=80
+---
+
+**Format:** Lecture + mini-project
+
+## Topics covered
+- Correlation vs causation — industry examples where the confusion cost money
+- Confounders: why the data lies and how to spot it
+- A/B test design: hypothesis formulation, control group, sample size calculation
+- Statistical significance as a business decision — not just a p-value checkbox
+- Early stopping, peeking, and why companies lose money from it
+- Observational methods when experiments aren't possible (difference-in-differences, intro)
+
+## Mini-project
+Scenario: a SaaS company is considering a pricing page redesign. Students:
+1. Design the A/B test (write the hypothesis, calculate required sample size and test duration)
+2. Receive pre-given results and interpret them
+3. Make the launch / no-launch call and justify it in a one-page business memo
+
+## Tools
+`scipy.stats`, `pingouin` — students must understand the numbers, not just run functions
+
+## Deliverable
+- A/B test design document
+- Launch decision memo (graded on business reasoning, not statistical fluency alone)

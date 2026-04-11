@@ -1,0 +1,33 @@
+---
+title: "Week 11 — Data Ethics, GDPR & the EU AI Act"
+subtitle: "Phase 4 — Advanced topics & ethics"
+description: "Understanding legal liabilities, algorithmic bias, and compliance for data scientists."
+image: https://images.unsplash.com/photo-1543286386-713bcd534bf5?w=600&q=80
+---
+
+**Format:** Structured debate + compliance memo | **A full week — not a footnote**
+
+## Why this deserves a full week
+Every French and EU employer expects data scientists to know this material from day one. The EU AI Act is now in force. GDPR has been enforceable since 2018. Algorithmic bias is not just an ethical concern — it is an employment law and liability issue. Students who cannot speak to these topics will struggle in French job interviews.
+
+## Topics covered
+- GDPR article-by-article: what it concretely bans for a practising data scientist
+- EU AI Act: high-risk AI system classification and what compliance looks like in practice
+- Algorithmic bias as legal liability — the basics of EU discrimination law
+- Data monetisation: what a company can and cannot sell or share without consent
+- Privacy-preserving techniques: anonymisation, pseudonymisation, and a conceptual intro to differential privacy
+- The right to explanation under GDPR Article 22 — and what it demands of model design
+
+## Debate format
+Case: a French company has built an automated CV-screening tool. Evidence emerges that it systematically ranks women lower in technical roles.
+
+Teams of students argue one of three positions:
+- **Deploy with guardrails** — propose specific technical and process mitigations
+- **Do not deploy** — argue on legal and ethical grounds with specific article citations
+- **Redesign from scratch** — propose an alternative system that would be compliant
+
+All positions must cite specific GDPR articles or EU AI Act provisions. Vague ethical arguments are not accepted.
+
+## Deliverable
+- Debate participation (graded on argument quality and legal accuracy)
+- Compliance memo: final individual recommendation with legal justification (1 page)

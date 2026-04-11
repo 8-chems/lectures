@@ -1,0 +1,28 @@
+---
+title: "Week 2 — Problem Framing & Data Quality"
+subtitle: "Phase 1 — Foundations"
+description: "Decomposing business goals and auditing data for business signals."
+image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80
+---
+
+**Format:** Lecture + lab
+
+## Topics covered
+- Problem decomposition: from vague business goal to a precise, answerable question
+- Data auditing: treating missing values as business signals, not just statistical noise
+- Selection bias and survivorship bias, with concrete industry examples
+- When "we don't have the data" is itself a meaningful insight
+- Data dictionary creation — building shared vocabulary between analysts and stakeholders
+
+## Lab exercise
+Students receive a deliberately dirty e-commerce dataset. Tasks:
+1. Profile the dataset (`.info()`, `.describe()`, `missingno`)
+2. Identify which missing values matter for the business decision at hand
+3. Write a one-paragraph data readiness memo addressed to a fictional manager
+
+## Tools
+`pandas`, `missingno`
+
+## Deliverable
+- Annotated Jupyter notebook with data profiling
+- Data readiness memo (1 paragraph — clarity and business framing graded, not length)

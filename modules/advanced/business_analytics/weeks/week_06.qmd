@@ -1,0 +1,29 @@
+---
+title: "Week 6 — Product Analytics & Funnel Diagnosis"
+subtitle: "Phase 3 — Revenue & product"
+description: "Funnel analysis, cohort analysis, and choosing North Star metrics."
+image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80
+---
+
+**Format:** Lecture + case study
+
+## Topics covered
+- Funnel analysis: signup → activation → purchase → retention — reading the drop-offs
+- Cohort analysis: how to read retention curves and what they tell you about product health
+- Session analysis: time-on-task, rage clicks, and behavioural drop-off signals
+- Feature impact analysis: did this release actually change user behaviour?
+- North Star Metric — choosing the one number that best captures product health
+- Communicating product findings differently to engineering vs marketing stakeholders
+
+## Case study
+A SaaS onboarding funnel: 60% of users drop off at the email verification step. Students receive an event log dataset and must:
+1. Run funnel analysis and build the conversion chart
+2. Generate ranked root-cause hypotheses, backed by evidence from the data
+3. Write a product change recommendation with an estimated lift in conversion
+
+## Tools
+`pandas`, `plotly` (event-log manipulation, funnel chart)
+
+## Deliverable
+- Funnel analysis notebook
+- Product recommendation (1 page) — graded on evidence quality and specificity of suggestion

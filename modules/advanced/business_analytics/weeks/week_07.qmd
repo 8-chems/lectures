@@ -1,0 +1,28 @@
+---
+title: "Week 7 — Recommender Systems as Revenue Levers"
+subtitle: "Phase 3 — Revenue & product"
+description: "Understanding collaborative filtering and business KPIs for recommenders."
+image: https://images.unsplash.com/photo-1543286386-713bcd534bf5?w=600&q=80
+---
+
+**Format:** Lecture + strategy exercise | **Links to instructor's own research**
+
+## Topics covered
+- Collaborative filtering — intuition and mechanics, without heavy linear algebra
+- Content-based vs hybrid recommenders: which fits which business context
+- Business KPIs for recommenders: CTR, conversion rate, average basket size
+- The relevance vs diversity vs profit triangle — real trade-offs, no perfect answer
+- Filter bubbles as both an ethical risk and a business risk (user trust erosion)
+- When NOT to recommend: over-recommendation, cannibalisation, and recommendation fatigue
+
+## Strategy exercise
+Three fictional retailers, each with different goals and constraints. Students must:
+1. Select and justify the right recommender strategy for each retailer
+2. Explain the trade-offs they are accepting (e.g. margin vs relevance)
+3. Define the KPIs they would use to measure success post-deployment
+
+**Instructor link:** The instructor brings their own recommender research as a live case. Students critique real design choices — this builds critical thinking and shows the gap between academic and production systems.
+
+## Deliverable
+- Recommender strategy brief (one page per retailer)
+- KPI definition document

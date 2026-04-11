@@ -1,0 +1,19 @@
+---
+title: "Week 13 — Build"
+subtitle: "Phase 5 — Capstone"
+description: "Developing the working prototype and documenting the AI solution."
+image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80
+---
+
+**Format:** Build Lab
+
+Students build a working prototype. "Working" means: given an input, it produces a meaningful output. "Polished" is not required.
+
+## Requirements
+- Model selection must be justified by the business context, not benchmarked against a leaderboard
+- Documentation: who uses this, what decision it informs, what it cannot do, and when it should not be used
+- Lab sessions: instructor office hours available, one structured peer code review session
+
+## Deliverable
+- Working prototype
+- Documentation (GitHub README minimum)

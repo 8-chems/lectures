@@ -1,0 +1,34 @@
+---
+title: "Week 9 — Fraud Detection & Risk Analytics"
+subtitle: "Phase 3 — Revenue & product"
+description: "Anomaly detection thresholds and framing model performance as business cost."
+image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80
+---
+
+**Format:** Lecture + case study
+
+## Topics covered
+- Anomaly detection: rule-based vs statistical vs ML approaches, and when each is appropriate
+- Precision, recall, and F1 — framed entirely as business cost, not model performance
+- The threshold decision: what false positive rate can the business actually afford?
+- Cost matrix: assigning real monetary costs to each cell of the confusion matrix
+- Adversarial drift: fraudsters adapt over time, models degrade — maintenance is not optional
+- Human-in-the-loop design: when to flag for manual review rather than auto-block
+
+## Case study
+A fintech payment platform needs to choose a fraud detection threshold. Students receive:
+- A confusion matrix at 5 different threshold values
+- Cost data: average cost of a wrongly blocked legitimate user vs average cost of an undetected fraud
+- Business context: customer acquisition cost, churn rate after a false block
+
+Students must:
+1. Build a cost model for each threshold
+2. Choose and justify a threshold
+3. Present their recommendation to a fictional risk committee (written)
+
+## Tools
+`scikit-learn` — ROC curve, threshold tuning; custom cost matrix in `pandas`
+
+## Deliverable
+- Cost model (notebook or spreadsheet)
+- Threshold recommendation with business justification (1 page, addressed to risk committee)

@@ -43,6 +43,22 @@ project:
     - modules/advanced/machine_learning/td/td1.qmd
     - modules/advanced/machine_learning/tp/tp1.qmd
     - modules/advanced/ai/index.qmd
+    # Business Analytics module
+    - modules/advanced/business_analytics/index.qmd
+    - modules/advanced/business_analytics/weeks/week_01.qmd
+    - modules/advanced/business_analytics/weeks/week_02.qmd
+    - modules/advanced/business_analytics/weeks/week_03.qmd
+    - modules/advanced/business_analytics/weeks/week_04.qmd
+    - modules/advanced/business_analytics/weeks/week_05.qmd
+    - modules/advanced/business_analytics/weeks/week_06.qmd
+    - modules/advanced/business_analytics/weeks/week_07.qmd
+    - modules/advanced/business_analytics/weeks/week_08.qmd
+    - modules/advanced/business_analytics/weeks/week_09.qmd
+    - modules/advanced/business_analytics/weeks/week_10.qmd
+    - modules/advanced/business_analytics/weeks/week_11.qmd
+    - modules/advanced/business_analytics/weeks/week_12.qmd
+    - modules/advanced/business_analytics/weeks/week_13.qmd
+    - modules/advanced/business_analytics/weeks/week_14.qmd
 
 resources:
   - pdfs/
@@ -94,6 +110,8 @@ website:
             href: modules/advanced/statistics/index.qmd
           - text: "🧠 Artificial Intelligence"
             href: modules/advanced/ai/index.qmd
+          - text: "📈 Business Analytics"
+            href: modules/advanced/business_analytics/index.qmd
 
     tools:
       - icon: github
@@ -181,6 +199,37 @@ website:
         - section: "Practical Works (TP)"
           contents:
             - modules/advanced/statistics/tp/tp1.qmd
+
+    - id: business-analytics
+      title: "Business Analytics"
+      style: "docked"
+      collapse-level: 1
+      contents:
+        - modules/advanced/business_analytics/index.qmd
+        - section: "Phase 1: Foundations"
+          contents:
+            - modules/advanced/business_analytics/weeks/week_01.qmd
+            - modules/advanced/business_analytics/weeks/week_02.qmd
+        - section: "Phase 2: Analytics Core"
+          contents:
+            - modules/advanced/business_analytics/weeks/week_03.qmd
+            - modules/advanced/business_analytics/weeks/week_04.qmd
+            - modules/advanced/business_analytics/weeks/week_05.qmd
+        - section: "Phase 3: Revenue & Product"
+          contents:
+            - modules/advanced/business_analytics/weeks/week_06.qmd
+            - modules/advanced/business_analytics/weeks/week_07.qmd
+            - modules/advanced/business_analytics/weeks/week_08.qmd
+            - modules/advanced/business_analytics/weeks/week_09.qmd
+        - section: "Phase 4: Advanced & Ethics"
+          contents:
+            - modules/advanced/business_analytics/weeks/week_10.qmd
+            - modules/advanced/business_analytics/weeks/week_11.qmd
+        - section: "Phase 5: Capstone Project"
+          contents:
+            - modules/advanced/business_analytics/weeks/week_12.qmd
+            - modules/advanced/business_analytics/weeks/week_13.qmd
+            - modules/advanced/business_analytics/weeks/week_14.qmd
 
   twitter-card: true
   site-url: https://8-chems.github.io

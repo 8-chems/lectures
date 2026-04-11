@@ -1,0 +1,28 @@
+---
+title: "Week 14 — Pitch & Review"
+subtitle: "Phase 5 — Capstone"
+description: "Pitching the AI product to an investor-style panel and peer evaluation."
+image: https://images.unsplash.com/photo-1454165833767-027ffcb58c1e?w=600&q=80
+---
+
+**Format:** 10-minute pitch to panel + 5-minute Q&A
+
+Panel composition: course instructor + one external guest (industry practitioner where possible).
+
+## Pitch requirements
+Your pitch must cover:
+1. The business problem and why it matters (quantified where possible)
+2. The solution and how it works (non-technical explanation required alongside technical)
+3. ROI estimate with stated assumptions
+4. Risks: what could go wrong, what the model cannot do
+5. What happens next — what would a real deployment look like?
+
+## Q&A handling
+The Q&A challenges business assumptions, not just technical choices. Students must defend why they made the decisions they did.
+
+## Peer review
+Each team evaluates one other team's pitch using a structured rubric. Graded for quality of feedback.
+
+## Deliverables
+- Pitch deck
+- Peer review feedback
