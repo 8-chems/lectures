@@ -7,7 +7,7 @@ number-sections: false
 toc: true
 toc-depth: 2
 listing:
-  - id: chapters-grid
+  - id: listing-grid
     contents:
       - "course/chapter_1.qmd"
       - "course/chapter_2.qmd"
@@ -20,6 +20,17 @@ listing:
     image-height: 180px
     categories: false
     sort: false
+  - id: listing-list
+    contents:
+      - "course/chapter_1.qmd"
+      - "course/chapter_2.qmd"
+      - "course/chapter_3.qmd"
+      - "course/chapter_4.qmd"
+      - "course/chapter_5.qmd"
+    type: table
+    fields: [title, description]
+    categories: false
+    sort: false
 ---
 
 ## 📋 Module Overview
@@ -30,8 +41,36 @@ This module provides an in-depth introduction to **Object-Oriented Programming**
 
 ## 📚 Curriculum
 
-::: {#chapters-grid}
+<div class="view-toggle-bar">
+  <button class="view-btn active" id="view-btn-grid" onclick="toggleView('grid')">⊞ Grid View</button>
+  <button class="view-btn" id="view-btn-list" onclick="toggleView('list')">☰ List View</button>
+</div>
+
+<div id="grid-view-wrap">
+::: {#listing-grid}
 :::
+</div>
+
+<div id="list-view-wrap" style="display:none">
+::: {#listing-list}
+:::
+</div>
+
+<script>
+function toggleView(type) {
+  document.getElementById('grid-view-wrap').style.display = type === 'grid' ? '' : 'none';
+  document.getElementById('list-view-wrap').style.display = type === 'list' ? '' : 'none';
+  document.getElementById('view-btn-grid').classList.toggle('active', type === 'grid');
+  document.getElementById('view-btn-list').classList.toggle('active', type === 'list');
+}
+</script>
+
+<style>
+.view-toggle-bar { display: flex; gap: 8px; margin-top: 20px; margin-bottom: 16px; justify-content: flex-end; }
+.view-btn { padding: 6px 16px; border: 1.5px solid #ddd; border-radius: 6px; background: transparent; cursor: pointer; font-size: 0.9em; transition: all 0.2s; }
+.view-btn:hover { border-color: #666; background: #f5f5f5; }
+.view-btn.active { background: #2c3e50; color: white; border-color: #2c3e50; }
+</style>
 
 ---
 
