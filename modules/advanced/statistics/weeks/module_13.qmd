@@ -1,0 +1,17 @@
+---
+title: "Module 13 — Assumptions & Test Selection"
+subtitle: "Statistics & Data Analysis"
+description: "Normality, independence, homogeneity of variance, sample size"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+**Theory**
+
+- Normality, independence, homogeneity of variance, sample size
+- Decision logic table for test selection
+
+**Python Practical**
+
+- `shapiro()`, `levene()`
+- Build decision table
+

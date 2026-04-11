@@ -1,0 +1,14 @@
+---
+title: "Week 3 — Math & Information Theory"
+subtitle: "Machine Learning"
+description: "Linear algebra review: vectors, dot products, matrix multiplication"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Linear algebra review: vectors, dot products, matrix multiplication
+- Probability: conditional, Bayes' theorem
+- Entropy, cross-entropy, mutual information
+
+**Practice:** Math + probability notebooks; Khan Academy modules
+**Reading:** DeepLearningBook Ch. 2–3
+

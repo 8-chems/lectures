@@ -1,0 +1,15 @@
+---
+title: "Chapter 2 — Variables & Data Types"
+subtitle: "Programming Basics"
+description: "Storing and manipulating data."
+image: https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Storing and manipulating data.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

@@ -1,0 +1,14 @@
+---
+title: "Week 18 — CNNs & Image Classification"
+subtitle: "Machine Learning"
+description: "Convolution, pooling, deep architectures (LeNet, AlexNet, VGG)"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Convolution, pooling, deep architectures (LeNet, AlexNet, VGG)
+- Transfer learning: feature extraction vs fine-tuning
+- Data augmentation; Keras Applications (ResNet, Inception)
+
+**Practice:** CIFAR-10 / Fashion MNIST; custom dataset with transfer learning
+**Reading:** Géron Ch. 14, TensorFlow CNN guide
+

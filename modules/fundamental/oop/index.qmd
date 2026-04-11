@@ -1,45 +1,45 @@
 ---
 title: "Object-Oriented Programming"
-description: "Master OOP principles: classes, inheritance, polymorphism, and design patterns."
+description: "OOP Fundamentals module covering essential topics via a modular structure."
 image: https://images.unsplash.com/photo-1607706189992-eae578626c86?w=600&q=80
 categories: [fundamental]
 number-sections: false
+toc: true
+toc-depth: 2
+listing:
+  - id: chapters-grid
+    contents:
+      - "course/chapter_1.qmd"
+      - "course/chapter_2.qmd"
+      - "course/chapter_3.qmd"
+      - "course/chapter_4.qmd"
+      - "course/chapter_5.qmd"
+    type: grid
+    grid-columns: 3
+    fields: [image, title, description]
+    image-height: 180px
+    categories: false
+    sort: false
 ---
 
 ## 📋 Module Overview
 
-This module introduces the core principles of **Object-Oriented Programming**, which forms the foundation for modern software development.
+This module provides an in-depth introduction to **Object-Oriented Programming**, structured into individual chapters for focused learning.
 
-## 📚 Course Structure
+---
 
-::: {.callout-note}
-## Module Contents
-- **Chapter 1** — Introduction to OOP: Classes & Objects
-- **Chapter 2** — Encapsulation & Abstraction
-- **Chapter 3** — Inheritance & Polymorphism
-- **Chapter 4** — Design Patterns (Singleton, Factory, Observer)
-- **Chapter 5** — Advanced OOP: Interfaces & Abstract Classes
+## 📚 Curriculum
+
+::: {#chapters-grid}
 :::
+
+---
 
 ## 📂 Resources
 
-### Lectures
+### Directed Works (TD) & Practical Works (TP)
 
 ::: {.callout-warning}
 ## 🔜 Coming Soon
-Lecture slides for this module are being prepared. Check back soon!
-:::
-
-### Directed Works (TD)
-
-::: {.callout-warning}
-## 🔜 Coming Soon
-Directed work series for this module are being prepared.
-:::
-
-### Practical Works (TP)
-
-::: {.callout-warning}
-## 🔜 Coming Soon
-Lab exercises for this module are being prepared.
+Directed work series and lab exercises for this module are currently being prepared.
 :::

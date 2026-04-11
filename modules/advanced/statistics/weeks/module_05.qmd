@@ -1,0 +1,17 @@
+---
+title: "Module 5 — Data Visualization & Graphical Description"
+subtitle: "Statistics & Data Analysis"
+description: "Visualization by variable type: bar charts, histograms, scatter plots, pair plots, heatmaps"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+**Theory**
+
+- Visualization by variable type: bar charts, histograms, scatter plots, pair plots, heatmaps
+- Principles: correct scales, color for clarity, avoid misleading graphs
+
+**Python Practical**
+
+- `sns.countplot()`, `sns.histplot()`, `sns.scatterplot()`, `sns.pairplot()`
+- `sns.heatmap(df.corr(), annot=True)`
+

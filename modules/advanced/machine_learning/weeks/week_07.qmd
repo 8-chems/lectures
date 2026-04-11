@@ -1,0 +1,13 @@
+---
+title: "Week 7 — Bias–Variance Tradeoff"
+subtitle: "Machine Learning"
+description: "Underfitting vs overfitting; bias-variance decomposition"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Underfitting vs overfitting; bias-variance decomposition
+- Learning curves, validation curves
+
+**Practice:** Bias–variance analysis with synthetic data
+**Reading:** I2ML Ch. 6
+

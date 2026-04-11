@@ -1,0 +1,13 @@
+---
+title: "Week 20 — Full ML Pipeline: Mini Project"
+subtitle: "Machine Learning"
+description: "Dataset selection and objective definition"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Dataset selection and objective definition
+- End-to-end: cleaning → modeling → evaluation → documentation
+- Document assumptions, limitations, and improvements
+
+**Practice:** Build a complete ML project from scratch
+

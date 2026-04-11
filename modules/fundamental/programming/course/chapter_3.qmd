@@ -1,0 +1,15 @@
+---
+title: "Chapter 3 — Control Flow"
+subtitle: "Programming Basics"
+description: "Conditionals and Loops."
+image: https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Conditionals and Loops.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

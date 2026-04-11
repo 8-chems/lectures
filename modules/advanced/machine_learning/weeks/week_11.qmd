@@ -1,0 +1,14 @@
+---
+title: "Week 11 — Random Forests & Bagging"
+subtitle: "Machine Learning"
+description: "Bagging: theory and bias reduction"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Bagging: theory and bias reduction
+- Random Forests: feature bagging, OOB error
+- Feature importance
+
+**Practice:** Feature ranking using Random Forest
+**Reading:** Géron Ch. 7
+

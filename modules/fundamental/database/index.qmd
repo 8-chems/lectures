@@ -1,47 +1,47 @@
 ---
 title: "Databases"
-description: "Relational databases, SQL, NoSQL, normalization, and transaction management."
+description: "Database Fundamentals module covering essential topics via a modular structure."
 image: https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=600&q=80
 categories: [fundamental]
 number-sections: false
+toc: true
+toc-depth: 2
+listing:
+  - id: chapters-grid
+    contents:
+      - "course/chapter_1.qmd"
+      - "course/chapter_2.qmd"
+      - "course/chapter_3.qmd"
+      - "course/chapter_4.qmd"
+      - "course/chapter_5.qmd"
+      - "course/chapter_6.qmd"
+      - "course/chapter_7.qmd"
+    type: grid
+    grid-columns: 3
+    fields: [image, title, description]
+    image-height: 180px
+    categories: false
+    sort: false
 ---
 
 ## 📋 Module Overview
 
-This module provides an in-depth introduction to **Relational and Non-Relational Databases**, from data modelling to query optimization.
+This module provides an in-depth introduction to **Databases**, structured into individual chapters for focused learning.
 
-## 📚 Course Structure
+---
 
-::: {.callout-note}
-## Module Contents
-- **Chapter 1** — Introduction to Databases: Concepts & Architecture
-- **Chapter 2** — Relational Model & Entity-Relationship Diagrams
-- **Chapter 3** — SQL: DDL, DML, DQL, DCL
-- **Chapter 4** — Normalization (1NF, 2NF, 3NF, BCNF)
-- **Chapter 5** — Transactions, ACID Properties & Concurrency Control
-- **Chapter 6** — Introduction to NoSQL (MongoDB, Redis, Cassandra)
-- **Chapter 7** — Database Administration & Query Optimization
+## 📚 Curriculum
+
+::: {#chapters-grid}
 :::
+
+---
 
 ## 📂 Resources
 
-### Lectures
+### Directed Works (TD) & Practical Works (TP)
 
 ::: {.callout-warning}
 ## 🔜 Coming Soon
-Lecture slides for this module are being prepared.
-:::
-
-### Directed Works (TD)
-
-::: {.callout-warning}
-## 🔜 Coming Soon
-Directed work series for this module are being prepared.
-:::
-
-### Practical Works (TP)
-
-::: {.callout-warning}
-## 🔜 Coming Soon
-Lab exercises for this module are being prepared.
+Directed work series and lab exercises for this module are currently being prepared.
 :::

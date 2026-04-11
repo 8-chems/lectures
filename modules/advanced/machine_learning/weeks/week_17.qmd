@@ -1,0 +1,14 @@
+---
+title: "Week 17 — Neural Networks & MLPs"
+subtitle: "Machine Learning"
+description: "Perceptron, hidden layers, activation functions (ReLU, sigmoid, tanh)"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Perceptron, hidden layers, activation functions (ReLU, sigmoid, tanh)
+- Forward and backpropagation; gradient descent, Adam optimizer
+- Regularization: dropout, L2
+
+**Practice:** MLP in NumPy; MNIST classification with Keras
+**Reading:** Géron Ch. 10–11, CS231n backprop notes
+

@@ -1,0 +1,15 @@
+---
+title: "J4 — Java Advanced"
+subtitle: "Language Tracks"
+description: "Exceptions, I/O, and Concurrency Threads."
+image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Exceptions, I/O, and Concurrency Threads.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

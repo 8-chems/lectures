@@ -1,0 +1,20 @@
+---
+title: "Module 2 — Types of Data & Measurement Scales"
+subtitle: "Statistics & Data Analysis"
+description: "Qualitative: Nominal (no order), Ordinal (ordered categories)"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+**Theory**
+
+- Qualitative: Nominal (no order), Ordinal (ordered categories)
+- Quantitative: Discrete (countable), Continuous (measurable)
+- Measurement scales: Nominal, Ordinal, Interval, Ratio
+- Data structures: Cross-sectional, Time series, Panel
+
+**Python Practical**
+
+- `df['col'].astype('category')`
+- Encode ordinal variables numerically
+- `df.dtypes.value_counts().plot(kind='bar')`
+

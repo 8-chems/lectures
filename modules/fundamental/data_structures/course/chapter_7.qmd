@@ -1,0 +1,15 @@
+---
+title: "Chapter 7 — Searching"
+subtitle: "DSA Fundamentals"
+description: "Binary Search and Hash Tables."
+image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Binary Search and Hash Tables.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

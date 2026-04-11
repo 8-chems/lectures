@@ -1,0 +1,13 @@
+---
+title: "Week 23 — Capstone Presentations & Career Prep"
+subtitle: "Machine Learning"
+description: "Project showcase and peer feedback"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Project showcase and peer feedback
+- Portfolio walkthrough (GitHub + Notion)
+- Interview preparation: model choices, metrics, trade-offs
+
+**Bonus Reading:** Chip Huyen – *Designing ML Systems*, Burkov – *The ML Engineering Book*
+

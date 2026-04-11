@@ -1,0 +1,15 @@
+---
+title: "Chapter 4 — Machine Learning Overview"
+subtitle: "Artificial Intelligence"
+description: "Supervised, Unsupervised, RL"
+image: https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Supervised, Unsupervised, RL
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

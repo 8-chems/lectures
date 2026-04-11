@@ -1,0 +1,19 @@
+---
+title: "Module 12 — Hypothesis Testing: Statistical Tests"
+subtitle: "Statistics & Data Analysis"
+description: "Parametric: t-tests, ANOVA"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+**Theory**
+
+- Parametric: t-tests, ANOVA
+- Non-parametric: Mann–Whitney, Wilcoxon, Kruskal–Wallis
+- Categorical: Chi-square, Fisher's exact
+
+**Python Practical**
+
+- `ttest_ind()`, `ttest_rel()`, `f_oneway()`
+- `mannwhitneyu()`, `wilcoxon()`, `kruskal()`
+- `chi2_contingency(pd.crosstab(df['cat1'], df['cat2']))`
+

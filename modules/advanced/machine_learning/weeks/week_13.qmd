@@ -1,0 +1,14 @@
+---
+title: "Week 13 — Modern Boosting Libraries"
+subtitle: "Machine Learning"
+description: "XGBoost, LightGBM, CatBoost"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- XGBoost, LightGBM, CatBoost
+- Handling missing values and categorical features
+- Hyperparameter tuning strategies
+
+**Practice:** Benchmark all 3 libraries on the same dataset
+**Reading:** Library documentation
+

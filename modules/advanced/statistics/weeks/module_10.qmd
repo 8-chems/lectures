@@ -1,0 +1,17 @@
+---
+title: "Module 10 — Estimation & Confidence Intervals"
+subtitle: "Statistics & Data Analysis"
+description: "Point vs interval estimation"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+**Theory**
+
+- Point vs interval estimation
+- CI = estimate ± margin of error; confidence level interpretation; effect size
+
+**Python Practical**
+
+- `stats.t.interval(0.95, df=len(sample)-1, loc=sample.mean(), scale=stats.sem(sample))`
+- `statsmodels.stats.proportion.proportion_confint()`
+

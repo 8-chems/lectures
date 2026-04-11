@@ -1,0 +1,14 @@
+---
+title: "Week 14 — Feature Engineering & Feature Selection"
+subtitle: "Machine Learning"
+description: "Custom transformers, interaction features"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Custom transformers, interaction features
+- Encoding strategies: frequency, target
+- Selection: filter, wrapper, embedded methods
+
+**Practice:** Ames housing dataset with custom pipeline
+**Reading:** Géron pipeline section, I2ML Ch. 10
+

@@ -1,0 +1,15 @@
+---
+title: "Chapter 4 — Functions & Modular Programming"
+subtitle: "Programming Basics"
+description: "Code reuse and abstraction."
+image: https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Code reuse and abstraction.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

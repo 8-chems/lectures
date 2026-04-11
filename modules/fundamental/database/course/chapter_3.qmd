@@ -1,0 +1,15 @@
+---
+title: "Chapter 3 — SQL"
+subtitle: "Database Fundamentals"
+description: "DDL, DML, DQL, and DCL commands."
+image: https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+DDL, DML, DQL, and DCL commands.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

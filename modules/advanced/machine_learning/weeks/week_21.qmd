@@ -1,0 +1,11 @@
+---
+title: "Week 21 — Capstone Development (Part 1)"
+subtitle: "Machine Learning"
+description: "Final project scoping and planning"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Final project scoping and planning
+- Dataset curation, baseline models
+- Peer review and mentoring checkpoints
+

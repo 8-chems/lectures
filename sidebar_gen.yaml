@@ -1,0 +1,301 @@
+render:
+- index.qmd
+- 404.qmd
+- modules/fundamental/oop/index.qmd
+- modules/fundamental/oop/course/chapter_1.qmd
+- modules/fundamental/oop/course/chapter_2.qmd
+- modules/fundamental/oop/course/chapter_3.qmd
+- modules/fundamental/oop/course/chapter_4.qmd
+- modules/fundamental/oop/course/chapter_5.qmd
+- modules/fundamental/data_structures/index.qmd
+- modules/fundamental/data_structures/course/chapter_1.qmd
+- modules/fundamental/data_structures/course/chapter_2.qmd
+- modules/fundamental/data_structures/course/chapter_3.qmd
+- modules/fundamental/data_structures/course/chapter_4.qmd
+- modules/fundamental/data_structures/course/chapter_5.qmd
+- modules/fundamental/data_structures/course/chapter_6.qmd
+- modules/fundamental/data_structures/course/chapter_7.qmd
+- modules/fundamental/database/index.qmd
+- modules/fundamental/database/course/chapter_1.qmd
+- modules/fundamental/database/course/chapter_2.qmd
+- modules/fundamental/database/course/chapter_3.qmd
+- modules/fundamental/database/course/chapter_4.qmd
+- modules/fundamental/database/course/chapter_5.qmd
+- modules/fundamental/database/course/chapter_6.qmd
+- modules/fundamental/database/course/chapter_7.qmd
+- modules/fundamental/programming/index.qmd
+- modules/fundamental/programming/course/chapter_1.qmd
+- modules/fundamental/programming/course/chapter_2.qmd
+- modules/fundamental/programming/course/chapter_3.qmd
+- modules/fundamental/programming/course/chapter_4.qmd
+- modules/fundamental/programming/course/chapter_5.qmd
+- modules/fundamental/programming/course/chapter_6.qmd
+- modules/fundamental/python_java/index.qmd
+- modules/fundamental/python_java/course/p1.qmd
+- modules/fundamental/python_java/course/p2.qmd
+- modules/fundamental/python_java/course/p3.qmd
+- modules/fundamental/python_java/course/p4.qmd
+- modules/fundamental/python_java/course/j1.qmd
+- modules/fundamental/python_java/course/j2.qmd
+- modules/fundamental/python_java/course/j3.qmd
+- modules/fundamental/python_java/course/j4.qmd
+- modules/advanced/data_science/index.qmd
+- modules/advanced/data_science/course/chapter_1/index.qmd
+- modules/advanced/data_science/course/chapter_2/index.qmd
+- modules/advanced/data_science/course/chapter_3/index.qmd
+- modules/advanced/data_science/course/chapter_4/index.qmd
+- modules/advanced/data_science/course/chapter_5/index.qmd
+- modules/advanced/data_science/td/dw1.qmd
+- modules/advanced/data_science/td/dw2_part1.qmd
+- modules/advanced/data_science/td/dw2_part2.qmd
+- modules/advanced/data_science/td/dw3_part2.qmd
+- modules/advanced/data_science/td/dw3_part3.qmd
+- modules/advanced/data_science/td/dw3_part4.qmd
+- modules/advanced/data_science/td/dw4_part1.qmd
+- modules/advanced/data_science/td/dw4_part2.qmd
+- modules/advanced/data_science/td/dw5.qmd
+- modules/advanced/data_science/tp/pw1.qmd
+- modules/advanced/data_science/tp/pw2.qmd
+- modules/advanced/data_science/tp/pw3.qmd
+- modules/advanced/data_science/tp/pw4.qmd
+- modules/advanced/data_science/tp/pw5.qmd
+- modules/advanced/data_science/tp/pw6.qmd
+- modules/advanced/data_science/tp/pw7.qmd
+- modules/advanced/machine_learning/index.qmd
+- modules/advanced/machine_learning/weeks/week_01.qmd
+- modules/advanced/machine_learning/weeks/week_02.qmd
+- modules/advanced/machine_learning/weeks/week_03.qmd
+- modules/advanced/machine_learning/weeks/week_04.qmd
+- modules/advanced/machine_learning/weeks/week_05.qmd
+- modules/advanced/machine_learning/weeks/week_06.qmd
+- modules/advanced/machine_learning/weeks/week_07.qmd
+- modules/advanced/machine_learning/weeks/week_08.qmd
+- modules/advanced/machine_learning/weeks/week_09.qmd
+- modules/advanced/machine_learning/weeks/week_10.qmd
+- modules/advanced/machine_learning/weeks/week_11.qmd
+- modules/advanced/machine_learning/weeks/week_12.qmd
+- modules/advanced/machine_learning/weeks/week_13.qmd
+- modules/advanced/machine_learning/weeks/week_14.qmd
+- modules/advanced/machine_learning/weeks/week_15.qmd
+- modules/advanced/machine_learning/weeks/week_16.qmd
+- modules/advanced/machine_learning/weeks/week_17.qmd
+- modules/advanced/machine_learning/weeks/week_18.qmd
+- modules/advanced/machine_learning/weeks/week_19.qmd
+- modules/advanced/machine_learning/weeks/week_20.qmd
+- modules/advanced/machine_learning/weeks/week_21.qmd
+- modules/advanced/machine_learning/weeks/week_22.qmd
+- modules/advanced/machine_learning/weeks/week_23.qmd
+- modules/advanced/statistics/index.qmd
+- modules/advanced/statistics/weeks/module_01.qmd
+- modules/advanced/statistics/weeks/module_02.qmd
+- modules/advanced/statistics/weeks/module_03.qmd
+- modules/advanced/statistics/weeks/module_04.qmd
+- modules/advanced/statistics/weeks/module_05.qmd
+- modules/advanced/statistics/weeks/module_06.qmd
+- modules/advanced/statistics/weeks/module_07.qmd
+- modules/advanced/statistics/weeks/module_08.qmd
+- modules/advanced/statistics/weeks/module_09.qmd
+- modules/advanced/statistics/weeks/module_10.qmd
+- modules/advanced/statistics/weeks/module_11.qmd
+- modules/advanced/statistics/weeks/module_12.qmd
+- modules/advanced/statistics/weeks/module_13.qmd
+- modules/advanced/statistics/weeks/module_14.qmd
+- modules/advanced/statistics/weeks/module_15.qmd
+- modules/advanced/statistics/weeks/module_16.qmd
+- modules/advanced/statistics/weeks/module_17.qmd
+- modules/advanced/statistics/weeks/module_18.qmd
+- modules/advanced/statistics/weeks/module_19.qmd
+- modules/advanced/statistics/weeks/module_20.qmd
+- modules/advanced/ai/index.qmd
+- modules/advanced/ai/course/chapter_1.qmd
+- modules/advanced/ai/course/chapter_2.qmd
+- modules/advanced/ai/course/chapter_3.qmd
+- modules/advanced/ai/course/chapter_4.qmd
+- modules/advanced/ai/course/chapter_5.qmd
+- modules/advanced/ai/course/chapter_6.qmd
+- modules/advanced/ai/course/chapter_7.qmd
+- modules/advanced/business_analytics/index.qmd
+- modules/advanced/business_analytics/weeks/week_01.qmd
+- modules/advanced/business_analytics/weeks/week_02.qmd
+- modules/advanced/business_analytics/weeks/week_03.qmd
+- modules/advanced/business_analytics/weeks/week_04.qmd
+- modules/advanced/business_analytics/weeks/week_05.qmd
+- modules/advanced/business_analytics/weeks/week_06.qmd
+- modules/advanced/business_analytics/weeks/week_07.qmd
+- modules/advanced/business_analytics/weeks/week_08.qmd
+- modules/advanced/business_analytics/weeks/week_09.qmd
+- modules/advanced/business_analytics/weeks/week_10.qmd
+- modules/advanced/business_analytics/weeks/week_11.qmd
+- modules/advanced/business_analytics/weeks/week_12.qmd
+- modules/advanced/business_analytics/weeks/week_13.qmd
+- modules/advanced/business_analytics/weeks/week_14.qmd
+sidebars:
+- id: machine-learning
+  title: Machine Learning
+  style: docked
+  collapse-level: 1
+  contents:
+  - modules/advanced/machine_learning/index.qmd
+  - section: Curriculum
+    contents:
+    - modules/advanced/machine_learning/weeks/week_01.qmd
+    - modules/advanced/machine_learning/weeks/week_02.qmd
+    - modules/advanced/machine_learning/weeks/week_03.qmd
+    - modules/advanced/machine_learning/weeks/week_04.qmd
+    - modules/advanced/machine_learning/weeks/week_05.qmd
+    - modules/advanced/machine_learning/weeks/week_06.qmd
+    - modules/advanced/machine_learning/weeks/week_07.qmd
+    - modules/advanced/machine_learning/weeks/week_08.qmd
+    - modules/advanced/machine_learning/weeks/week_09.qmd
+    - modules/advanced/machine_learning/weeks/week_10.qmd
+    - modules/advanced/machine_learning/weeks/week_11.qmd
+    - modules/advanced/machine_learning/weeks/week_12.qmd
+    - modules/advanced/machine_learning/weeks/week_13.qmd
+    - modules/advanced/machine_learning/weeks/week_14.qmd
+    - modules/advanced/machine_learning/weeks/week_15.qmd
+    - modules/advanced/machine_learning/weeks/week_16.qmd
+    - modules/advanced/machine_learning/weeks/week_17.qmd
+    - modules/advanced/machine_learning/weeks/week_18.qmd
+    - modules/advanced/machine_learning/weeks/week_19.qmd
+    - modules/advanced/machine_learning/weeks/week_20.qmd
+    - modules/advanced/machine_learning/weeks/week_21.qmd
+    - modules/advanced/machine_learning/weeks/week_22.qmd
+    - modules/advanced/machine_learning/weeks/week_23.qmd
+- id: statistics
+  title: Statistics
+  style: docked
+  collapse-level: 1
+  contents:
+  - modules/advanced/statistics/index.qmd
+  - section: Curriculum
+    contents:
+    - modules/advanced/statistics/weeks/module_01.qmd
+    - modules/advanced/statistics/weeks/module_02.qmd
+    - modules/advanced/statistics/weeks/module_03.qmd
+    - modules/advanced/statistics/weeks/module_04.qmd
+    - modules/advanced/statistics/weeks/module_05.qmd
+    - modules/advanced/statistics/weeks/module_06.qmd
+    - modules/advanced/statistics/weeks/module_07.qmd
+    - modules/advanced/statistics/weeks/module_08.qmd
+    - modules/advanced/statistics/weeks/module_09.qmd
+    - modules/advanced/statistics/weeks/module_10.qmd
+    - modules/advanced/statistics/weeks/module_11.qmd
+    - modules/advanced/statistics/weeks/module_12.qmd
+    - modules/advanced/statistics/weeks/module_13.qmd
+    - modules/advanced/statistics/weeks/module_14.qmd
+    - modules/advanced/statistics/weeks/module_15.qmd
+    - modules/advanced/statistics/weeks/module_16.qmd
+    - modules/advanced/statistics/weeks/module_17.qmd
+    - modules/advanced/statistics/weeks/module_18.qmd
+    - modules/advanced/statistics/weeks/module_19.qmd
+    - modules/advanced/statistics/weeks/module_20.qmd
+- id: ai
+  title: Artificial Intelligence
+  style: docked
+  collapse-level: 1
+  contents:
+  - modules/advanced/ai/index.qmd
+  - section: Curriculum
+    contents:
+    - modules/advanced/ai/course/chapter_1.qmd
+    - modules/advanced/ai/course/chapter_2.qmd
+    - modules/advanced/ai/course/chapter_3.qmd
+    - modules/advanced/ai/course/chapter_4.qmd
+    - modules/advanced/ai/course/chapter_5.qmd
+    - modules/advanced/ai/course/chapter_6.qmd
+    - modules/advanced/ai/course/chapter_7.qmd
+- id: business-analytics
+  title: Business Analytics
+  style: docked
+  collapse-level: 1
+  contents:
+  - modules/advanced/business_analytics/index.qmd
+  - section: Curriculum
+    contents:
+    - modules/advanced/business_analytics/weeks/week_01.qmd
+    - modules/advanced/business_analytics/weeks/week_02.qmd
+    - modules/advanced/business_analytics/weeks/week_03.qmd
+    - modules/advanced/business_analytics/weeks/week_04.qmd
+    - modules/advanced/business_analytics/weeks/week_05.qmd
+    - modules/advanced/business_analytics/weeks/week_06.qmd
+    - modules/advanced/business_analytics/weeks/week_07.qmd
+    - modules/advanced/business_analytics/weeks/week_08.qmd
+    - modules/advanced/business_analytics/weeks/week_09.qmd
+    - modules/advanced/business_analytics/weeks/week_10.qmd
+    - modules/advanced/business_analytics/weeks/week_11.qmd
+    - modules/advanced/business_analytics/weeks/week_12.qmd
+    - modules/advanced/business_analytics/weeks/week_13.qmd
+    - modules/advanced/business_analytics/weeks/week_14.qmd
+- id: oop
+  title: OOP
+  style: docked
+  collapse-level: 1
+  contents:
+  - modules/fundamental/oop/index.qmd
+  - section: Curriculum
+    contents:
+    - modules/fundamental/oop/course/chapter_1.qmd
+    - modules/fundamental/oop/course/chapter_2.qmd
+    - modules/fundamental/oop/course/chapter_3.qmd
+    - modules/fundamental/oop/course/chapter_4.qmd
+    - modules/fundamental/oop/course/chapter_5.qmd
+- id: data-structures
+  title: Data Structures
+  style: docked
+  collapse-level: 1
+  contents:
+  - modules/fundamental/data_structures/index.qmd
+  - section: Curriculum
+    contents:
+    - modules/fundamental/data_structures/course/chapter_1.qmd
+    - modules/fundamental/data_structures/course/chapter_2.qmd
+    - modules/fundamental/data_structures/course/chapter_3.qmd
+    - modules/fundamental/data_structures/course/chapter_4.qmd
+    - modules/fundamental/data_structures/course/chapter_5.qmd
+    - modules/fundamental/data_structures/course/chapter_6.qmd
+    - modules/fundamental/data_structures/course/chapter_7.qmd
+- id: database
+  title: Databases
+  style: docked
+  collapse-level: 1
+  contents:
+  - modules/fundamental/database/index.qmd
+  - section: Curriculum
+    contents:
+    - modules/fundamental/database/course/chapter_1.qmd
+    - modules/fundamental/database/course/chapter_2.qmd
+    - modules/fundamental/database/course/chapter_3.qmd
+    - modules/fundamental/database/course/chapter_4.qmd
+    - modules/fundamental/database/course/chapter_5.qmd
+    - modules/fundamental/database/course/chapter_6.qmd
+    - modules/fundamental/database/course/chapter_7.qmd
+- id: programming
+  title: Programming
+  style: docked
+  collapse-level: 1
+  contents:
+  - modules/fundamental/programming/index.qmd
+  - section: Curriculum
+    contents:
+    - modules/fundamental/programming/course/chapter_1.qmd
+    - modules/fundamental/programming/course/chapter_2.qmd
+    - modules/fundamental/programming/course/chapter_3.qmd
+    - modules/fundamental/programming/course/chapter_4.qmd
+    - modules/fundamental/programming/course/chapter_5.qmd
+    - modules/fundamental/programming/course/chapter_6.qmd
+- id: python-java
+  title: Python & Java
+  style: docked
+  collapse-level: 1
+  contents:
+  - modules/fundamental/python_java/index.qmd
+  - section: Curriculum
+    contents:
+    - modules/fundamental/python_java/course/p1.qmd
+    - modules/fundamental/python_java/course/p2.qmd
+    - modules/fundamental/python_java/course/p3.qmd
+    - modules/fundamental/python_java/course/p4.qmd
+    - modules/fundamental/python_java/course/j1.qmd
+    - modules/fundamental/python_java/course/j2.qmd
+    - modules/fundamental/python_java/course/j3.qmd
+    - modules/fundamental/python_java/course/j4.qmd

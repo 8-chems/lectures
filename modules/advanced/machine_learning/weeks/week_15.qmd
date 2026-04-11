@@ -1,0 +1,14 @@
+---
+title: "Week 15 — Imbalanced & Noisy Data"
+subtitle: "Machine Learning"
+description: "Resampling: SMOTE, undersampling"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Resampling: SMOTE, undersampling
+- Weighted loss, cost-sensitive learning
+- Detecting and mitigating noisy labels
+
+**Practice:** Credit card fraud or churn prediction
+**Reading:** I2ML Ch. 15
+

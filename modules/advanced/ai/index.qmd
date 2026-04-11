@@ -4,44 +4,44 @@ description: "From search algorithms to knowledge representation, neural network
 image: https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&q=80
 categories: [advanced]
 number-sections: false
+toc: true
+toc-depth: 2
+listing:
+  - id: chapters-grid
+    contents:
+      - "course/chapter_1.qmd"
+      - "course/chapter_2.qmd"
+      - "course/chapter_3.qmd"
+      - "course/chapter_4.qmd"
+      - "course/chapter_5.qmd"
+      - "course/chapter_6.qmd"
+      - "course/chapter_7.qmd"
+    type: grid
+    grid-columns: 3
+    fields: [image, title, description]
+    image-height: 180px
+    categories: false
+    sort: false
 ---
 
 ## 📋 Module Overview
 
 This module provides a comprehensive introduction to **Artificial Intelligence**, covering the theoretical foundations and practical approaches used in modern AI systems.
 
-## 📚 Course Structure
+---
 
-::: {.callout-note}
-## Module Contents
-- **Chapter 1** — Introduction to AI: History, Definitions, and Applications
-- **Chapter 2** — Search Algorithms: BFS, DFS, A*, Heuristics
-- **Chapter 3** — Knowledge Representation: Logic, Ontologies, Expert Systems
-- **Chapter 4** — Machine Learning Overview (Supervised, Unsupervised, RL)
-- **Chapter 5** — Neural Networks: Perceptrons, MLP, Backpropagation
-- **Chapter 6** — Natural Language Processing: Basics and Applications
-- **Chapter 7** — AI Ethics, Bias, and Responsible AI
+## 📚 Curriculum
+
+::: {#chapters-grid}
 :::
+
+---
 
 ## 📂 Resources
 
-### Lectures
+### Directed Works (TD) & Practical Works (TP)
 
 ::: {.callout-warning}
 ## 🔜 Coming Soon
-Lecture slides for this module are being prepared.
-:::
-
-### Directed Works (TD)
-
-::: {.callout-warning}
-## 🔜 Coming Soon
-Directed work series for this module are being prepared.
-:::
-
-### Practical Works (TP)
-
-::: {.callout-warning}
-## 🔜 Coming Soon
-Lab exercises for this module are being prepared.
+Directed work series and lab exercises for this module are currently being prepared.
 :::

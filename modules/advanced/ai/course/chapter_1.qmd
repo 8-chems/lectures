@@ -1,0 +1,15 @@
+---
+title: "Chapter 1 — Introduction to AI"
+subtitle: "Artificial Intelligence"
+description: "History, Definitions, and Applications"
+image: https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+History, Definitions, and Applications
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

@@ -1,0 +1,15 @@
+---
+title: "P3 — Python Functions"
+subtitle: "Language Tracks"
+description: "Lambdas and Comprehensions."
+image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Lambdas and Comprehensions.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

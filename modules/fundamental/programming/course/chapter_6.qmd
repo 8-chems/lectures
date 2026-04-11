@@ -1,0 +1,15 @@
+---
+title: "Chapter 6 — Introduction to Complexity"
+subtitle: "Programming Basics"
+description: "Big-O notation and performance."
+image: https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Big-O notation and performance.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

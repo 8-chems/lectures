@@ -1,0 +1,14 @@
+---
+title: "Week 19 — NLP & Time Series"
+subtitle: "Machine Learning"
+description: "NLP: tokenization, stemming, TF-IDF, Word2Vec, GloVe"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- NLP: tokenization, stemming, TF-IDF, Word2Vec, GloVe
+- Time series: lag features, moving averages, trends
+- Introduction to RNNs and LSTMs
+
+**Practice:** IMDB sentiment classification; stock price forecasting with LSTM
+**Reading:** Géron Ch. 15–16, TensorFlow NLP + time series docs
+

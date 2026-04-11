@@ -1,0 +1,14 @@
+---
+title: "Week 6 — Model Evaluation"
+subtitle: "Machine Learning"
+description: "Regression metrics: MAE, MSE, RMSE, R²"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Regression metrics: MAE, MSE, RMSE, R²
+- Classification metrics: Accuracy, Precision, Recall, F1-Score
+- ROC, AUC, PR curves; cross-validation strategies
+
+**Practice:** Compare models using multiple metrics; ROC and PR curves
+**Reading:** I2ML Ch. 8, sklearn.metrics docs
+

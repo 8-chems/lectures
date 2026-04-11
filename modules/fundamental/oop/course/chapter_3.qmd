@@ -1,0 +1,15 @@
+---
+title: "Chapter 3 — Inheritance & Polymorphism"
+subtitle: "OOP Fundamentals"
+description: "Reusing code and dynamic binding."
+image: https://images.unsplash.com/photo-1607706189992-eae578626c86?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Reusing code and dynamic binding.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

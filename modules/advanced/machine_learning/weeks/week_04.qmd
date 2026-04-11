@@ -1,0 +1,15 @@
+---
+title: "Week 4 — Linear Models for Regression"
+subtitle: "Machine Learning"
+description: "Linear Regression: formula, interpretation, closed-form solution"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Linear Regression: formula, interpretation, closed-form solution
+- Polynomial regression
+- Loss functions: MSE, MAE; Regularization: Ridge, Lasso
+- Bias–variance tradeoff
+
+**Practice:** Housing price prediction; polynomial regression
+**Reading:** Géron Ch. 4, I2ML Ch. 5
+

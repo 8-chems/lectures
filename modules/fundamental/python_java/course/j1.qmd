@@ -1,0 +1,15 @@
+---
+title: "J1 — Java Syntax"
+subtitle: "Language Tracks"
+description: "Environment, Syntax, and Types."
+image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Environment, Syntax, and Types.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

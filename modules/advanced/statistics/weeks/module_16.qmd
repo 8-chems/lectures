@@ -1,0 +1,17 @@
+---
+title: "Module 16 — Principal Component Analysis (PCA)"
+subtitle: "Statistics & Data Analysis"
+description: "Quantitative variables, variance maximization, eigenvectors/values, orthogonality"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+**Theory**
+
+- Quantitative variables, variance maximization, eigenvectors/values, orthogonality
+- Interpretation: scree plot, correlation circle, factor map
+
+**Python Practical**
+
+- `StandardScaler()` → `sklearn.decomposition.PCA`
+- Plot scree plot and 2D factor map
+

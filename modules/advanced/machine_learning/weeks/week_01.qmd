@@ -1,0 +1,17 @@
+---
+title: "Week 1 — ML Foundations & Workflow"
+subtitle: "Machine Learning"
+description: "What is ML? Supervised vs Unsupervised vs Reinforcement Learning"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- What is ML? Supervised vs Unsupervised vs Reinforcement Learning
+- The ML pipeline: framing → data → modeling → evaluation → deployment
+- Overview of prediction tasks (regression, classification)
+- Setting up the Python environment: Jupyter, Anaconda, virtual environments
+
+**Math Tools:** Vectors, matrices, dot product, Probability basics, Bayes' theorem
+
+**Practice:** Titanic dataset EDA; Python/NumPy crash course
+**Reading:** Géron Ch. 1, I2ML Introduction, DeepLearningBook Ch. 2–3
+

@@ -1,0 +1,14 @@
+---
+title: "Module 19 — End-to-End Case Study"
+subtitle: "Statistics & Data Analysis"
+description: "Full analysis on a real dataset"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+Full workflow: **Problem → Data → Descriptive → Visualization → Relationships → Hypothesis Testing → Multivariate → Report**
+
+**Python Practical**
+
+- Full analysis on a real dataset
+- Annotated report with visualizations
+

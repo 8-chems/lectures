@@ -1,0 +1,15 @@
+---
+title: "J2 — Java OOP"
+subtitle: "Language Tracks"
+description: "Classes, Interfaces, and Inheritance."
+image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Classes, Interfaces, and Inheritance.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

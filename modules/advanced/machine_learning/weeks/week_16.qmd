@@ -1,0 +1,14 @@
+---
+title: "Week 16 — Clustering & Dimensionality Reduction"
+subtitle: "Machine Learning"
+description: "Clustering: K-Means, DBSCAN, Hierarchical"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Clustering: K-Means, DBSCAN, Hierarchical
+- PCA: explained variance, reconstruction
+- t-SNE, UMAP for visualization
+
+**Practice:** Customer segmentation pipeline
+**Reading:** Géron Ch. 8
+

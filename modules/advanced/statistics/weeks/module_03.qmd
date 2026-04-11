@@ -1,0 +1,19 @@
+---
+title: "Module 3 — Descriptive Statistics: Central Tendency"
+subtitle: "Statistics & Data Analysis"
+description: "Mean (sensitive to outliers), Median (robust), Mode (categorical)"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+**Theory**
+
+- Mean (sensitive to outliers), Median (robust), Mode (categorical)
+- Skewness and distribution shape
+- Choosing the right measure
+
+**Python Practical**
+
+- `df['col'].mean()`, `.median()`, `.mode()`
+- Compare metrics before/after adding outliers
+- `df.describe()`
+

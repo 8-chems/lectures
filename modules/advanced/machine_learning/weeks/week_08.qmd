@@ -1,0 +1,14 @@
+---
+title: "Week 8 — Data Sampling & Validation Techniques"
+subtitle: "Machine Learning"
+description: "Hold-out split, stratified sampling"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Hold-out split, stratified sampling
+- Cross-validation: k-fold, LOOCV
+- Bootstrap and confidence intervals
+
+**Practice:** CV + grid search for model selection
+**Reading:** I2ML Ch. 9
+

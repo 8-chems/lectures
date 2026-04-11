@@ -1,0 +1,15 @@
+---
+title: "Chapter 1 — Introduction to OOP"
+subtitle: "OOP Fundamentals"
+description: "Classes & Objects"
+image: https://images.unsplash.com/photo-1607706189992-eae578626c86?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Classes & Objects
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

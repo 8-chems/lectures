@@ -1,0 +1,14 @@
+---
+title: "Week 5 — Logistic Regression & Classification"
+subtitle: "Machine Learning"
+description: "Logistic function, decision boundaries, sigmoid"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Logistic function, decision boundaries, sigmoid
+- Binary vs multiclass: One-vs-Rest, One-vs-One
+- Cross-entropy loss
+
+**Practice:** Titanic and Iris classification
+**Reading:** Géron Ch. 3, I2ML Ch. 7
+

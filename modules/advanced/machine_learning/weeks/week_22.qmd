@@ -1,0 +1,11 @@
+---
+title: "Week 22 — Capstone Development (Part 2)"
+subtitle: "Machine Learning"
+description: "Full modeling and evaluation pipeline"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Full modeling and evaluation pipeline
+- Documentation: README, notebooks, visualizations
+- Polish, test, and finalize
+

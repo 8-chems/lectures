@@ -1,0 +1,19 @@
+---
+title: "Module 14 — Relationships Between Variables"
+subtitle: "Statistics & Data Analysis"
+description: "Quant ↔ Quant: Pearson/Spearman correlation, covariance"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+**Theory**
+
+- Quant ↔ Quant: Pearson/Spearman correlation, covariance
+- Qual ↔ Qual: contingency, Cramér's V, Phi
+- Quant ↔ Qual: ANOVA, η², point-biserial
+- Regression basics
+
+**Python Practical**
+
+- `df.corr()`, `spearmanr()`
+- `pd.crosstab()`; `statsmodels.OLS(y, X).fit()`
+

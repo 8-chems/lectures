@@ -1,0 +1,15 @@
+---
+title: "Chapter 5 — Advanced OOP"
+subtitle: "OOP Fundamentals"
+description: "Interfaces & Abstract Classes in depth."
+image: https://images.unsplash.com/photo-1607706189992-eae578626c86?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Interfaces & Abstract Classes in depth.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

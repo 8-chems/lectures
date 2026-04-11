@@ -1,0 +1,15 @@
+---
+title: "Chapter 4 — Design Patterns"
+subtitle: "OOP Fundamentals"
+description: "Singleton, Factory, Observer and more."
+image: https://images.unsplash.com/photo-1607706189992-eae578626c86?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Singleton, Factory, Observer and more.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

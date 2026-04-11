@@ -1,0 +1,19 @@
+---
+title: "Module 4 — Descriptive Statistics: Dispersion"
+subtitle: "Statistics & Data Analysis"
+description: "Range, IQR, Variance, Standard Deviation"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+**Theory**
+
+- Range, IQR, Variance, Standard Deviation
+- Coefficient of Variation (CV = std / mean)
+- Outlier detection: IQR rule, z-scores
+
+**Python Practical**
+
+- `df['col'].var()`, `.std()`, `.quantile([0.25, 0.75])`
+- Outlier thresholds: `Q1 - 1.5*IQR`, `Q3 + 1.5*IQR`
+- `sns.boxplot(df['col'])`
+

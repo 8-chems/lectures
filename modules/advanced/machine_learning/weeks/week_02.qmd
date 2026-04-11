@@ -1,0 +1,15 @@
+---
+title: "Week 2 — Data Preprocessing & Pipelines"
+subtitle: "Machine Learning"
+description: "Handling missing data, detecting outliers"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- Handling missing data, detecting outliers
+- Encoding: one-hot, label, ordinal
+- Normalization vs standardization
+- Building Scikit-learn Pipelines
+
+**Practice:** California Housing preprocessing pipeline; Ridge Regression from scratch
+**Reading:** Géron Ch. 2–4
+

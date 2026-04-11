@@ -1,0 +1,15 @@
+---
+title: "Chapter 6 — Sorting Algorithms"
+subtitle: "DSA Fundamentals"
+description: "Bubble, Merge, Quick, and Radix Sort."
+image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Bubble, Merge, Quick, and Radix Sort.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

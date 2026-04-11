@@ -1,0 +1,15 @@
+---
+title: "Chapter 7 — AI Ethics, Bias, and Responsible AI"
+subtitle: "Artificial Intelligence"
+description: "Ethical considerations and bias in AI systems."
+image: https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Ethical considerations and bias in AI systems.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

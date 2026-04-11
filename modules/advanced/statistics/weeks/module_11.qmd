@@ -1,0 +1,17 @@
+---
+title: "Module 11 — Hypothesis Testing: Foundations"
+subtitle: "Statistics & Data Analysis"
+description: "H₀ and H₁, test statistic, p-value, significance level α"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+**Theory**
+
+- H₀ and H₁, test statistic, p-value, significance level α
+- Type I & II errors; statistical power; effect size vs p-value
+
+**Python Practical**
+
+- `scipy.stats.ttest_1samp()`
+- Simulate Type I & II errors
+

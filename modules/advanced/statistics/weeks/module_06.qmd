@@ -1,0 +1,17 @@
+---
+title: "Module 6 — Probability Fundamentals"
+subtitle: "Statistics & Data Analysis"
+description: "Random experiments, events, sample space"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+**Theory**
+
+- Random experiments, events, sample space
+- Probability axioms; conditional probability; independence
+
+**Python Practical**
+
+- Simulate coin toss: `np.random.choice(['H','T'], size=1000)`
+- Conditional probability by filtering samples
+

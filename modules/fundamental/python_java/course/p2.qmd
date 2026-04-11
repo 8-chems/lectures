@@ -1,0 +1,15 @@
+---
+title: "P2 — Python Collections"
+subtitle: "Language Tracks"
+description: "Lists, Dicts, Sets, and Tuples."
+image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Lists, Dicts, Sets, and Tuples.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

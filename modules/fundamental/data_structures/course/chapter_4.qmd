@@ -1,0 +1,15 @@
+---
+title: "Chapter 4 — Trees"
+subtitle: "DSA Fundamentals"
+description: "Binary, BST, AVL, and Heaps."
+image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80
+---
+
+## 📋 Chapter Overview
+
+Binary, BST, AVL, and Heaps.
+
+::: {.callout-warning}
+## 🔜 Coming Soon
+Lecture notes and materials for this chapter are currently being prepared.
+:::

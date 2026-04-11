@@ -1,54 +1,48 @@
 ---
 title: "Python & Java"
-description: "Practical programming in Python and Java: syntax, libraries, and real-world applications."
+description: "Language Tracks module covering essential topics via a modular structure."
 image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80
 categories: [fundamental]
 number-sections: false
+toc: true
+toc-depth: 2
+listing:
+  - id: chapters-grid
+    contents:
+      - "course/p1.qmd"
+      - "course/p2.qmd"
+      - "course/p3.qmd"
+      - "course/p4.qmd"
+      - "course/j1.qmd"
+      - "course/j2.qmd"
+      - "course/j3.qmd"
+      - "course/j4.qmd"
+    type: grid
+    grid-columns: 3
+    fields: [image, title, description]
+    image-height: 180px
+    categories: false
+    sort: false
 ---
 
 ## 📋 Module Overview
 
-This module offers hands-on practice in both **Python** and **Java**, two of the most widely used languages in industry and academia.
+This module provides an in-depth introduction to **Python & Java**, structured into individual chapters for focused learning.
 
-## 📚 Course Structure
+---
 
-::: {.callout-note}
-## Module Contents — Python Track
-- **P1** — Python Syntax, Data Types, and I/O
-- **P2** — Lists, Dicts, Sets, and Tuples
-- **P3** — Functions, Lambdas, and Comprehensions
-- **P4** — File Handling and Exceptions
-- **P5** — Standard Library and Popular Packages (NumPy, Pandas intro)
+## 📚 Curriculum
+
+::: {#chapters-grid}
 :::
 
-::: {.callout-note}
-## Module Contents — Java Track
-- **J1** — Java Environment, Syntax, and Types
-- **J2** — OOP in Java: Classes, Interfaces, and Inheritance
-- **J3** — Collections Framework
-- **J4** — Exception Handling and I/O
-- **J5** — Introduction to Threads and Concurrency
-:::
+---
 
 ## 📂 Resources
 
-### Lectures
+### Directed Works (TD) & Practical Works (TP)
 
 ::: {.callout-warning}
 ## 🔜 Coming Soon
-Lecture slides for this module are being prepared.
-:::
-
-### Directed Works (TD)
-
-::: {.callout-warning}
-## 🔜 Coming Soon
-Directed work series for this module are being prepared.
-:::
-
-### Practical Works (TP)
-
-::: {.callout-warning}
-## 🔜 Coming Soon
-Lab exercises for this module are being prepared.
+Directed work series and lab exercises for this module are currently being prepared.
 :::

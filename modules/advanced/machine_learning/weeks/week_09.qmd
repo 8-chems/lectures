@@ -1,0 +1,14 @@
+---
+title: "Week 9 — k-Nearest Neighbors"
+subtitle: "Machine Learning"
+description: "KNN for regression and classification"
+image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80
+---
+
+- KNN for regression and classification
+- Distance metrics and scaling sensitivity
+- Curse of dimensionality
+
+**Practice:** KNN from scratch and with sklearn
+**Reading:** I2ML Ch. 10
+

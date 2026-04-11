@@ -1,0 +1,16 @@
+---
+title: "Module 20 — Ethics & Bias in Statistics"
+subtitle: "Statistics & Data Analysis"
+description: "Sampling bias, p-hacking, misleading graphs, responsible reporting"
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80
+---
+
+**Theory**
+
+- Sampling bias, p-hacking, misleading graphs, responsible reporting
+
+**Python Practical**
+
+- Detect bias in a dataset
+- Visualize and interpret results responsibly
+
