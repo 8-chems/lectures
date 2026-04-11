@@ -364,3 +364,41 @@ Cards for the rappel part
 }
 
 
+
+/* ------------------------
+SIDEBAR & TOC ADJUSTMENTS
+---------------------------*/
+
+/* Offset for fixed navbar to prevent overlapping */
+#quarto-sidebar, 
+#quarto-margin-sidebar {
+  padding-top: 1rem !important;
+}
+
+@media (min-width: 992px) {
+  #quarto-sidebar, 
+  #quarto-margin-sidebar {
+    top: 70px !important; /* Adjust based on navbar height */
+  }
+}
+
+/* Ensure sidebar header doesn't overlap */
+.sidebar-header {
+  padding-top: 1.5rem !important;
+}
+
+/* TOC (Table of Contents) positioning */
+#quarto-margin-sidebar .quarto-margin-sidebar-toggle {
+  margin-top: 70px !important;
+}
+
+/* Secondary Navigation / Breadcrumbs on Mobile */
+.quarto-secondary-nav {
+  top: 60px !important;
+}
+
+@media (max-width: 991.98px) {
+  #quarto-header {
+    height: 60px !important;
+  }
+}
