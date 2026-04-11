@@ -1,0 +1,2866 @@
+[
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_14.html",
+    "href": "modules/advanced/business_analytics/weeks/week_14.html",
+    "title": "Week 14 — Pitch & Review",
+    "section": "",
+    "text": "Format: 10-minute pitch to panel + 5-minute Q&A\nPanel composition: course instructor + one external guest (industry practitioner where possible).",
+    "crumbs": [
+      "Curriculum",
+      "Week 14 — Pitch & Review"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_14.html#pitch-requirements",
+    "href": "modules/advanced/business_analytics/weeks/week_14.html#pitch-requirements",
+    "title": "Week 14 — Pitch & Review",
+    "section": "Pitch requirements",
+    "text": "Pitch requirements\nYour pitch must cover:\n1. The business problem and why it matters (quantified where possible)\n2. The solution and how it works (non-technical explanation required alongside technical)\n3. ROI estimate with stated assumptions\n4. Risks: what could go wrong, what the model cannot do\n5. What happens next — what would a real deployment look like?",
+    "crumbs": [
+      "Curriculum",
+      "Week 14 — Pitch & Review"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_14.html#qa-handling",
+    "href": "modules/advanced/business_analytics/weeks/week_14.html#qa-handling",
+    "title": "Week 14 — Pitch & Review",
+    "section": "Q&A handling",
+    "text": "Q&A handling\nThe Q&A challenges business assumptions, not just technical choices. Students must defend why they made the decisions they did.",
+    "crumbs": [
+      "Curriculum",
+      "Week 14 — Pitch & Review"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_14.html#peer-review",
+    "href": "modules/advanced/business_analytics/weeks/week_14.html#peer-review",
+    "title": "Week 14 — Pitch & Review",
+    "section": "Peer review",
+    "text": "Peer review\nEach team evaluates one other team’s pitch using a structured rubric. Graded for quality of feedback.",
+    "crumbs": [
+      "Curriculum",
+      "Week 14 — Pitch & Review"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_14.html#deliverables",
+    "href": "modules/advanced/business_analytics/weeks/week_14.html#deliverables",
+    "title": "Week 14 — Pitch & Review",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nPitch deck\nPeer review feedback",
+    "crumbs": [
+      "Curriculum",
+      "Week 14 — Pitch & Review"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_12.html",
+    "href": "modules/advanced/business_analytics/weeks/week_12.html",
+    "title": "Week 12 — Scoping & Business Case",
+    "section": "",
+    "text": "The business case must be approved by the instructor before week 13 begins. This gate prevents over-engineering and forces students to think before they build.",
+    "crumbs": [
+      "Curriculum",
+      "Week 12 — Scoping & Business Case"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_12.html#business-case-requirements",
+    "href": "modules/advanced/business_analytics/weeks/week_12.html#business-case-requirements",
+    "title": "Week 12 — Scoping & Business Case",
+    "section": "Business case requirements",
+    "text": "Business case requirements\nYour document must include:\n- Problem statement (precise, not vague)\n- Target user and how they will interact with the output\n- Success metric (one primary KPI)\n- ROI estimate — even a rough one requires assumptions to be stated\n- Data source and known limitations\n- Risks and ethical considerations",
+    "crumbs": [
+      "Curriculum",
+      "Week 12 — Scoping & Business Case"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_12.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_12.html#deliverable",
+    "title": "Week 12 — Scoping & Business Case",
+    "section": "Deliverable",
+    "text": "Deliverable\n\nSigned-off business case document",
+    "crumbs": [
+      "Curriculum",
+      "Week 12 — Scoping & Business Case"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_10.html",
+    "href": "modules/advanced/business_analytics/weeks/week_10.html",
+    "title": "Week 10 — Demand Forecasting & Supply Chain",
+    "section": "",
+    "text": "Format: Lecture + project",
+    "crumbs": [
+      "Curriculum",
+      "Week 10 — Demand Forecasting & Supply Chain"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_10.html#topics-covered",
+    "href": "modules/advanced/business_analytics/weeks/week_10.html#topics-covered",
+    "title": "Week 10 — Demand Forecasting & Supply Chain",
+    "section": "Topics covered",
+    "text": "Topics covered\n\nTime series decomposition: trend, seasonality, noise — reading each component\nMoving average and exponential smoothing — intuitive explanation before any formula\nFacebook Prophet for business forecasting: appropriate use cases and known limits\nForecast error metrics reframed as business costs: MAE and MAPE expressed in euros, not percentages\nInventory optimisation: Economic Order Quantity, safety stock, service level targets\nThe asymmetric cost curve: why being out of stock is typically more expensive than overstock",
+    "crumbs": [
+      "Curriculum",
+      "Week 10 — Demand Forecasting & Supply Chain"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_10.html#project",
+    "href": "modules/advanced/business_analytics/weeks/week_10.html#project",
+    "title": "Week 10 — Demand Forecasting & Supply Chain",
+    "section": "Project",
+    "text": "Project\nA retail chain needs to plan orders for next month across 3 product lines (stable, seasonal, volatile). Students:\n1. Build a forecast for each product line\n2. Recommend order quantities with a safety stock rationale\n3. Quantify the cost of over- vs under-ordering using provided cost data\n4. Write a one-page supply recommendation addressed to the operations manager",
+    "crumbs": [
+      "Curriculum",
+      "Week 10 — Demand Forecasting & Supply Chain"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_10.html#tools",
+    "href": "modules/advanced/business_analytics/weeks/week_10.html#tools",
+    "title": "Week 10 — Demand Forecasting & Supply Chain",
+    "section": "Tools",
+    "text": "Tools\nProphet, statsmodels, pandas — focus on reading and interpreting output correctly",
+    "crumbs": [
+      "Curriculum",
+      "Week 10 — Demand Forecasting & Supply Chain"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_10.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_10.html#deliverable",
+    "title": "Week 10 — Demand Forecasting & Supply Chain",
+    "section": "Deliverable",
+    "text": "Deliverable\n\nForecast notebook with commentary\nOrder quantity recommendations per product line\nSupply memo to operations manager (1 page)",
+    "crumbs": [
+      "Curriculum",
+      "Week 10 — Demand Forecasting & Supply Chain"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_08.html",
+    "href": "modules/advanced/business_analytics/weeks/week_08.html",
+    "title": "Week 8 — Pricing & Revenue Optimisation",
+    "section": "",
+    "text": "Format: Lecture + simulation exercise",
+    "crumbs": [
+      "Curriculum",
+      "Week 8 — Pricing & Revenue Optimisation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_08.html#topics-covered",
+    "href": "modules/advanced/business_analytics/weeks/week_08.html#topics-covered",
+    "title": "Week 8 — Pricing & Revenue Optimisation",
+    "section": "Topics covered",
+    "text": "Topics covered\n\nPrice elasticity of demand — intuition, how to measure it, and where it breaks down\nDynamic pricing: how Uber, airlines, and hotels do it, and why\nDiscount strategy analysis: short-term revenue gains vs long-term customer behaviour change\nSegmented pricing: willingness-to-pay differences and ethical price discrimination\nRevenue management: yield optimisation basics for capacity-constrained businesses\nThe promotional trap: when frequent discounting destroys margin permanently",
+    "crumbs": [
+      "Curriculum",
+      "Week 8 — Pricing & Revenue Optimisation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_08.html#simulation-exercise",
+    "href": "modules/advanced/business_analytics/weeks/week_08.html#simulation-exercise",
+    "title": "Week 8 — Pricing & Revenue Optimisation",
+    "section": "Simulation exercise",
+    "text": "Simulation exercise\nScenario: an e-commerce brand is considering a 10% price cut across its main product line. Students:\n1. Use provided elasticity data to estimate demand change\n2. Model revenue impact across 3 customer segments (price-sensitive, loyal, occasional)\n3. Account for margin impact, not just topline revenue\n4. Deliver a go / no-go memo with a quantified recommendation",
+    "crumbs": [
+      "Curriculum",
+      "Week 8 — Pricing & Revenue Optimisation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_08.html#tools",
+    "href": "modules/advanced/business_analytics/weeks/week_08.html#tools",
+    "title": "Week 8 — Pricing & Revenue Optimisation",
+    "section": "Tools",
+    "text": "Tools\npandas or Excel for scenario modelling — emphasis on interpreting the numbers, not the tooling",
+    "crumbs": [
+      "Curriculum",
+      "Week 8 — Pricing & Revenue Optimisation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_08.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_08.html#deliverable",
+    "title": "Week 8 — Pricing & Revenue Optimisation",
+    "section": "Deliverable",
+    "text": "Deliverable\n\nRevenue impact model (spreadsheet or notebook)\nGo / no-go pricing memo (1 page, numbers required)",
+    "crumbs": [
+      "Curriculum",
+      "Week 8 — Pricing & Revenue Optimisation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_06.html",
+    "href": "modules/advanced/business_analytics/weeks/week_06.html",
+    "title": "Week 6 — Product Analytics & Funnel Diagnosis",
+    "section": "",
+    "text": "Format: Lecture + case study",
+    "crumbs": [
+      "Curriculum",
+      "Week 6 — Product Analytics & Funnel Diagnosis"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_06.html#topics-covered",
+    "href": "modules/advanced/business_analytics/weeks/week_06.html#topics-covered",
+    "title": "Week 6 — Product Analytics & Funnel Diagnosis",
+    "section": "Topics covered",
+    "text": "Topics covered\n\nFunnel analysis: signup → activation → purchase → retention — reading the drop-offs\nCohort analysis: how to read retention curves and what they tell you about product health\nSession analysis: time-on-task, rage clicks, and behavioural drop-off signals\nFeature impact analysis: did this release actually change user behaviour?\nNorth Star Metric — choosing the one number that best captures product health\nCommunicating product findings differently to engineering vs marketing stakeholders",
+    "crumbs": [
+      "Curriculum",
+      "Week 6 — Product Analytics & Funnel Diagnosis"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_06.html#case-study",
+    "href": "modules/advanced/business_analytics/weeks/week_06.html#case-study",
+    "title": "Week 6 — Product Analytics & Funnel Diagnosis",
+    "section": "Case study",
+    "text": "Case study\nA SaaS onboarding funnel: 60% of users drop off at the email verification step. Students receive an event log dataset and must:\n1. Run funnel analysis and build the conversion chart\n2. Generate ranked root-cause hypotheses, backed by evidence from the data\n3. Write a product change recommendation with an estimated lift in conversion",
+    "crumbs": [
+      "Curriculum",
+      "Week 6 — Product Analytics & Funnel Diagnosis"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_06.html#tools",
+    "href": "modules/advanced/business_analytics/weeks/week_06.html#tools",
+    "title": "Week 6 — Product Analytics & Funnel Diagnosis",
+    "section": "Tools",
+    "text": "Tools\npandas, plotly (event-log manipulation, funnel chart)",
+    "crumbs": [
+      "Curriculum",
+      "Week 6 — Product Analytics & Funnel Diagnosis"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_06.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_06.html#deliverable",
+    "title": "Week 6 — Product Analytics & Funnel Diagnosis",
+    "section": "Deliverable",
+    "text": "Deliverable\n\nFunnel analysis notebook\nProduct recommendation (1 page) — graded on evidence quality and specificity of suggestion",
+    "crumbs": [
+      "Curriculum",
+      "Week 6 — Product Analytics & Funnel Diagnosis"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_04.html",
+    "href": "modules/advanced/business_analytics/weeks/week_04.html",
+    "title": "Week 4 — Data Visualization & Executive Storytelling",
+    "section": "",
+    "text": "Format: Lecture + presentation",
+    "crumbs": [
+      "Curriculum",
+      "Week 4 — Data Visualization & Executive Storytelling"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_04.html#topics-covered",
+    "href": "modules/advanced/business_analytics/weeks/week_04.html#topics-covered",
+    "title": "Week 4 — Data Visualization & Executive Storytelling",
+    "section": "Topics covered",
+    "text": "Topics covered\n\nChoosing chart type from the business question, not the data shape\nThe SCR structure for data narratives: Situation → Complication → Resolution\nDashboard design for decision-makers, not analysts\nCommon chart crimes: dual axes, 3D pie charts, truncated y-axes, and why they mislead\nAnnotation and narrative — making charts argue a point, not just display one\nWhen to use a table instead of a chart",
+    "crumbs": [
+      "Curriculum",
+      "Week 4 — Data Visualization & Executive Storytelling"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_04.html#case-study",
+    "href": "modules/advanced/business_analytics/weeks/week_04.html#case-study",
+    "title": "Week 4 — Data Visualization & Executive Storytelling",
+    "section": "Case study",
+    "text": "Case study\n“Sales dropped 15% last quarter — explain why and propose actions.”\nStudents receive raw data (not pre-built charts) and must:\n1. Explore and diagnose the drop\n2. Build a 5-slide executive deck for a fictional CEO briefing\n3. Deliver a 5-minute live presentation — timed, with interruptions and questions\nThe interruptions are intentional: students must defend a recommendation, not just present slides.",
+    "crumbs": [
+      "Curriculum",
+      "Week 4 — Data Visualization & Executive Storytelling"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_04.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_04.html#deliverable",
+    "title": "Week 4 — Data Visualization & Executive Storytelling",
+    "section": "Deliverable",
+    "text": "Deliverable\n\n5-slide executive deck\n5-minute live presentation\nGraded on: clarity of recommendation, visual choices, ability to handle Q&A",
+    "crumbs": [
+      "Curriculum",
+      "Week 4 — Data Visualization & Executive Storytelling"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_02.html",
+    "href": "modules/advanced/business_analytics/weeks/week_02.html",
+    "title": "Week 2 — Problem Framing & Data Quality",
+    "section": "",
+    "text": "Format: Lecture + lab",
+    "crumbs": [
+      "Curriculum",
+      "Week 2 — Problem Framing & Data Quality"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_02.html#topics-covered",
+    "href": "modules/advanced/business_analytics/weeks/week_02.html#topics-covered",
+    "title": "Week 2 — Problem Framing & Data Quality",
+    "section": "Topics covered",
+    "text": "Topics covered\n\nProblem decomposition: from vague business goal to a precise, answerable question\nData auditing: treating missing values as business signals, not just statistical noise\nSelection bias and survivorship bias, with concrete industry examples\nWhen “we don’t have the data” is itself a meaningful insight\nData dictionary creation — building shared vocabulary between analysts and stakeholders",
+    "crumbs": [
+      "Curriculum",
+      "Week 2 — Problem Framing & Data Quality"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_02.html#lab-exercise",
+    "href": "modules/advanced/business_analytics/weeks/week_02.html#lab-exercise",
+    "title": "Week 2 — Problem Framing & Data Quality",
+    "section": "Lab exercise",
+    "text": "Lab exercise\nStudents receive a deliberately dirty e-commerce dataset. Tasks:\n1. Profile the dataset (.info(), .describe(), missingno)\n2. Identify which missing values matter for the business decision at hand\n3. Write a one-paragraph data readiness memo addressed to a fictional manager",
+    "crumbs": [
+      "Curriculum",
+      "Week 2 — Problem Framing & Data Quality"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_02.html#tools",
+    "href": "modules/advanced/business_analytics/weeks/week_02.html#tools",
+    "title": "Week 2 — Problem Framing & Data Quality",
+    "section": "Tools",
+    "text": "Tools\npandas, missingno",
+    "crumbs": [
+      "Curriculum",
+      "Week 2 — Problem Framing & Data Quality"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_02.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_02.html#deliverable",
+    "title": "Week 2 — Problem Framing & Data Quality",
+    "section": "Deliverable",
+    "text": "Deliverable\n\nAnnotated Jupyter notebook with data profiling\nData readiness memo (1 paragraph — clarity and business framing graded, not length)",
+    "crumbs": [
+      "Curriculum",
+      "Week 2 — Problem Framing & Data Quality"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/index.html",
+    "href": "modules/advanced/business_analytics/index.html",
+    "title": "Data Analytics for Business Decisions",
+    "section": "",
+    "text": "This course is structured around a single inversion: start with the business problem, then introduce the data method — never the other way around. Every week begins with a decision that needs to be made, and ends with a deliverable that makes that decision.\n\n“You have 3 models. Which one do you deploy, and why — from a business perspective?” — the kind of question that runs through every module.",
+    "crumbs": [
+      "Data Analytics for Business Decisions"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/index.html#course-philosophy",
+    "href": "modules/advanced/business_analytics/index.html#course-philosophy",
+    "title": "Data Analytics for Business Decisions",
+    "section": "",
+    "text": "This course is structured around a single inversion: start with the business problem, then introduce the data method — never the other way around. Every week begins with a decision that needs to be made, and ends with a deliverable that makes that decision.\n\n“You have 3 models. Which one do you deploy, and why — from a business perspective?” — the kind of question that runs through every module.",
+    "crumbs": [
+      "Data Analytics for Business Decisions"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/index.html#course-overview",
+    "href": "modules/advanced/business_analytics/index.html#course-overview",
+    "title": "Data Analytics for Business Decisions",
+    "section": "Course Overview",
+    "text": "Course Overview\n\n\n\n\n\n\n\n\nPhase\nWeeks\nTheme\n\n\n\n\n1 — Foundations\n1–2\nDecision mindset, data quality, problem framing\n\n\n2 — Analytics core\n3–5\nExperimentation, storytelling, customer intelligence\n\n\n3 — Revenue & product\n6–9\nProduct, recommenders, pricing, fraud\n\n\n4 — Advanced & ethics\n10–11\nForecasting, GDPR, EU AI Act\n\n\n5 — Capstone\n12–14\nTeam AI product + investor pitch",
+    "crumbs": [
+      "Data Analytics for Business Decisions"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/index.html#assessment-philosophy",
+    "href": "modules/advanced/business_analytics/index.html#assessment-philosophy",
+    "title": "Data Analytics for Business Decisions",
+    "section": "Assessment Philosophy",
+    "text": "Assessment Philosophy\n\nWhat gets graded\nEvery major deliverable in this course asks for a recommendation, not just an analysis. A segmentation notebook without a marketing strategy gets partial credit. A fraud threshold without a business justification gets partial credit. A pitch with great model accuracy but no ROI argument fails the pitch component.\n\n\nGrading Breakdown\n\n\n\nType\nWeight\n\n\n\n\nWeekly deliverables (memos, notebooks, briefs)\n40%\n\n\nMidterm case exam (week 7)\n15%\n\n\nParticipation (debates, presentations)\n15%\n\n\nCapstone\n30%",
+    "crumbs": [
+      "Data Analytics for Business Decisions"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/index.html#tools-stack",
+    "href": "modules/advanced/business_analytics/index.html#tools-stack",
+    "title": "Data Analytics for Business Decisions",
+    "section": "Tools & Stack",
+    "text": "Tools & Stack\n\n\n\nCategory\nTools\n\n\n\n\nData wrangling\npandas, numpy\n\n\nVisualisation\nmatplotlib, seaborn, plotly\n\n\nStatistics & experiments\nscipy.stats, pingouin\n\n\nMachine learning\nscikit-learn\n\n\nForecasting\nProphet, statsmodels\n\n\nNotebooks\nJupyter\n\n\nVersion control\nGitHub (mandatory from week 2)",
+    "crumbs": [
+      "Data Analytics for Business Decisions"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/index.html#reading",
+    "href": "modules/advanced/business_analytics/index.html#reading",
+    "title": "Data Analytics for Business Decisions",
+    "section": "Reading",
+    "text": "Reading\n\nThinking Fast and Slow — Kahneman\nNaked Statistics — Wheelan\nStorytelling with Data — Knaflic\nThe Elements of Statistical Learning — Hastie et al.\nEU AI Act full text\nGDPR Articles 5, 6, 13, 17, 22",
+    "crumbs": [
+      "Data Analytics for Business Decisions"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/index.html#weekly-schedule",
+    "href": "modules/advanced/business_analytics/index.html#weekly-schedule",
+    "title": "Data Analytics for Business Decisions",
+    "section": "Weekly Schedule",
+    "text": "Weekly Schedule\n\n⊞ Grid View\n☰ List View\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1 — Business Mindset & the Decision Framework\n\n\nUnderstanding the decision gap and the importance of actionable metrics.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2 — Problem Framing & Data Quality\n\n\nDecomposing business goals and auditing data for business signals.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 — Causal Thinking & Experimentation\n\n\nUnderstanding correlation vs causation and designing effective A/B tests.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4 — Data Visualization & Executive Storytelling\n\n\nChoosing the right charts and building narratives for executives.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5 — Customer Segmentation & Lifetime Value\n\n\nRFM analysis, CLV, and segmentation for targeted marketing strategies.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6 — Product Analytics & Funnel Diagnosis\n\n\nFunnel analysis, cohort analysis, and choosing North Star metrics.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7 — Recommender Systems as Revenue Levers\n\n\nUnderstanding collaborative filtering and business KPIs for recommenders.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8 — Pricing & Revenue Optimisation\n\n\nPrice elasticity, dynamic pricing, and revenue management strategies.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9 — Fraud Detection & Risk Analytics\n\n\nAnomaly detection thresholds and framing model performance as business cost.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10 — Demand Forecasting & Supply Chain\n\n\nTime series decomposition, Prophet for business forecasting, and inventory optimization.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11 — Data Ethics, GDPR & the EU AI Act\n\n\nUnderstanding legal liabilities, algorithmic bias, and compliance for data scientists.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12 — Scoping & Business Case\n\n\nDefining problems, users, and success metrics for the AI product capstone.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13 — Build\n\n\nDeveloping the working prototype and documenting the AI solution.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14 — Pitch & Review\n\n\nPitching the AI product to an investor-style panel and peer evaluation.\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nWeek 1 — Business Mindset & the Decision Framework\n\n\nUnderstanding the decision gap and the importance of actionable metrics.\n\n\n\n\n\n\nWeek 2 — Problem Framing & Data Quality\n\n\nDecomposing business goals and auditing data for business signals.\n\n\n\n\n\n\nWeek 3 — Causal Thinking & Experimentation\n\n\nUnderstanding correlation vs causation and designing effective A/B tests.\n\n\n\n\n\n\nWeek 4 — Data Visualization & Executive Storytelling\n\n\nChoosing the right charts and building narratives for executives.\n\n\n\n\n\n\nWeek 5 — Customer Segmentation & Lifetime Value\n\n\nRFM analysis, CLV, and segmentation for targeted marketing strategies.\n\n\n\n\n\n\nWeek 6 — Product Analytics & Funnel Diagnosis\n\n\nFunnel analysis, cohort analysis, and choosing North Star metrics.\n\n\n\n\n\n\nWeek 7 — Recommender Systems as Revenue Levers\n\n\nUnderstanding collaborative filtering and business KPIs for recommenders.\n\n\n\n\n\n\nWeek 8 — Pricing & Revenue Optimisation\n\n\nPrice elasticity, dynamic pricing, and revenue management strategies.\n\n\n\n\n\n\nWeek 9 — Fraud Detection & Risk Analytics\n\n\nAnomaly detection thresholds and framing model performance as business cost.\n\n\n\n\n\n\nWeek 10 — Demand Forecasting & Supply Chain\n\n\nTime series decomposition, Prophet for business forecasting, and inventory optimization.\n\n\n\n\n\n\nWeek 11 — Data Ethics, GDPR & the EU AI Act\n\n\nUnderstanding legal liabilities, algorithmic bias, and compliance for data scientists.\n\n\n\n\n\n\nWeek 12 — Scoping & Business Case\n\n\nDefining problems, users, and success metrics for the AI product capstone.\n\n\n\n\n\n\nWeek 13 — Build\n\n\nDeveloping the working prototype and documenting the AI solution.\n\n\n\n\n\n\nWeek 14 — Pitch & Review\n\n\nPitching the AI product to an investor-style panel and peer evaluation.\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Data Analytics for Business Decisions"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_6.html",
+    "href": "modules/advanced/ai/course/chapter_6.html",
+    "title": "Chapter 6 — Natural Language Processing",
+    "section": "",
+    "text": "Basics and Applications\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 6 — Natural Language Processing"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_6.html#chapter-overview",
+    "href": "modules/advanced/ai/course/chapter_6.html#chapter-overview",
+    "title": "Chapter 6 — Natural Language Processing",
+    "section": "",
+    "text": "Basics and Applications\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 6 — Natural Language Processing"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_4.html",
+    "href": "modules/advanced/ai/course/chapter_4.html",
+    "title": "Chapter 4 — Machine Learning Overview",
+    "section": "",
+    "text": "Supervised, Unsupervised, RL\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 4 — Machine Learning Overview"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_4.html#chapter-overview",
+    "href": "modules/advanced/ai/course/chapter_4.html#chapter-overview",
+    "title": "Chapter 4 — Machine Learning Overview",
+    "section": "",
+    "text": "Supervised, Unsupervised, RL\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 4 — Machine Learning Overview"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_2.html",
+    "href": "modules/advanced/ai/course/chapter_2.html",
+    "title": "Chapter 2 — Search Algorithms",
+    "section": "",
+    "text": "BFS, DFS, A*, Heuristics\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 2 — Search Algorithms"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_2.html#chapter-overview",
+    "href": "modules/advanced/ai/course/chapter_2.html#chapter-overview",
+    "title": "Chapter 2 — Search Algorithms",
+    "section": "",
+    "text": "BFS, DFS, A*, Heuristics\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 2 — Search Algorithms"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/index.html",
+    "href": "modules/advanced/ai/index.html",
+    "title": "Artificial Intelligence",
+    "section": "",
+    "text": "This module provides a comprehensive introduction to Artificial Intelligence, covering the theoretical foundations and practical approaches used in modern AI systems.",
+    "crumbs": [
+      "Artificial Intelligence"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/index.html#module-overview",
+    "href": "modules/advanced/ai/index.html#module-overview",
+    "title": "Artificial Intelligence",
+    "section": "",
+    "text": "This module provides a comprehensive introduction to Artificial Intelligence, covering the theoretical foundations and practical approaches used in modern AI systems.",
+    "crumbs": [
+      "Artificial Intelligence"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/index.html#curriculum",
+    "href": "modules/advanced/ai/index.html#curriculum",
+    "title": "Artificial Intelligence",
+    "section": "📚 Curriculum",
+    "text": "📚 Curriculum\n\n⊞ Grid View\n☰ List View\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 1 — Introduction to AI\n\n\nHistory, Definitions, and Applications\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 2 — Search Algorithms\n\n\nBFS, DFS, A*, Heuristics\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 3 — Knowledge Representation\n\n\nLogic, Ontologies, Expert Systems\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 4 — Machine Learning Overview\n\n\nSupervised, Unsupervised, RL\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 5 — Neural Networks\n\n\nPerceptrons, MLP, Backpropagation\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 6 — Natural Language Processing\n\n\nBasics and Applications\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 7 — AI Ethics, Bias, and Responsible AI\n\n\nEthical considerations and bias in AI systems.\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nChapter 1 — Introduction to AI\n\n\nHistory, Definitions, and Applications\n\n\n\n\n\n\nChapter 2 — Search Algorithms\n\n\nBFS, DFS, A*, Heuristics\n\n\n\n\n\n\nChapter 3 — Knowledge Representation\n\n\nLogic, Ontologies, Expert Systems\n\n\n\n\n\n\nChapter 4 — Machine Learning Overview\n\n\nSupervised, Unsupervised, RL\n\n\n\n\n\n\nChapter 5 — Neural Networks\n\n\nPerceptrons, MLP, Backpropagation\n\n\n\n\n\n\nChapter 6 — Natural Language Processing\n\n\nBasics and Applications\n\n\n\n\n\n\nChapter 7 — AI Ethics, Bias, and Responsible AI\n\n\nEthical considerations and bias in AI systems.\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Artificial Intelligence"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/index.html#resources",
+    "href": "modules/advanced/ai/index.html#resources",
+    "title": "Artificial Intelligence",
+    "section": "📂 Resources",
+    "text": "📂 Resources\n\nDirected Works (TD) & Practical Works (TP)\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nDirected work series and lab exercises for this module are currently being prepared.",
+    "crumbs": [
+      "Artificial Intelligence"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_19.html",
+    "href": "modules/advanced/statistics/weeks/module_19.html",
+    "title": "Module 19 — End-to-End Case Study",
+    "section": "",
+    "text": "Full workflow: Problem → Data → Descriptive → Visualization → Relationships → Hypothesis Testing → Multivariate → Report\nPython Practical\n\nFull analysis on a real dataset\nAnnotated report with visualizations\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 19 — End-to-End Case Study"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_17.html",
+    "href": "modules/advanced/statistics/weeks/module_17.html",
+    "title": "Module 17 — Correspondence Analysis (CA)",
+    "section": "",
+    "text": "Theory\n\nCategorical variables, contingency table, chi-square distance, inertia\nRow/column maps, contribution interpretation\n\nPython Practical\n\nprince.CA(), plot maps\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 17 — Correspondence Analysis (CA)"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_15.html",
+    "href": "modules/advanced/statistics/weeks/module_15.html",
+    "title": "Module 15 — Exploratory Data Analysis (EDA)",
+    "section": "",
+    "text": "Theory\n\nMissing values, outlier detection (IQR, z-score), correlation vs causation\n\nPython Practical\n\ndf.isna().sum()\nsns.boxplot(), sns.heatmap(df.corr(), annot=True), sns.pairplot()\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 15 — Exploratory Data Analysis (EDA)"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_13.html",
+    "href": "modules/advanced/statistics/weeks/module_13.html",
+    "title": "Module 13 — Assumptions & Test Selection",
+    "section": "",
+    "text": "Theory\n\nNormality, independence, homogeneity of variance, sample size\nDecision logic table for test selection\n\nPython Practical\n\nshapiro(), levene()\nBuild decision table\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 13 — Assumptions & Test Selection"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_11.html",
+    "href": "modules/advanced/statistics/weeks/module_11.html",
+    "title": "Module 11 — Hypothesis Testing: Foundations",
+    "section": "",
+    "text": "Theory\n\nH₀ and H₁, test statistic, p-value, significance level α\nType I & II errors; statistical power; effect size vs p-value\n\nPython Practical\n\nscipy.stats.ttest_1samp()\nSimulate Type I & II errors\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 11 — Hypothesis Testing: Foundations"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_09.html",
+    "href": "modules/advanced/statistics/weeks/module_09.html",
+    "title": "Module 9 — Sampling & Sampling Distributions",
+    "section": "",
+    "text": "Theory\n\nRandom, stratified, systematic sampling; sampling bias\nLaw of Large Numbers; Central Limit Theorem\n\nPython Practical\n\ndf.sample(n=30)\nHistogram of sample means for different n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 9 — Sampling & Sampling Distributions"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_07.html",
+    "href": "modules/advanced/statistics/weeks/module_07.html",
+    "title": "Module 7 — Random Variables & Probability Distributions",
+    "section": "",
+    "text": "Theory\n\nDiscrete: Bernoulli, Binomial, Poisson\nContinuous: Uniform, Normal, Exponential\nDistribution characteristics: mean, variance, skewness, kurtosis\n\nPython Practical\n\nnp.random.binomial(10, 0.3, 1000)\nHistogram + PDF overlay\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 7 — Random Variables & Probability Distributions"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_05.html",
+    "href": "modules/advanced/statistics/weeks/module_05.html",
+    "title": "Module 5 — Data Visualization & Graphical Description",
+    "section": "",
+    "text": "Theory\n\nVisualization by variable type: bar charts, histograms, scatter plots, pair plots, heatmaps\nPrinciples: correct scales, color for clarity, avoid misleading graphs\n\nPython Practical\n\nsns.countplot(), sns.histplot(), sns.scatterplot(), sns.pairplot()\nsns.heatmap(df.corr(), annot=True)\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 5 — Data Visualization & Graphical Description"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_03.html",
+    "href": "modules/advanced/statistics/weeks/module_03.html",
+    "title": "Module 3 — Descriptive Statistics: Central Tendency",
+    "section": "",
+    "text": "Theory\n\nMean (sensitive to outliers), Median (robust), Mode (categorical)\nSkewness and distribution shape\nChoosing the right measure\n\nPython Practical\n\ndf['col'].mean(), .median(), .mode()\nCompare metrics before/after adding outliers\ndf.describe()\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 3 — Descriptive Statistics: Central Tendency"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_01.html",
+    "href": "modules/advanced/statistics/weeks/module_01.html",
+    "title": "Module 1 — Introduction to Data & Statistics",
+    "section": "",
+    "text": "Theory\n\nRole of statistics in data science: organizing, summarizing, and interpreting data to make decisions\nDescriptive vs inferential statistics\nData analysis workflow: collection → cleaning → exploration → modeling → interpretation\nPopulation vs sample; parameters vs statistics\nSources of data: surveys, experiments, web logs\n\nPython Practical\n\nLoad dataset: pd.read_csv()\nInspect structure: df.info(), df.describe()\nIdentify categorical vs numerical variables\nRandom sampling: df.sample(n=50) to illustrate sample vs population\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 1 — Introduction to Data & Statistics"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_23.html",
+    "href": "modules/advanced/machine_learning/weeks/week_23.html",
+    "title": "Week 23 — Capstone Presentations & Career Prep",
+    "section": "",
+    "text": "Project showcase and peer feedback\nPortfolio walkthrough (GitHub + Notion)\nInterview preparation: model choices, metrics, trade-offs\n\nBonus Reading: Chip Huyen – Designing ML Systems, Burkov – The ML Engineering Book\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 23 — Capstone Presentations & Career Prep"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_21.html",
+    "href": "modules/advanced/machine_learning/weeks/week_21.html",
+    "title": "Week 21 — Capstone Development (Part 1)",
+    "section": "",
+    "text": "Final project scoping and planning\nDataset curation, baseline models\nPeer review and mentoring checkpoints\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 21 — Capstone Development (Part 1)"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_19.html",
+    "href": "modules/advanced/machine_learning/weeks/week_19.html",
+    "title": "Week 19 — NLP & Time Series",
+    "section": "",
+    "text": "NLP: tokenization, stemming, TF-IDF, Word2Vec, GloVe\nTime series: lag features, moving averages, trends\nIntroduction to RNNs and LSTMs\n\nPractice: IMDB sentiment classification; stock price forecasting with LSTM\nReading: Géron Ch. 15–16, TensorFlow NLP + time series docs\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 19 — NLP & Time Series"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_17.html",
+    "href": "modules/advanced/machine_learning/weeks/week_17.html",
+    "title": "Week 17 — Neural Networks & MLPs",
+    "section": "",
+    "text": "Perceptron, hidden layers, activation functions (ReLU, sigmoid, tanh)\nForward and backpropagation; gradient descent, Adam optimizer\nRegularization: dropout, L2\n\nPractice: MLP in NumPy; MNIST classification with Keras\nReading: Géron Ch. 10–11, CS231n backprop notes\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 17 — Neural Networks & MLPs"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_15.html",
+    "href": "modules/advanced/machine_learning/weeks/week_15.html",
+    "title": "Week 15 — Imbalanced & Noisy Data",
+    "section": "",
+    "text": "Resampling: SMOTE, undersampling\nWeighted loss, cost-sensitive learning\nDetecting and mitigating noisy labels\n\nPractice: Credit card fraud or churn prediction\nReading: I2ML Ch. 15\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 15 — Imbalanced & Noisy Data"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_13.html",
+    "href": "modules/advanced/machine_learning/weeks/week_13.html",
+    "title": "Week 13 — Modern Boosting Libraries",
+    "section": "",
+    "text": "XGBoost, LightGBM, CatBoost\nHandling missing values and categorical features\nHyperparameter tuning strategies\n\nPractice: Benchmark all 3 libraries on the same dataset\nReading: Library documentation\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 13 — Modern Boosting Libraries"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_11.html",
+    "href": "modules/advanced/machine_learning/weeks/week_11.html",
+    "title": "Week 11 — Random Forests & Bagging",
+    "section": "",
+    "text": "Bagging: theory and bias reduction\nRandom Forests: feature bagging, OOB error\nFeature importance\n\nPractice: Feature ranking using Random Forest\nReading: Géron Ch. 7\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 11 — Random Forests & Bagging"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_09.html",
+    "href": "modules/advanced/machine_learning/weeks/week_09.html",
+    "title": "Week 9 — k-Nearest Neighbors",
+    "section": "",
+    "text": "KNN for regression and classification\nDistance metrics and scaling sensitivity\nCurse of dimensionality\n\nPractice: KNN from scratch and with sklearn\nReading: I2ML Ch. 10\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 9 — k-Nearest Neighbors"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_07.html",
+    "href": "modules/advanced/machine_learning/weeks/week_07.html",
+    "title": "Week 7 — Bias–Variance Tradeoff",
+    "section": "",
+    "text": "Underfitting vs overfitting; bias-variance decomposition\nLearning curves, validation curves\n\nPractice: Bias–variance analysis with synthetic data\nReading: I2ML Ch. 6\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 7 — Bias–Variance Tradeoff"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_05.html",
+    "href": "modules/advanced/machine_learning/weeks/week_05.html",
+    "title": "Week 5 — Logistic Regression & Classification",
+    "section": "",
+    "text": "Logistic function, decision boundaries, sigmoid\nBinary vs multiclass: One-vs-Rest, One-vs-One\nCross-entropy loss\n\nPractice: Titanic and Iris classification\nReading: Géron Ch. 3, I2ML Ch. 7\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 5 — Logistic Regression & Classification"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_03.html",
+    "href": "modules/advanced/machine_learning/weeks/week_03.html",
+    "title": "Week 3 — Math & Information Theory",
+    "section": "",
+    "text": "Linear algebra review: vectors, dot products, matrix multiplication\nProbability: conditional, Bayes’ theorem\nEntropy, cross-entropy, mutual information\n\nPractice: Math + probability notebooks; Khan Academy modules\nReading: DeepLearningBook Ch. 2–3\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 3 — Math & Information Theory"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_01.html",
+    "href": "modules/advanced/machine_learning/weeks/week_01.html",
+    "title": "Week 1 — ML Foundations & Workflow",
+    "section": "",
+    "text": "What is ML? Supervised vs Unsupervised vs Reinforcement Learning\nThe ML pipeline: framing → data → modeling → evaluation → deployment\nOverview of prediction tasks (regression, classification)\nSetting up the Python environment: Jupyter, Anaconda, virtual environments\n\nMath Tools: Vectors, matrices, dot product, Probability basics, Bayes’ theorem\nPractice: Titanic dataset EDA; Python/NumPy crash course\nReading: Géron Ch. 1, I2ML Introduction, DeepLearningBook Ch. 2–3\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 1 — ML Foundations & Workflow"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/tp/pw7.html",
+    "href": "modules/advanced/data_science/tp/pw7.html",
+    "title": "PW7 — Experimental Design & A/B Testing",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "🧪 Practical Works (PW)",
+      "💻 PW7 — Experimental Design"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/tp/pw5.html",
+    "href": "modules/advanced/data_science/tp/pw5.html",
+    "title": "PW5 — Data Transformation & Preprocessing",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "🧪 Practical Works (PW)",
+      "💻 PW5 — Preprocessing"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/tp/pw3.html",
+    "href": "modules/advanced/data_science/tp/pw3.html",
+    "title": "PW3 — Pandas & Data Exploration",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "🧪 Practical Works (PW)",
+      "💻 PW3 — Pandas"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/tp/pw1.html",
+    "href": "modules/advanced/data_science/tp/pw1.html",
+    "title": "PW1 — Getting Started with Python",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "🧪 Practical Works (PW)",
+      "💻 PW1 — Getting Started"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/td/dw4_part2.html",
+    "href": "modules/advanced/data_science/td/dw4_part2.html",
+    "title": "DW4 Part 2 — Data Visualization",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "📝 Directed Works (DW)",
+      "📄 DW4 Part 2 — Visualization"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/td/dw3_part4.html",
+    "href": "modules/advanced/data_science/td/dw3_part4.html",
+    "title": "DW3 Part 4 — Exploratory Data Analysis",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "📝 Directed Works (DW)",
+      "📄 DW3 Part 4 — EDA"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/td/dw3_part2.html",
+    "href": "modules/advanced/data_science/td/dw3_part2.html",
+    "title": "DW3 Part 2 — Exploratory Data Analysis",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "📝 Directed Works (DW)",
+      "📄 DW3 Part 2 — EDA"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/td/dw2_part1.html",
+    "href": "modules/advanced/data_science/td/dw2_part1.html",
+    "title": "DW2 Part 1 — Data Acquisition & Integration",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "📝 Directed Works (DW)",
+      "📄 DW2 Part 1 — Data Acquisition"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_5/index.html",
+    "href": "modules/advanced/data_science/course/chapter_5/index.html",
+    "title": "Chapter 5 — Experimental Design",
+    "section": "",
+    "text": "Experimental design is a fundamental approach enabling the investigation of causal relationships between variables. This chapter introduces RCTs, A/B testing, sampling methods, and the foundations of data modeling.\n\n\n\n\n\n\nTipSkills you will acquire in this chapter\n\n\n\n\n\n\nUnderstand principles of experimental design (RCTs, quasi-experimental)\nDefine and classify variables: independent, dependent, confounding\nDesign and analyze A/B tests and matched-pair models\nUnderstand internal vs external validity\nIntroduction to the data mining project lifecycle",
+    "crumbs": [
+      "Lectures",
+      "Chapter 5 — Experimental Design"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_5/index.html#chapter-summary",
+    "href": "modules/advanced/data_science/course/chapter_5/index.html#chapter-summary",
+    "title": "Chapter 5 — Experimental Design",
+    "section": "",
+    "text": "Experimental design is a fundamental approach enabling the investigation of causal relationships between variables. This chapter introduces RCTs, A/B testing, sampling methods, and the foundations of data modeling.\n\n\n\n\n\n\nTipSkills you will acquire in this chapter\n\n\n\n\n\n\nUnderstand principles of experimental design (RCTs, quasi-experimental)\nDefine and classify variables: independent, dependent, confounding\nDesign and analyze A/B tests and matched-pair models\nUnderstand internal vs external validity\nIntroduction to the data mining project lifecycle",
+    "crumbs": [
+      "Lectures",
+      "Chapter 5 — Experimental Design"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_5/index.html#lecture-slides",
+    "href": "modules/advanced/data_science/course/chapter_5/index.html#lecture-slides",
+    "title": "Chapter 5 — Experimental Design",
+    "section": "📄 Lecture Slides",
+    "text": "📄 Lecture Slides\n\n  \n  \n\n  \n  \n    \n      \n        \n          \n          \n        \n        Chapter 5\n      \n\n      \n        \n        \n          −\n        \n\n        \n          \n            \n            \n          \n        \n\n        \n          +\n        \n\n        \n\n        \n        \n          \n            \n            \n            \n          \n        \n      \n    \n  \n\n  \n  \n    \n    \n      \n      Loading PDF...\n      Please wait\n    \n\n    \n\n    \n    \n      ◀\n    \n\n    \n    \n      ▶\n    \n  \n\n  \n  \n    \n      Page 1 / 1",
+    "crumbs": [
+      "Lectures",
+      "Chapter 5 — Experimental Design"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_3/index.html",
+    "href": "modules/advanced/data_science/course/chapter_3/index.html",
+    "title": "Chapter 3 — Exploratory Data Analysis",
+    "section": "",
+    "text": "Exploratory Data Analysis (EDA) is a fundamental step in the data science workflow, aimed at understanding the underlying structure, patterns, and relationships within a dataset. This chapter introduces key techniques for analyzing and preparing data.\n\n\n\n\n\n\nTipSkills you will acquire in this chapter\n\n\n\n\n\n\nDetect and handle outliers: Z-score, IQR, distance-based, clustering-based\nApply data transformations: discretization, temporal and textual data\nUse smoothing techniques: Moving averages, Exponential smoothing (Holt-Winters), Lowess, Savitzky-Golay\nPerform basic and advanced preprocessing including feature engineering",
+    "crumbs": [
+      "Lectures",
+      "Chapter 3 — Exploratory Data Analysis"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_3/index.html#chapter-summary",
+    "href": "modules/advanced/data_science/course/chapter_3/index.html#chapter-summary",
+    "title": "Chapter 3 — Exploratory Data Analysis",
+    "section": "",
+    "text": "Exploratory Data Analysis (EDA) is a fundamental step in the data science workflow, aimed at understanding the underlying structure, patterns, and relationships within a dataset. This chapter introduces key techniques for analyzing and preparing data.\n\n\n\n\n\n\nTipSkills you will acquire in this chapter\n\n\n\n\n\n\nDetect and handle outliers: Z-score, IQR, distance-based, clustering-based\nApply data transformations: discretization, temporal and textual data\nUse smoothing techniques: Moving averages, Exponential smoothing (Holt-Winters), Lowess, Savitzky-Golay\nPerform basic and advanced preprocessing including feature engineering",
+    "crumbs": [
+      "Lectures",
+      "Chapter 3 — Exploratory Data Analysis"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_3/index.html#lecture-slides",
+    "href": "modules/advanced/data_science/course/chapter_3/index.html#lecture-slides",
+    "title": "Chapter 3 — Exploratory Data Analysis",
+    "section": "📄 Lecture Slides",
+    "text": "📄 Lecture Slides\n\n  \n  \n\n  \n  \n    \n      \n        \n          \n          \n        \n        Chapter 3\n      \n\n      \n        \n        \n          −\n        \n\n        \n          \n            \n            \n          \n        \n\n        \n          +\n        \n\n        \n\n        \n        \n          \n            \n            \n            \n          \n        \n      \n    \n  \n\n  \n  \n    \n    \n      \n      Loading PDF...\n      Please wait\n    \n\n    \n\n    \n    \n      ◀\n    \n\n    \n    \n      ▶\n    \n  \n\n  \n  \n    \n      Page 1 / 1",
+    "crumbs": [
+      "Lectures",
+      "Chapter 3 — Exploratory Data Analysis"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_1/index.html",
+    "href": "modules/advanced/data_science/course/chapter_1/index.html",
+    "title": "Chapter 1 — Introduction to Data Science",
+    "section": "",
+    "text": "Data Science combines a collection of methods, tools, and techniques aimed at extracting useful knowledge or reusable patterns from raw data. This process involves several key stages — acquiring, preparing, modeling, and visualizing data, followed by deploying appropriate analytical tools.\nIn a world where most decisions are made based on partial information and uncertain outcomes, data science helps reduce uncertainty by applying robust computational methods.\n\n\n\n\n\n\nTipSkills you will acquire in this chapter\n\n\n\n\n\n\nDefinition and scope of data science\nKey workflows: CRISP-DM, KDD, TDSP, Agile Data Science\nRoles and tools in a data science ecosystem\nOverview of the 6 main stages of a DS project",
+    "crumbs": [
+      "Lectures",
+      "Chapter 1 — Introduction to Data Science"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_1/index.html#chapter-summary",
+    "href": "modules/advanced/data_science/course/chapter_1/index.html#chapter-summary",
+    "title": "Chapter 1 — Introduction to Data Science",
+    "section": "",
+    "text": "Data Science combines a collection of methods, tools, and techniques aimed at extracting useful knowledge or reusable patterns from raw data. This process involves several key stages — acquiring, preparing, modeling, and visualizing data, followed by deploying appropriate analytical tools.\nIn a world where most decisions are made based on partial information and uncertain outcomes, data science helps reduce uncertainty by applying robust computational methods.\n\n\n\n\n\n\nTipSkills you will acquire in this chapter\n\n\n\n\n\n\nDefinition and scope of data science\nKey workflows: CRISP-DM, KDD, TDSP, Agile Data Science\nRoles and tools in a data science ecosystem\nOverview of the 6 main stages of a DS project",
+    "crumbs": [
+      "Lectures",
+      "Chapter 1 — Introduction to Data Science"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_1/index.html#lecture-slides",
+    "href": "modules/advanced/data_science/course/chapter_1/index.html#lecture-slides",
+    "title": "Chapter 1 — Introduction to Data Science",
+    "section": "📄 Lecture Slides",
+    "text": "📄 Lecture Slides\n\n  \n  \n\n  \n  \n    \n      \n        \n          \n          \n        \n        Chapter 1\n      \n\n      \n        \n        \n          −\n        \n\n        \n          \n            \n            \n          \n        \n\n        \n          +\n        \n\n        \n\n        \n        \n          \n            \n            \n            \n          \n        \n      \n    \n  \n\n  \n  \n    \n    \n      \n      Loading PDF...\n      Please wait\n    \n\n    \n\n    \n    \n      ◀\n    \n\n    \n    \n      ▶\n    \n  \n\n  \n  \n    \n      Page 1 / 1",
+    "crumbs": [
+      "Lectures",
+      "Chapter 1 — Introduction to Data Science"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/j4.html",
+    "href": "modules/fundamental/python_java/course/j4.html",
+    "title": "J4 — Java Advanced",
+    "section": "",
+    "text": "Exceptions, I/O, and Concurrency Threads.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "J4 — Java Advanced"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/j4.html#chapter-overview",
+    "href": "modules/fundamental/python_java/course/j4.html#chapter-overview",
+    "title": "J4 — Java Advanced",
+    "section": "",
+    "text": "Exceptions, I/O, and Concurrency Threads.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "J4 — Java Advanced"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/j2.html",
+    "href": "modules/fundamental/python_java/course/j2.html",
+    "title": "J2 — Java OOP",
+    "section": "",
+    "text": "Classes, Interfaces, and Inheritance.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "J2 — Java OOP"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/j2.html#chapter-overview",
+    "href": "modules/fundamental/python_java/course/j2.html#chapter-overview",
+    "title": "J2 — Java OOP",
+    "section": "",
+    "text": "Classes, Interfaces, and Inheritance.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "J2 — Java OOP"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/p4.html",
+    "href": "modules/fundamental/python_java/course/p4.html",
+    "title": "P4 — Python Advanced",
+    "section": "",
+    "text": "File Handling, Exceptions, and Packages.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "P4 — Python Advanced"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/p4.html#chapter-overview",
+    "href": "modules/fundamental/python_java/course/p4.html#chapter-overview",
+    "title": "P4 — Python Advanced",
+    "section": "",
+    "text": "File Handling, Exceptions, and Packages.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "P4 — Python Advanced"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/p2.html",
+    "href": "modules/fundamental/python_java/course/p2.html",
+    "title": "P2 — Python Collections",
+    "section": "",
+    "text": "Lists, Dicts, Sets, and Tuples.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "P2 — Python Collections"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/p2.html#chapter-overview",
+    "href": "modules/fundamental/python_java/course/p2.html#chapter-overview",
+    "title": "P2 — Python Collections",
+    "section": "",
+    "text": "Lists, Dicts, Sets, and Tuples.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "P2 — Python Collections"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/index.html",
+    "href": "modules/fundamental/python_java/index.html",
+    "title": "Python & Java",
+    "section": "",
+    "text": "This module provides an in-depth introduction to Python & Java, structured into individual chapters for focused learning.",
+    "crumbs": [
+      "Python & Java"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/index.html#module-overview",
+    "href": "modules/fundamental/python_java/index.html#module-overview",
+    "title": "Python & Java",
+    "section": "",
+    "text": "This module provides an in-depth introduction to Python & Java, structured into individual chapters for focused learning.",
+    "crumbs": [
+      "Python & Java"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/index.html#curriculum",
+    "href": "modules/fundamental/python_java/index.html#curriculum",
+    "title": "Python & Java",
+    "section": "📚 Curriculum",
+    "text": "📚 Curriculum\n\n⊞ Grid View\n☰ List View\n\n\n\n\n\n\n\n\n\n\n\n\nP1 — Python Syntax\n\n\nData Types and I/O basics.\n\n\n\n\n\n\n\n\n\n\n\n\nP2 — Python Collections\n\n\nLists, Dicts, Sets, and Tuples.\n\n\n\n\n\n\n\n\n\n\n\n\nP3 — Python Functions\n\n\nLambdas and Comprehensions.\n\n\n\n\n\n\n\n\n\n\n\n\nP4 — Python Advanced\n\n\nFile Handling, Exceptions, and Packages.\n\n\n\n\n\n\n\n\n\n\n\n\nJ1 — Java Syntax\n\n\nEnvironment, Syntax, and Types.\n\n\n\n\n\n\n\n\n\n\n\n\nJ2 — Java OOP\n\n\nClasses, Interfaces, and Inheritance.\n\n\n\n\n\n\n\n\n\n\n\n\nJ3 — Java Collections\n\n\nList, Map, and Set framework.\n\n\n\n\n\n\n\n\n\n\n\n\nJ4 — Java Advanced\n\n\nExceptions, I/O, and Concurrency Threads.\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nP1 — Python Syntax\n\n\nData Types and I/O basics.\n\n\n\n\n\n\nP2 — Python Collections\n\n\nLists, Dicts, Sets, and Tuples.\n\n\n\n\n\n\nP3 — Python Functions\n\n\nLambdas and Comprehensions.\n\n\n\n\n\n\nP4 — Python Advanced\n\n\nFile Handling, Exceptions, and Packages.\n\n\n\n\n\n\nJ1 — Java Syntax\n\n\nEnvironment, Syntax, and Types.\n\n\n\n\n\n\nJ2 — Java OOP\n\n\nClasses, Interfaces, and Inheritance.\n\n\n\n\n\n\nJ3 — Java Collections\n\n\nList, Map, and Set framework.\n\n\n\n\n\n\nJ4 — Java Advanced\n\n\nExceptions, I/O, and Concurrency Threads.\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Python & Java"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/index.html#resources",
+    "href": "modules/fundamental/python_java/index.html#resources",
+    "title": "Python & Java",
+    "section": "📂 Resources",
+    "text": "📂 Resources\n\nDirected Works (TD) & Practical Works (TP)\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nDirected work series and lab exercises for this module are currently being prepared.",
+    "crumbs": [
+      "Python & Java"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/course/chapter_5.html",
+    "href": "modules/fundamental/programming/course/chapter_5.html",
+    "title": "Chapter 5 — Recursion",
+    "section": "",
+    "text": "Solving problems with sub-problems.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 5 — Recursion"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/course/chapter_5.html#chapter-overview",
+    "href": "modules/fundamental/programming/course/chapter_5.html#chapter-overview",
+    "title": "Chapter 5 — Recursion",
+    "section": "",
+    "text": "Solving problems with sub-problems.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 5 — Recursion"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/course/chapter_3.html",
+    "href": "modules/fundamental/programming/course/chapter_3.html",
+    "title": "Chapter 3 — Control Flow",
+    "section": "",
+    "text": "Conditionals and Loops.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 3 — Control Flow"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/course/chapter_3.html#chapter-overview",
+    "href": "modules/fundamental/programming/course/chapter_3.html#chapter-overview",
+    "title": "Chapter 3 — Control Flow",
+    "section": "",
+    "text": "Conditionals and Loops.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 3 — Control Flow"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/course/chapter_1.html",
+    "href": "modules/fundamental/programming/course/chapter_1.html",
+    "title": "Chapter 1 — Introduction to Programming",
+    "section": "",
+    "text": "Computational Thinking & Logic.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 1 — Introduction to Programming"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/course/chapter_1.html#chapter-overview",
+    "href": "modules/fundamental/programming/course/chapter_1.html#chapter-overview",
+    "title": "Chapter 1 — Introduction to Programming",
+    "section": "",
+    "text": "Computational Thinking & Logic.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 1 — Introduction to Programming"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_7.html",
+    "href": "modules/fundamental/database/course/chapter_7.html",
+    "title": "Chapter 7 — Administration & Optimization",
+    "section": "",
+    "text": "Query tuning and DBA basics.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 7 — Administration & Optimization"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_7.html#chapter-overview",
+    "href": "modules/fundamental/database/course/chapter_7.html#chapter-overview",
+    "title": "Chapter 7 — Administration & Optimization",
+    "section": "",
+    "text": "Query tuning and DBA basics.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 7 — Administration & Optimization"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_5.html",
+    "href": "modules/fundamental/database/course/chapter_5.html",
+    "title": "Chapter 5 — Transactions & Concurrency",
+    "section": "",
+    "text": "ACID Properties & Control.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 5 — Transactions & Concurrency"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_5.html#chapter-overview",
+    "href": "modules/fundamental/database/course/chapter_5.html#chapter-overview",
+    "title": "Chapter 5 — Transactions & Concurrency",
+    "section": "",
+    "text": "ACID Properties & Control.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 5 — Transactions & Concurrency"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_3.html",
+    "href": "modules/fundamental/database/course/chapter_3.html",
+    "title": "Chapter 3 — SQL",
+    "section": "",
+    "text": "DDL, DML, DQL, and DCL commands.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 3 — SQL"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_3.html#chapter-overview",
+    "href": "modules/fundamental/database/course/chapter_3.html#chapter-overview",
+    "title": "Chapter 3 — SQL",
+    "section": "",
+    "text": "DDL, DML, DQL, and DCL commands.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 3 — SQL"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_1.html",
+    "href": "modules/fundamental/database/course/chapter_1.html",
+    "title": "Chapter 1 — Introduction to Databases",
+    "section": "",
+    "text": "Concepts & Architecture.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 1 — Introduction to Databases"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_1.html#chapter-overview",
+    "href": "modules/fundamental/database/course/chapter_1.html#chapter-overview",
+    "title": "Chapter 1 — Introduction to Databases",
+    "section": "",
+    "text": "Concepts & Architecture.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 1 — Introduction to Databases"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_7.html",
+    "href": "modules/fundamental/data_structures/course/chapter_7.html",
+    "title": "Chapter 7 — Searching",
+    "section": "",
+    "text": "Binary Search and Hash Tables.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 7 — Searching"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_7.html#chapter-overview",
+    "href": "modules/fundamental/data_structures/course/chapter_7.html#chapter-overview",
+    "title": "Chapter 7 — Searching",
+    "section": "",
+    "text": "Binary Search and Hash Tables.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 7 — Searching"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_5.html",
+    "href": "modules/fundamental/data_structures/course/chapter_5.html",
+    "title": "Chapter 5 — Graphs",
+    "section": "",
+    "text": "Representation, BFS, DFS, and Shortest Paths.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 5 — Graphs"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_5.html#chapter-overview",
+    "href": "modules/fundamental/data_structures/course/chapter_5.html#chapter-overview",
+    "title": "Chapter 5 — Graphs",
+    "section": "",
+    "text": "Representation, BFS, DFS, and Shortest Paths.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 5 — Graphs"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_3.html",
+    "href": "modules/fundamental/data_structures/course/chapter_3.html",
+    "title": "Chapter 3 — Stacks, Queues, and Deques",
+    "section": "",
+    "text": "Linear data structures and their applications.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 3 — Stacks, Queues, and Deques"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_3.html#chapter-overview",
+    "href": "modules/fundamental/data_structures/course/chapter_3.html#chapter-overview",
+    "title": "Chapter 3 — Stacks, Queues, and Deques",
+    "section": "",
+    "text": "Linear data structures and their applications.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 3 — Stacks, Queues, and Deques"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_1.html",
+    "href": "modules/fundamental/data_structures/course/chapter_1.html",
+    "title": "Chapter 1 — Arrays and Dynamic Arrays",
+    "section": "",
+    "text": "Fundamental memory structures.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 1 — Arrays and Dynamic Arrays"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_1.html#chapter-overview",
+    "href": "modules/fundamental/data_structures/course/chapter_1.html#chapter-overview",
+    "title": "Chapter 1 — Arrays and Dynamic Arrays",
+    "section": "",
+    "text": "Fundamental memory structures.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 1 — Arrays and Dynamic Arrays"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/course/chapter_5.html",
+    "href": "modules/fundamental/oop/course/chapter_5.html",
+    "title": "Chapter 5 — Advanced OOP",
+    "section": "",
+    "text": "Interfaces & Abstract Classes in depth.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 5 — Advanced OOP"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/course/chapter_5.html#chapter-overview",
+    "href": "modules/fundamental/oop/course/chapter_5.html#chapter-overview",
+    "title": "Chapter 5 — Advanced OOP",
+    "section": "",
+    "text": "Interfaces & Abstract Classes in depth.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 5 — Advanced OOP"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/course/chapter_3.html",
+    "href": "modules/fundamental/oop/course/chapter_3.html",
+    "title": "Chapter 3 — Inheritance & Polymorphism",
+    "section": "",
+    "text": "Reusing code and dynamic binding.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 3 — Inheritance & Polymorphism"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/course/chapter_3.html#chapter-overview",
+    "href": "modules/fundamental/oop/course/chapter_3.html#chapter-overview",
+    "title": "Chapter 3 — Inheritance & Polymorphism",
+    "section": "",
+    "text": "Reusing code and dynamic binding.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 3 — Inheritance & Polymorphism"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/course/chapter_1.html",
+    "href": "modules/fundamental/oop/course/chapter_1.html",
+    "title": "Chapter 1 — Introduction to OOP",
+    "section": "",
+    "text": "Classes & Objects\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 1 — Introduction to OOP"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/course/chapter_1.html#chapter-overview",
+    "href": "modules/fundamental/oop/course/chapter_1.html#chapter-overview",
+    "title": "Chapter 1 — Introduction to OOP",
+    "section": "",
+    "text": "Classes & Objects\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 1 — Introduction to OOP"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/index.html",
+    "href": "modules/fundamental/oop/index.html",
+    "title": "Object-Oriented Programming",
+    "section": "",
+    "text": "This module provides an in-depth introduction to Object-Oriented Programming, structured into individual chapters for focused learning.",
+    "crumbs": [
+      "Object-Oriented Programming"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/index.html#module-overview",
+    "href": "modules/fundamental/oop/index.html#module-overview",
+    "title": "Object-Oriented Programming",
+    "section": "",
+    "text": "This module provides an in-depth introduction to Object-Oriented Programming, structured into individual chapters for focused learning.",
+    "crumbs": [
+      "Object-Oriented Programming"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/index.html#curriculum",
+    "href": "modules/fundamental/oop/index.html#curriculum",
+    "title": "Object-Oriented Programming",
+    "section": "📚 Curriculum",
+    "text": "📚 Curriculum\n\n⊞ Grid View\n☰ List View\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 1 — Introduction to OOP\n\n\nClasses & Objects\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 2 — Encapsulation & Abstraction\n\n\nHiding complexity and exposing interfaces.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 3 — Inheritance & Polymorphism\n\n\nReusing code and dynamic binding.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 4 — Design Patterns\n\n\nSingleton, Factory, Observer and more.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 5 — Advanced OOP\n\n\nInterfaces & Abstract Classes in depth.\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nChapter 1 — Introduction to OOP\n\n\nClasses & Objects\n\n\n\n\n\n\nChapter 2 — Encapsulation & Abstraction\n\n\nHiding complexity and exposing interfaces.\n\n\n\n\n\n\nChapter 3 — Inheritance & Polymorphism\n\n\nReusing code and dynamic binding.\n\n\n\n\n\n\nChapter 4 — Design Patterns\n\n\nSingleton, Factory, Observer and more.\n\n\n\n\n\n\nChapter 5 — Advanced OOP\n\n\nInterfaces & Abstract Classes in depth.\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Object-Oriented Programming"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/index.html#resources",
+    "href": "modules/fundamental/oop/index.html#resources",
+    "title": "Object-Oriented Programming",
+    "section": "📂 Resources",
+    "text": "📂 Resources\n\nDirected Works (TD) & Practical Works (TP)\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nDirected work series and lab exercises for this module are currently being prepared.",
+    "crumbs": [
+      "Object-Oriented Programming"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/course/chapter_2.html",
+    "href": "modules/fundamental/oop/course/chapter_2.html",
+    "title": "Chapter 2 — Encapsulation & Abstraction",
+    "section": "",
+    "text": "Hiding complexity and exposing interfaces.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 2 — Encapsulation & Abstraction"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/course/chapter_2.html#chapter-overview",
+    "href": "modules/fundamental/oop/course/chapter_2.html#chapter-overview",
+    "title": "Chapter 2 — Encapsulation & Abstraction",
+    "section": "",
+    "text": "Hiding complexity and exposing interfaces.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 2 — Encapsulation & Abstraction"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/course/chapter_4.html",
+    "href": "modules/fundamental/oop/course/chapter_4.html",
+    "title": "Chapter 4 — Design Patterns",
+    "section": "",
+    "text": "Singleton, Factory, Observer and more.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 4 — Design Patterns"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/oop/course/chapter_4.html#chapter-overview",
+    "href": "modules/fundamental/oop/course/chapter_4.html#chapter-overview",
+    "title": "Chapter 4 — Design Patterns",
+    "section": "",
+    "text": "Singleton, Factory, Observer and more.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 4 — Design Patterns"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/index.html",
+    "href": "modules/fundamental/data_structures/index.html",
+    "title": "Data Structures & Algorithms",
+    "section": "",
+    "text": "This module provides an in-depth introduction to Data Structures & Algorithms, structured into individual chapters for focused learning.",
+    "crumbs": [
+      "Data Structures & Algorithms"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/index.html#module-overview",
+    "href": "modules/fundamental/data_structures/index.html#module-overview",
+    "title": "Data Structures & Algorithms",
+    "section": "",
+    "text": "This module provides an in-depth introduction to Data Structures & Algorithms, structured into individual chapters for focused learning.",
+    "crumbs": [
+      "Data Structures & Algorithms"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/index.html#curriculum",
+    "href": "modules/fundamental/data_structures/index.html#curriculum",
+    "title": "Data Structures & Algorithms",
+    "section": "📚 Curriculum",
+    "text": "📚 Curriculum\n\n⊞ Grid View\n☰ List View\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 1 — Arrays and Dynamic Arrays\n\n\nFundamental memory structures.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 2 — Linked Lists\n\n\nSingly, doubly, and circular linked lists.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 3 — Stacks, Queues, and Deques\n\n\nLinear data structures and their applications.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 4 — Trees\n\n\nBinary, BST, AVL, and Heaps.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 5 — Graphs\n\n\nRepresentation, BFS, DFS, and Shortest Paths.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 6 — Sorting Algorithms\n\n\nBubble, Merge, Quick, and Radix Sort.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 7 — Searching\n\n\nBinary Search and Hash Tables.\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nChapter 1 — Arrays and Dynamic Arrays\n\n\nFundamental memory structures.\n\n\n\n\n\n\nChapter 2 — Linked Lists\n\n\nSingly, doubly, and circular linked lists.\n\n\n\n\n\n\nChapter 3 — Stacks, Queues, and Deques\n\n\nLinear data structures and their applications.\n\n\n\n\n\n\nChapter 4 — Trees\n\n\nBinary, BST, AVL, and Heaps.\n\n\n\n\n\n\nChapter 5 — Graphs\n\n\nRepresentation, BFS, DFS, and Shortest Paths.\n\n\n\n\n\n\nChapter 6 — Sorting Algorithms\n\n\nBubble, Merge, Quick, and Radix Sort.\n\n\n\n\n\n\nChapter 7 — Searching\n\n\nBinary Search and Hash Tables.\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Data Structures & Algorithms"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/index.html#resources",
+    "href": "modules/fundamental/data_structures/index.html#resources",
+    "title": "Data Structures & Algorithms",
+    "section": "📂 Resources",
+    "text": "📂 Resources\n\nDirected Works (TD) & Practical Works (TP)\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nDirected work series and lab exercises for this module are currently being prepared.",
+    "crumbs": [
+      "Data Structures & Algorithms"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_2.html",
+    "href": "modules/fundamental/data_structures/course/chapter_2.html",
+    "title": "Chapter 2 — Linked Lists",
+    "section": "",
+    "text": "Singly, doubly, and circular linked lists.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 2 — Linked Lists"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_2.html#chapter-overview",
+    "href": "modules/fundamental/data_structures/course/chapter_2.html#chapter-overview",
+    "title": "Chapter 2 — Linked Lists",
+    "section": "",
+    "text": "Singly, doubly, and circular linked lists.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 2 — Linked Lists"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_4.html",
+    "href": "modules/fundamental/data_structures/course/chapter_4.html",
+    "title": "Chapter 4 — Trees",
+    "section": "",
+    "text": "Binary, BST, AVL, and Heaps.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 4 — Trees"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_4.html#chapter-overview",
+    "href": "modules/fundamental/data_structures/course/chapter_4.html#chapter-overview",
+    "title": "Chapter 4 — Trees",
+    "section": "",
+    "text": "Binary, BST, AVL, and Heaps.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 4 — Trees"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_6.html",
+    "href": "modules/fundamental/data_structures/course/chapter_6.html",
+    "title": "Chapter 6 — Sorting Algorithms",
+    "section": "",
+    "text": "Bubble, Merge, Quick, and Radix Sort.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 6 — Sorting Algorithms"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/data_structures/course/chapter_6.html#chapter-overview",
+    "href": "modules/fundamental/data_structures/course/chapter_6.html#chapter-overview",
+    "title": "Chapter 6 — Sorting Algorithms",
+    "section": "",
+    "text": "Bubble, Merge, Quick, and Radix Sort.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 6 — Sorting Algorithms"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/index.html",
+    "href": "modules/fundamental/database/index.html",
+    "title": "Databases",
+    "section": "",
+    "text": "This module provides an in-depth introduction to Databases, structured into individual chapters for focused learning.",
+    "crumbs": [
+      "Databases"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/index.html#module-overview",
+    "href": "modules/fundamental/database/index.html#module-overview",
+    "title": "Databases",
+    "section": "",
+    "text": "This module provides an in-depth introduction to Databases, structured into individual chapters for focused learning.",
+    "crumbs": [
+      "Databases"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/index.html#curriculum",
+    "href": "modules/fundamental/database/index.html#curriculum",
+    "title": "Databases",
+    "section": "📚 Curriculum",
+    "text": "📚 Curriculum\n\n⊞ Grid View\n☰ List View\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 1 — Introduction to Databases\n\n\nConcepts & Architecture.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 2 — Relational Model & ER Diagrams\n\n\nModeling real-world entities.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 3 — SQL\n\n\nDDL, DML, DQL, and DCL commands.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 4 — Normalization\n\n\n1NF, 2NF, 3NF, BCNF rules.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 5 — Transactions & Concurrency\n\n\nACID Properties & Control.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 6 — Introduction to NoSQL\n\n\nMongoDB, Redis, and Cassandra overview.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 7 — Administration & Optimization\n\n\nQuery tuning and DBA basics.\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nChapter 1 — Introduction to Databases\n\n\nConcepts & Architecture.\n\n\n\n\n\n\nChapter 2 — Relational Model & ER Diagrams\n\n\nModeling real-world entities.\n\n\n\n\n\n\nChapter 3 — SQL\n\n\nDDL, DML, DQL, and DCL commands.\n\n\n\n\n\n\nChapter 4 — Normalization\n\n\n1NF, 2NF, 3NF, BCNF rules.\n\n\n\n\n\n\nChapter 5 — Transactions & Concurrency\n\n\nACID Properties & Control.\n\n\n\n\n\n\nChapter 6 — Introduction to NoSQL\n\n\nMongoDB, Redis, and Cassandra overview.\n\n\n\n\n\n\nChapter 7 — Administration & Optimization\n\n\nQuery tuning and DBA basics.\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Databases"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/index.html#resources",
+    "href": "modules/fundamental/database/index.html#resources",
+    "title": "Databases",
+    "section": "📂 Resources",
+    "text": "📂 Resources\n\nDirected Works (TD) & Practical Works (TP)\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nDirected work series and lab exercises for this module are currently being prepared.",
+    "crumbs": [
+      "Databases"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_2.html",
+    "href": "modules/fundamental/database/course/chapter_2.html",
+    "title": "Chapter 2 — Relational Model & ER Diagrams",
+    "section": "",
+    "text": "Modeling real-world entities.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 2 — Relational Model & ER Diagrams"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_2.html#chapter-overview",
+    "href": "modules/fundamental/database/course/chapter_2.html#chapter-overview",
+    "title": "Chapter 2 — Relational Model & ER Diagrams",
+    "section": "",
+    "text": "Modeling real-world entities.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 2 — Relational Model & ER Diagrams"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_4.html",
+    "href": "modules/fundamental/database/course/chapter_4.html",
+    "title": "Chapter 4 — Normalization",
+    "section": "",
+    "text": "1NF, 2NF, 3NF, BCNF rules.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 4 — Normalization"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_4.html#chapter-overview",
+    "href": "modules/fundamental/database/course/chapter_4.html#chapter-overview",
+    "title": "Chapter 4 — Normalization",
+    "section": "",
+    "text": "1NF, 2NF, 3NF, BCNF rules.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 4 — Normalization"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_6.html",
+    "href": "modules/fundamental/database/course/chapter_6.html",
+    "title": "Chapter 6 — Introduction to NoSQL",
+    "section": "",
+    "text": "MongoDB, Redis, and Cassandra overview.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 6 — Introduction to NoSQL"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/database/course/chapter_6.html#chapter-overview",
+    "href": "modules/fundamental/database/course/chapter_6.html#chapter-overview",
+    "title": "Chapter 6 — Introduction to NoSQL",
+    "section": "",
+    "text": "MongoDB, Redis, and Cassandra overview.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 6 — Introduction to NoSQL"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/index.html",
+    "href": "modules/fundamental/programming/index.html",
+    "title": "Programming Fundamentals",
+    "section": "",
+    "text": "This module provides an in-depth introduction to Programming Fundamentals, structured into individual chapters for focused learning.",
+    "crumbs": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/index.html#module-overview",
+    "href": "modules/fundamental/programming/index.html#module-overview",
+    "title": "Programming Fundamentals",
+    "section": "",
+    "text": "This module provides an in-depth introduction to Programming Fundamentals, structured into individual chapters for focused learning.",
+    "crumbs": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/index.html#curriculum",
+    "href": "modules/fundamental/programming/index.html#curriculum",
+    "title": "Programming Fundamentals",
+    "section": "📚 Curriculum",
+    "text": "📚 Curriculum\n\n⊞ Grid View\n☰ List View\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 1 — Introduction to Programming\n\n\nComputational Thinking & Logic.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 2 — Variables & Data Types\n\n\nStoring and manipulating data.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 3 — Control Flow\n\n\nConditionals and Loops.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 4 — Functions & Modular Programming\n\n\nCode reuse and abstraction.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 5 — Recursion\n\n\nSolving problems with sub-problems.\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 6 — Introduction to Complexity\n\n\nBig-O notation and performance.\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nChapter 1 — Introduction to Programming\n\n\nComputational Thinking & Logic.\n\n\n\n\n\n\nChapter 2 — Variables & Data Types\n\n\nStoring and manipulating data.\n\n\n\n\n\n\nChapter 3 — Control Flow\n\n\nConditionals and Loops.\n\n\n\n\n\n\nChapter 4 — Functions & Modular Programming\n\n\nCode reuse and abstraction.\n\n\n\n\n\n\nChapter 5 — Recursion\n\n\nSolving problems with sub-problems.\n\n\n\n\n\n\nChapter 6 — Introduction to Complexity\n\n\nBig-O notation and performance.\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/index.html#resources",
+    "href": "modules/fundamental/programming/index.html#resources",
+    "title": "Programming Fundamentals",
+    "section": "📂 Resources",
+    "text": "📂 Resources\n\nDirected Works (TD) & Practical Works (TP)\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nDirected work series and lab exercises for this module are currently being prepared.",
+    "crumbs": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/course/chapter_2.html",
+    "href": "modules/fundamental/programming/course/chapter_2.html",
+    "title": "Chapter 2 — Variables & Data Types",
+    "section": "",
+    "text": "Storing and manipulating data.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 2 — Variables & Data Types"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/course/chapter_2.html#chapter-overview",
+    "href": "modules/fundamental/programming/course/chapter_2.html#chapter-overview",
+    "title": "Chapter 2 — Variables & Data Types",
+    "section": "",
+    "text": "Storing and manipulating data.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 2 — Variables & Data Types"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/course/chapter_4.html",
+    "href": "modules/fundamental/programming/course/chapter_4.html",
+    "title": "Chapter 4 — Functions & Modular Programming",
+    "section": "",
+    "text": "Code reuse and abstraction.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 4 — Functions & Modular Programming"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/course/chapter_4.html#chapter-overview",
+    "href": "modules/fundamental/programming/course/chapter_4.html#chapter-overview",
+    "title": "Chapter 4 — Functions & Modular Programming",
+    "section": "",
+    "text": "Code reuse and abstraction.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 4 — Functions & Modular Programming"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/course/chapter_6.html",
+    "href": "modules/fundamental/programming/course/chapter_6.html",
+    "title": "Chapter 6 — Introduction to Complexity",
+    "section": "",
+    "text": "Big-O notation and performance.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 6 — Introduction to Complexity"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/programming/course/chapter_6.html#chapter-overview",
+    "href": "modules/fundamental/programming/course/chapter_6.html#chapter-overview",
+    "title": "Chapter 6 — Introduction to Complexity",
+    "section": "",
+    "text": "Big-O notation and performance.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 6 — Introduction to Complexity"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/p1.html",
+    "href": "modules/fundamental/python_java/course/p1.html",
+    "title": "P1 — Python Syntax",
+    "section": "",
+    "text": "Data Types and I/O basics.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "P1 — Python Syntax"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/p1.html#chapter-overview",
+    "href": "modules/fundamental/python_java/course/p1.html#chapter-overview",
+    "title": "P1 — Python Syntax",
+    "section": "",
+    "text": "Data Types and I/O basics.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "P1 — Python Syntax"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/p3.html",
+    "href": "modules/fundamental/python_java/course/p3.html",
+    "title": "P3 — Python Functions",
+    "section": "",
+    "text": "Lambdas and Comprehensions.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "P3 — Python Functions"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/p3.html#chapter-overview",
+    "href": "modules/fundamental/python_java/course/p3.html#chapter-overview",
+    "title": "P3 — Python Functions",
+    "section": "",
+    "text": "Lambdas and Comprehensions.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "P3 — Python Functions"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/j1.html",
+    "href": "modules/fundamental/python_java/course/j1.html",
+    "title": "J1 — Java Syntax",
+    "section": "",
+    "text": "Environment, Syntax, and Types.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "J1 — Java Syntax"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/j1.html#chapter-overview",
+    "href": "modules/fundamental/python_java/course/j1.html#chapter-overview",
+    "title": "J1 — Java Syntax",
+    "section": "",
+    "text": "Environment, Syntax, and Types.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "J1 — Java Syntax"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/j3.html",
+    "href": "modules/fundamental/python_java/course/j3.html",
+    "title": "J3 — Java Collections",
+    "section": "",
+    "text": "List, Map, and Set framework.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "J3 — Java Collections"
+    ]
+  },
+  {
+    "objectID": "modules/fundamental/python_java/course/j3.html#chapter-overview",
+    "href": "modules/fundamental/python_java/course/j3.html#chapter-overview",
+    "title": "J3 — Java Collections",
+    "section": "",
+    "text": "List, Map, and Set framework.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "J3 — Java Collections"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/index.html",
+    "href": "modules/advanced/data_science/index.html",
+    "title": "Data Science Foundations",
+    "section": "",
+    "text": "Each chapter combines theoretical content with hands-on Python exercises.\n\n⊞ Grid\n☰ List\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinitions, workflows, ecosystem and methodology\n\n\nUnderstand what data science is, learn key workflows (CRISP-DM, KDD, TDSP), and explore the tools and roles in a data science project.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCollection methods, storage systems, integration, ethics\n\n\nLearn how to collect, store, and integrate data from multiple sources. Covers Big Data concepts, ETL pipelines, and data ethics (GDPR, HIPAA).\n\n\n\n\n\n\n\n\n\n\n\n\n\nOutlier handling, transformations, smoothing, preprocessing\n\n\nMaster EDA techniques: outlier detection (IQR, Z-score), data transformations, smoothing methods (Holt-Winters, Lowess), and feature engineering.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrinciples, tools, advanced and interactive techniques\n\n\nDesign effective charts and dashboards. Covers visualization principles, multivariate and temporal techniques, interactive tools, and real-world case studies.\n\n\n\n\n\n\n\n\n\n\n\n\n\nA/B testing, RCTs, reproducibility, and data modeling intro\n\n\nLearn to design rigorous experiments: A/B tests, randomized controlled trials, sampling methods, validity, reproducibility, and an introduction to data modeling.\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nChapter 1 — Introduction to Data Science\n\n\nDefinitions, workflows, ecosystem and methodology\n\n\nUnderstand what data science is, learn key workflows (CRISP-DM, KDD, TDSP), and explore the tools and roles in a data science project.\n\n\n\n\n\n\nChapter 2 — Data Acquisition & Storage\n\n\nCollection methods, storage systems, integration, ethics\n\n\nLearn how to collect, store, and integrate data from multiple sources. Covers Big Data concepts, ETL pipelines, and data ethics (GDPR, HIPAA).\n\n\n\n\n\n\nChapter 3 — Exploratory Data Analysis\n\n\nOutlier handling, transformations, smoothing, preprocessing\n\n\nMaster EDA techniques: outlier detection (IQR, Z-score), data transformations, smoothing methods (Holt-Winters, Lowess), and feature engineering.\n\n\n\n\n\n\nChapter 4 — Data Visualization\n\n\nPrinciples, tools, advanced and interactive techniques\n\n\nDesign effective charts and dashboards. Covers visualization principles, multivariate and temporal techniques, interactive tools, and real-world case studies.\n\n\n\n\n\n\nChapter 5 — Experimental Design\n\n\nA/B testing, RCTs, reproducibility, and data modeling intro\n\n\nLearn to design rigorous experiments: A/B tests, randomized controlled trials, sampling methods, validity, reproducibility, and an introduction to data modeling.\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Data Science Foundations"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/index.html#course-structure",
+    "href": "modules/advanced/data_science/index.html#course-structure",
+    "title": "Data Science Foundations",
+    "section": "",
+    "text": "Each chapter combines theoretical content with hands-on Python exercises.\n\n⊞ Grid\n☰ List\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinitions, workflows, ecosystem and methodology\n\n\nUnderstand what data science is, learn key workflows (CRISP-DM, KDD, TDSP), and explore the tools and roles in a data science project.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCollection methods, storage systems, integration, ethics\n\n\nLearn how to collect, store, and integrate data from multiple sources. Covers Big Data concepts, ETL pipelines, and data ethics (GDPR, HIPAA).\n\n\n\n\n\n\n\n\n\n\n\n\n\nOutlier handling, transformations, smoothing, preprocessing\n\n\nMaster EDA techniques: outlier detection (IQR, Z-score), data transformations, smoothing methods (Holt-Winters, Lowess), and feature engineering.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrinciples, tools, advanced and interactive techniques\n\n\nDesign effective charts and dashboards. Covers visualization principles, multivariate and temporal techniques, interactive tools, and real-world case studies.\n\n\n\n\n\n\n\n\n\n\n\n\n\nA/B testing, RCTs, reproducibility, and data modeling intro\n\n\nLearn to design rigorous experiments: A/B tests, randomized controlled trials, sampling methods, validity, reproducibility, and an introduction to data modeling.\n\n\n\n\n\nNo matching items\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nChapter 1 — Introduction to Data Science\n\n\nDefinitions, workflows, ecosystem and methodology\n\n\nUnderstand what data science is, learn key workflows (CRISP-DM, KDD, TDSP), and explore the tools and roles in a data science project.\n\n\n\n\n\n\nChapter 2 — Data Acquisition & Storage\n\n\nCollection methods, storage systems, integration, ethics\n\n\nLearn how to collect, store, and integrate data from multiple sources. Covers Big Data concepts, ETL pipelines, and data ethics (GDPR, HIPAA).\n\n\n\n\n\n\nChapter 3 — Exploratory Data Analysis\n\n\nOutlier handling, transformations, smoothing, preprocessing\n\n\nMaster EDA techniques: outlier detection (IQR, Z-score), data transformations, smoothing methods (Holt-Winters, Lowess), and feature engineering.\n\n\n\n\n\n\nChapter 4 — Data Visualization\n\n\nPrinciples, tools, advanced and interactive techniques\n\n\nDesign effective charts and dashboards. Covers visualization principles, multivariate and temporal techniques, interactive tools, and real-world case studies.\n\n\n\n\n\n\nChapter 5 — Experimental Design\n\n\nA/B testing, RCTs, reproducibility, and data modeling intro\n\n\nLearn to design rigorous experiments: A/B tests, randomized controlled trials, sampling methods, validity, reproducibility, and an introduction to data modeling.\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Data Science Foundations"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/index.html#directed-works-practical-works",
+    "href": "modules/advanced/data_science/index.html#directed-works-practical-works",
+    "title": "Data Science Foundations",
+    "section": "📝 Directed Works & 🧪 Practical Works",
+    "text": "📝 Directed Works & 🧪 Practical Works\nBrowse exercises using the sidebar — or jump directly:\n\n📝 Directed Works (DW)   🧪 Practical Works (PW)",
+    "crumbs": [
+      "Data Science Foundations"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/index.html#references",
+    "href": "modules/advanced/data_science/index.html#references",
+    "title": "Data Science Foundations",
+    "section": "References",
+    "text": "References\n\nDietrich, D. — Data Science & Big Data Analytics, Wiley, 2015\nLutz, M. & Biernat, E. — Data Science: Fondamentaux et Études de Cas, Eyrolles, 2015",
+    "crumbs": [
+      "Data Science Foundations"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_2/index.html",
+    "href": "modules/advanced/data_science/course/chapter_2/index.html",
+    "title": "Chapter 2 — Data Acquisition & Storage",
+    "section": "",
+    "text": "Data integration is a critical aspect of modern data management, involving combining data from multiple sources to provide a unified view. This chapter covers collections, storage systems, Big Data, and how to ensure ethical data handling.\n\n\n\n\n\n\nTipSkills you will acquire in this chapter\n\n\n\n\n\n\nIdentify data types: numerical, categorical, ordinal, nominal\nApply data collection methods and storage systems\nUnderstand Big Data challenges and infrastructure\nPerform data integration using ETL and schema matching\nApply ethical frameworks: GDPR, HIPAA, anonymization",
+    "crumbs": [
+      "Lectures",
+      "Chapter 2 — Data Acquisition & Storage"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_2/index.html#chapter-summary",
+    "href": "modules/advanced/data_science/course/chapter_2/index.html#chapter-summary",
+    "title": "Chapter 2 — Data Acquisition & Storage",
+    "section": "",
+    "text": "Data integration is a critical aspect of modern data management, involving combining data from multiple sources to provide a unified view. This chapter covers collections, storage systems, Big Data, and how to ensure ethical data handling.\n\n\n\n\n\n\nTipSkills you will acquire in this chapter\n\n\n\n\n\n\nIdentify data types: numerical, categorical, ordinal, nominal\nApply data collection methods and storage systems\nUnderstand Big Data challenges and infrastructure\nPerform data integration using ETL and schema matching\nApply ethical frameworks: GDPR, HIPAA, anonymization",
+    "crumbs": [
+      "Lectures",
+      "Chapter 2 — Data Acquisition & Storage"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_2/index.html#lecture-slides",
+    "href": "modules/advanced/data_science/course/chapter_2/index.html#lecture-slides",
+    "title": "Chapter 2 — Data Acquisition & Storage",
+    "section": "📄 Lecture Slides",
+    "text": "📄 Lecture Slides\n\n  \n  \n\n  \n  \n    \n      \n        \n          \n          \n        \n        Chapter 2\n      \n\n      \n        \n        \n          −\n        \n\n        \n          \n            \n            \n          \n        \n\n        \n          +\n        \n\n        \n\n        \n        \n          \n            \n            \n            \n          \n        \n      \n    \n  \n\n  \n  \n    \n    \n      \n      Loading PDF...\n      Please wait\n    \n\n    \n\n    \n    \n      ◀\n    \n\n    \n    \n      ▶\n    \n  \n\n  \n  \n    \n      Page 1 / 1",
+    "crumbs": [
+      "Lectures",
+      "Chapter 2 — Data Acquisition & Storage"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_4/index.html",
+    "href": "modules/advanced/data_science/course/chapter_4/index.html",
+    "title": "Chapter 4 — Data Visualization",
+    "section": "",
+    "text": "Data visualization is a crucial component of data analysis, enabling the effective communication of insights through graphical representations. This chapter covers the fundamentals, advanced techniques, and tools.\n\n\n\n\n\n\nTipSkills you will acquire in this chapter\n\n\n\n\n\n\nSelect the right visualization for each data type\nApply principles of effective visualization (readability, clarity, color)\nUse advanced techniques: multivariate, temporal, interactive visualizations\nAvoid common pitfalls: misleading graphs, information overload, axis distortion",
+    "crumbs": [
+      "Lectures",
+      "Chapter 4 — Data Visualization"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_4/index.html#chapter-summary",
+    "href": "modules/advanced/data_science/course/chapter_4/index.html#chapter-summary",
+    "title": "Chapter 4 — Data Visualization",
+    "section": "",
+    "text": "Data visualization is a crucial component of data analysis, enabling the effective communication of insights through graphical representations. This chapter covers the fundamentals, advanced techniques, and tools.\n\n\n\n\n\n\nTipSkills you will acquire in this chapter\n\n\n\n\n\n\nSelect the right visualization for each data type\nApply principles of effective visualization (readability, clarity, color)\nUse advanced techniques: multivariate, temporal, interactive visualizations\nAvoid common pitfalls: misleading graphs, information overload, axis distortion",
+    "crumbs": [
+      "Lectures",
+      "Chapter 4 — Data Visualization"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/course/chapter_4/index.html#lecture-slides",
+    "href": "modules/advanced/data_science/course/chapter_4/index.html#lecture-slides",
+    "title": "Chapter 4 — Data Visualization",
+    "section": "📄 Lecture Slides",
+    "text": "📄 Lecture Slides\n\n  \n  \n\n  \n  \n    \n      \n        \n          \n          \n        \n        Chapter 4\n      \n\n      \n        \n        \n          −\n        \n\n        \n          \n            \n            \n          \n        \n\n        \n          +\n        \n\n        \n\n        \n        \n          \n            \n            \n            \n          \n        \n      \n    \n  \n\n  \n  \n    \n    \n      \n      Loading PDF...\n      Please wait\n    \n\n    \n\n    \n    \n      ◀\n    \n\n    \n    \n      ▶\n    \n  \n\n  \n  \n    \n      Page 1 / 1",
+    "crumbs": [
+      "Lectures",
+      "Chapter 4 — Data Visualization"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/td/dw1.html",
+    "href": "modules/advanced/data_science/td/dw1.html",
+    "title": "DW1 — Introduction to Data Science",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "📝 Directed Works (DW)",
+      "📄 DW1 — Introduction"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/td/dw2_part2.html",
+    "href": "modules/advanced/data_science/td/dw2_part2.html",
+    "title": "DW2 Part 2 — Data Acquisition & Integration",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "📝 Directed Works (DW)",
+      "📄 DW2 Part 2 — Data Acquisition"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/td/dw3_part3.html",
+    "href": "modules/advanced/data_science/td/dw3_part3.html",
+    "title": "DW3 Part 3 — Exploratory Data Analysis",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "📝 Directed Works (DW)",
+      "📄 DW3 Part 3 — EDA"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/td/dw4_part1.html",
+    "href": "modules/advanced/data_science/td/dw4_part1.html",
+    "title": "DW4 Part 1 — Data Visualization",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "📝 Directed Works (DW)",
+      "📄 DW4 Part 1 — Visualization"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/td/dw5.html",
+    "href": "modules/advanced/data_science/td/dw5.html",
+    "title": "DW5 — Experimental Design",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "📝 Directed Works (DW)",
+      "📄 DW5 — Experimental Design"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/tp/pw2.html",
+    "href": "modules/advanced/data_science/tp/pw2.html",
+    "title": "PW2 — NumPy for Data Science",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "🧪 Practical Works (PW)",
+      "💻 PW2 — NumPy"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/tp/pw4.html",
+    "href": "modules/advanced/data_science/tp/pw4.html",
+    "title": "PW4 — Exploratory Data Analysis",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "🧪 Practical Works (PW)",
+      "💻 PW4 — EDA"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/data_science/tp/pw6.html",
+    "href": "modules/advanced/data_science/tp/pw6.html",
+    "title": "PW6 — Data Visualization",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "🏠 Home",
+      "🧪 Practical Works (PW)",
+      "💻 PW6 — Visualization"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/index.html",
+    "href": "modules/advanced/machine_learning/index.html",
+    "title": "Machine Learning — Professional Program",
+    "section": "",
+    "text": "Duration: 23 Weeks (~5.5 Months)\nFormat: 2 × 1.5h lectures/week (Theory + Walkthrough) + 4–6 hrs/week practice\nOutcome: Capstone-ready ML practitioner with theory-based modeling skills, practical pipelines, and a professional portfolio.",
+    "crumbs": [
+      "Machine Learning — Professional Program"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/index.html#program-overview",
+    "href": "modules/advanced/machine_learning/index.html#program-overview",
+    "title": "Machine Learning — Professional Program",
+    "section": "",
+    "text": "Duration: 23 Weeks (~5.5 Months)\nFormat: 2 × 1.5h lectures/week (Theory + Walkthrough) + 4–6 hrs/week practice\nOutcome: Capstone-ready ML practitioner with theory-based modeling skills, practical pipelines, and a professional portfolio.",
+    "crumbs": [
+      "Machine Learning — Professional Program"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/index.html#curriculum",
+    "href": "modules/advanced/machine_learning/index.html#curriculum",
+    "title": "Machine Learning — Professional Program",
+    "section": "📅 Curriculum",
+    "text": "📅 Curriculum\n\n⊞ Grid View\n☰ List View\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1 — ML Foundations & Workflow\n\n\nWhat is ML? Supervised vs Unsupervised vs Reinforcement Learning\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2 — Data Preprocessing & Pipelines\n\n\nHandling missing data, detecting outliers\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 — Math & Information Theory\n\n\nLinear algebra review: vectors, dot products, matrix multiplication\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4 — Linear Models for Regression\n\n\nLinear Regression: formula, interpretation, closed-form solution\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5 — Logistic Regression & Classification\n\n\nLogistic function, decision boundaries, sigmoid\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6 — Model Evaluation\n\n\nRegression metrics: MAE, MSE, RMSE, R²\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7 — Bias–Variance Tradeoff\n\n\nUnderfitting vs overfitting; bias-variance decomposition\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8 — Data Sampling & Validation Techniques\n\n\nHold-out split, stratified sampling\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9 — k-Nearest Neighbors\n\n\nKNN for regression and classification\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10 — Decision Trees\n\n\nSplitting criteria: Gini, Entropy\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11 — Random Forests & Bagging\n\n\nBagging: theory and bias reduction\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12 — Boosting Algorithms\n\n\nBoosting concepts: ensemble of weak learners\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13 — Modern Boosting Libraries\n\n\nXGBoost, LightGBM, CatBoost\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14 — Feature Engineering & Feature Selection\n\n\nCustom transformers, interaction features\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15 — Imbalanced & Noisy Data\n\n\nResampling: SMOTE, undersampling\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16 — Clustering & Dimensionality Reduction\n\n\nClustering: K-Means, DBSCAN, Hierarchical\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 17 — Neural Networks & MLPs\n\n\nPerceptron, hidden layers, activation functions (ReLU, sigmoid, tanh)\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 18 — CNNs & Image Classification\n\n\nConvolution, pooling, deep architectures (LeNet, AlexNet, VGG)\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 19 — NLP & Time Series\n\n\nNLP: tokenization, stemming, TF-IDF, Word2Vec, GloVe\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 20 — Full ML Pipeline: Mini Project\n\n\nDataset selection and objective definition\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 21 — Capstone Development (Part 1)\n\n\nFinal project scoping and planning\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 22 — Capstone Development (Part 2)\n\n\nFull modeling and evaluation pipeline\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 23 — Capstone Presentations & Career Prep\n\n\nProject showcase and peer feedback\n\n\n\n\n\nNo matching items\n\n  \n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nWeek 1 — ML Foundations & Workflow\n\n\nWhat is ML? Supervised vs Unsupervised vs Reinforcement Learning\n\n\n\n\n\n\nWeek 2 — Data Preprocessing & Pipelines\n\n\nHandling missing data, detecting outliers\n\n\n\n\n\n\nWeek 3 — Math & Information Theory\n\n\nLinear algebra review: vectors, dot products, matrix multiplication\n\n\n\n\n\n\nWeek 4 — Linear Models for Regression\n\n\nLinear Regression: formula, interpretation, closed-form solution\n\n\n\n\n\n\nWeek 5 — Logistic Regression & Classification\n\n\nLogistic function, decision boundaries, sigmoid\n\n\n\n\n\n\nWeek 6 — Model Evaluation\n\n\nRegression metrics: MAE, MSE, RMSE, R²\n\n\n\n\n\n\nWeek 7 — Bias–Variance Tradeoff\n\n\nUnderfitting vs overfitting; bias-variance decomposition\n\n\n\n\n\n\nWeek 8 — Data Sampling & Validation Techniques\n\n\nHold-out split, stratified sampling\n\n\n\n\n\n\nWeek 9 — k-Nearest Neighbors\n\n\nKNN for regression and classification\n\n\n\n\n\n\nWeek 10 — Decision Trees\n\n\nSplitting criteria: Gini, Entropy\n\n\n\n\n\n\nWeek 11 — Random Forests & Bagging\n\n\nBagging: theory and bias reduction\n\n\n\n\n\n\nWeek 12 — Boosting Algorithms\n\n\nBoosting concepts: ensemble of weak learners\n\n\n\n\n\n\nWeek 13 — Modern Boosting Libraries\n\n\nXGBoost, LightGBM, CatBoost\n\n\n\n\n\n\nWeek 14 — Feature Engineering & Feature Selection\n\n\nCustom transformers, interaction features\n\n\n\n\n\n\nWeek 15 — Imbalanced & Noisy Data\n\n\nResampling: SMOTE, undersampling\n\n\n\n\n\n\nWeek 16 — Clustering & Dimensionality Reduction\n\n\nClustering: K-Means, DBSCAN, Hierarchical\n\n\n\n\n\n\nWeek 17 — Neural Networks & MLPs\n\n\nPerceptron, hidden layers, activation functions (ReLU, sigmoid, tanh)\n\n\n\n\n\n\nWeek 18 — CNNs & Image Classification\n\n\nConvolution, pooling, deep architectures (LeNet, AlexNet, VGG)\n\n\n\n\n\n\nWeek 19 — NLP & Time Series\n\n\nNLP: tokenization, stemming, TF-IDF, Word2Vec, GloVe\n\n\n\n\n\n\nWeek 20 — Full ML Pipeline: Mini Project\n\n\nDataset selection and objective definition\n\n\n\n\n\n\nWeek 21 — Capstone Development (Part 1)\n\n\nFinal project scoping and planning\n\n\n\n\n\n\nWeek 22 — Capstone Development (Part 2)\n\n\nFull modeling and evaluation pipeline\n\n\n\n\n\n\nWeek 23 — Capstone Presentations & Career Prep\n\n\nProject showcase and peer feedback\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Machine Learning — Professional Program"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/index.html#capstone-project-ideas",
+    "href": "modules/advanced/machine_learning/index.html#capstone-project-ideas",
+    "title": "Machine Learning — Professional Program",
+    "section": "🏆 Capstone Project Ideas",
+    "text": "🏆 Capstone Project Ideas\n\n\n\nProject\nTrack\n\n\n\n\nResume Matcher\nNLP\n\n\nCar Price Estimator\nRegression\n\n\nMedical Image Classifier\nComputer Vision\n\n\nMovie Recommender\nCollaborative Filtering\n\n\nCredit Risk Model\nClassification",
+    "crumbs": [
+      "Machine Learning — Professional Program"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/index.html#resources",
+    "href": "modules/advanced/machine_learning/index.html#resources",
+    "title": "Machine Learning — Professional Program",
+    "section": "📂 Resources",
+    "text": "📂 Resources\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture slides, TD series, and TP notebooks for this module are being prepared.",
+    "crumbs": [
+      "Machine Learning — Professional Program"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_02.html",
+    "href": "modules/advanced/machine_learning/weeks/week_02.html",
+    "title": "Week 2 — Data Preprocessing & Pipelines",
+    "section": "",
+    "text": "Handling missing data, detecting outliers\nEncoding: one-hot, label, ordinal\nNormalization vs standardization\nBuilding Scikit-learn Pipelines\n\nPractice: California Housing preprocessing pipeline; Ridge Regression from scratch\nReading: Géron Ch. 2–4\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 2 — Data Preprocessing & Pipelines"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_04.html",
+    "href": "modules/advanced/machine_learning/weeks/week_04.html",
+    "title": "Week 4 — Linear Models for Regression",
+    "section": "",
+    "text": "Linear Regression: formula, interpretation, closed-form solution\nPolynomial regression\nLoss functions: MSE, MAE; Regularization: Ridge, Lasso\nBias–variance tradeoff\n\nPractice: Housing price prediction; polynomial regression\nReading: Géron Ch. 4, I2ML Ch. 5\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 4 — Linear Models for Regression"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_06.html",
+    "href": "modules/advanced/machine_learning/weeks/week_06.html",
+    "title": "Week 6 — Model Evaluation",
+    "section": "",
+    "text": "Regression metrics: MAE, MSE, RMSE, R²\nClassification metrics: Accuracy, Precision, Recall, F1-Score\nROC, AUC, PR curves; cross-validation strategies\n\nPractice: Compare models using multiple metrics; ROC and PR curves\nReading: I2ML Ch. 8, sklearn.metrics docs\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 6 — Model Evaluation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_08.html",
+    "href": "modules/advanced/machine_learning/weeks/week_08.html",
+    "title": "Week 8 — Data Sampling & Validation Techniques",
+    "section": "",
+    "text": "Hold-out split, stratified sampling\nCross-validation: k-fold, LOOCV\nBootstrap and confidence intervals\n\nPractice: CV + grid search for model selection\nReading: I2ML Ch. 9\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 8 — Data Sampling & Validation Techniques"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_10.html",
+    "href": "modules/advanced/machine_learning/weeks/week_10.html",
+    "title": "Week 10 — Decision Trees",
+    "section": "",
+    "text": "Splitting criteria: Gini, Entropy\nTree growth, pruning, overfitting\nInterpreting tree decisions\n\nPractice: Build and visualize decision trees on tabular data\nReading: Géron Ch. 6\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 10 — Decision Trees"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_12.html",
+    "href": "modules/advanced/machine_learning/weeks/week_12.html",
+    "title": "Week 12 — Boosting Algorithms",
+    "section": "",
+    "text": "Boosting concepts: ensemble of weak learners\nAdaBoost and Gradient Boosting\nEarly stopping and learning rate\n\nPractice: Compare boosting to random forest\nReading: I2ML Ch. 13\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 12 — Boosting Algorithms"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_14.html",
+    "href": "modules/advanced/machine_learning/weeks/week_14.html",
+    "title": "Week 14 — Feature Engineering & Feature Selection",
+    "section": "",
+    "text": "Custom transformers, interaction features\nEncoding strategies: frequency, target\nSelection: filter, wrapper, embedded methods\n\nPractice: Ames housing dataset with custom pipeline\nReading: Géron pipeline section, I2ML Ch. 10\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 14 — Feature Engineering & Feature Selection"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_16.html",
+    "href": "modules/advanced/machine_learning/weeks/week_16.html",
+    "title": "Week 16 — Clustering & Dimensionality Reduction",
+    "section": "",
+    "text": "Clustering: K-Means, DBSCAN, Hierarchical\nPCA: explained variance, reconstruction\nt-SNE, UMAP for visualization\n\nPractice: Customer segmentation pipeline\nReading: Géron Ch. 8\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 16 — Clustering & Dimensionality Reduction"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_18.html",
+    "href": "modules/advanced/machine_learning/weeks/week_18.html",
+    "title": "Week 18 — CNNs & Image Classification",
+    "section": "",
+    "text": "Convolution, pooling, deep architectures (LeNet, AlexNet, VGG)\nTransfer learning: feature extraction vs fine-tuning\nData augmentation; Keras Applications (ResNet, Inception)\n\nPractice: CIFAR-10 / Fashion MNIST; custom dataset with transfer learning\nReading: Géron Ch. 14, TensorFlow CNN guide\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 18 — CNNs & Image Classification"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_20.html",
+    "href": "modules/advanced/machine_learning/weeks/week_20.html",
+    "title": "Week 20 — Full ML Pipeline: Mini Project",
+    "section": "",
+    "text": "Dataset selection and objective definition\nEnd-to-end: cleaning → modeling → evaluation → documentation\nDocument assumptions, limitations, and improvements\n\nPractice: Build a complete ML project from scratch\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 20 — Full ML Pipeline: Mini Project"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/machine_learning/weeks/week_22.html",
+    "href": "modules/advanced/machine_learning/weeks/week_22.html",
+    "title": "Week 22 — Capstone Development (Part 2)",
+    "section": "",
+    "text": "Full modeling and evaluation pipeline\nDocumentation: README, notebooks, visualizations\nPolish, test, and finalize\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Week 22 — Capstone Development (Part 2)"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/index.html",
+    "href": "modules/advanced/statistics/index.html",
+    "title": "Statistics & Data Analysis for Data Science",
+    "section": "",
+    "text": "By the end of this course, students will be able to apply inferential reasoning, perform hypothesis testing, and use multivariate exploratory methods (PCA, CA, MCA) to draw conclusions from data.",
+    "crumbs": [
+      "Statistics & Data Analysis for Data Science"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/index.html#course-objectives",
+    "href": "modules/advanced/statistics/index.html#course-objectives",
+    "title": "Statistics & Data Analysis for Data Science",
+    "section": "",
+    "text": "By the end of this course, students will be able to apply inferential reasoning, perform hypothesis testing, and use multivariate exploratory methods (PCA, CA, MCA) to draw conclusions from data.",
+    "crumbs": [
+      "Statistics & Data Analysis for Data Science"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/index.html#curriculum",
+    "href": "modules/advanced/statistics/index.html#curriculum",
+    "title": "Statistics & Data Analysis for Data Science",
+    "section": "📚 Curriculum",
+    "text": "📚 Curriculum\n\n⊞ Grid View\n☰ List View\n\n\n\n\n\n\n\n\n\n\n\n\nModule 1 — Introduction to Data & Statistics\n\n\nRole of statistics in data science: organizing, summarizing, and interpreting data to make decisions\n\n\n\n\n\n\n\n\n\n\n\n\nModule 2 — Types of Data & Measurement Scales\n\n\nQualitative: Nominal (no order), Ordinal (ordered categories)\n\n\n\n\n\n\n\n\n\n\n\n\nModule 3 — Descriptive Statistics: Central Tendency\n\n\nMean (sensitive to outliers), Median (robust), Mode (categorical)\n\n\n\n\n\n\n\n\n\n\n\n\nModule 4 — Descriptive Statistics: Dispersion\n\n\nRange, IQR, Variance, Standard Deviation\n\n\n\n\n\n\n\n\n\n\n\n\nModule 5 — Data Visualization & Graphical Description\n\n\nVisualization by variable type: bar charts, histograms, scatter plots, pair plots, heatmaps\n\n\n\n\n\n\n\n\n\n\n\n\nModule 6 — Probability Fundamentals\n\n\nRandom experiments, events, sample space\n\n\n\n\n\n\n\n\n\n\n\n\nModule 7 — Random Variables & Probability Distributions\n\n\nDiscrete: Bernoulli, Binomial, Poisson\n\n\n\n\n\n\n\n\n\n\n\n\nModule 8 — Normal Distribution & Standardization\n\n\nProperties: symmetrical, bell-shaped, defined by μ and σ\n\n\n\n\n\n\n\n\n\n\n\n\nModule 9 — Sampling & Sampling Distributions\n\n\nRandom, stratified, systematic sampling; sampling bias\n\n\n\n\n\n\n\n\n\n\n\n\nModule 10 — Estimation & Confidence Intervals\n\n\nPoint vs interval estimation\n\n\n\n\n\n\n\n\n\n\n\n\nModule 11 — Hypothesis Testing: Foundations\n\n\nH₀ and H₁, test statistic, p-value, significance level α\n\n\n\n\n\n\n\n\n\n\n\n\nModule 12 — Hypothesis Testing: Statistical Tests\n\n\nParametric: t-tests, ANOVA\n\n\n\n\n\n\n\n\n\n\n\n\nModule 13 — Assumptions & Test Selection\n\n\nNormality, independence, homogeneity of variance, sample size\n\n\n\n\n\n\n\n\n\n\n\n\nModule 14 — Relationships Between Variables\n\n\nQuant ↔︎ Quant: Pearson/Spearman correlation, covariance\n\n\n\n\n\n\n\n\n\n\n\n\nModule 15 — Exploratory Data Analysis (EDA)\n\n\nMissing values, outlier detection (IQR, z-score), correlation vs causation\n\n\n\n\n\n\n\n\n\n\n\n\nModule 16 — Principal Component Analysis (PCA)\n\n\nQuantitative variables, variance maximization, eigenvectors/values, orthogonality\n\n\n\n\n\n\n\n\n\n\n\n\nModule 17 — Correspondence Analysis (CA)\n\n\nCategorical variables, contingency table, chi-square distance, inertia\n\n\n\n\n\n\n\n\n\n\n\n\nModule 18 — Multiple Correspondence Analysis (MCA)\n\n\nMultiple categorical variables, inertia decomposition\n\n\n\n\n\n\n\n\n\n\n\n\nModule 19 — End-to-End Case Study\n\n\nFull analysis on a real dataset\n\n\n\n\n\n\n\n\n\n\n\n\nModule 20 — Ethics & Bias in Statistics\n\n\nSampling bias, p-hacking, misleading graphs, responsible reporting\n\n\n\n\n\nNo matching items\n\n  \n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nModule 1 — Introduction to Data & Statistics\n\n\nRole of statistics in data science: organizing, summarizing, and interpreting data to make decisions\n\n\n\n\n\n\nModule 2 — Types of Data & Measurement Scales\n\n\nQualitative: Nominal (no order), Ordinal (ordered categories)\n\n\n\n\n\n\nModule 3 — Descriptive Statistics: Central Tendency\n\n\nMean (sensitive to outliers), Median (robust), Mode (categorical)\n\n\n\n\n\n\nModule 4 — Descriptive Statistics: Dispersion\n\n\nRange, IQR, Variance, Standard Deviation\n\n\n\n\n\n\nModule 5 — Data Visualization & Graphical Description\n\n\nVisualization by variable type: bar charts, histograms, scatter plots, pair plots, heatmaps\n\n\n\n\n\n\nModule 6 — Probability Fundamentals\n\n\nRandom experiments, events, sample space\n\n\n\n\n\n\nModule 7 — Random Variables & Probability Distributions\n\n\nDiscrete: Bernoulli, Binomial, Poisson\n\n\n\n\n\n\nModule 8 — Normal Distribution & Standardization\n\n\nProperties: symmetrical, bell-shaped, defined by μ and σ\n\n\n\n\n\n\nModule 9 — Sampling & Sampling Distributions\n\n\nRandom, stratified, systematic sampling; sampling bias\n\n\n\n\n\n\nModule 10 — Estimation & Confidence Intervals\n\n\nPoint vs interval estimation\n\n\n\n\n\n\nModule 11 — Hypothesis Testing: Foundations\n\n\nH₀ and H₁, test statistic, p-value, significance level α\n\n\n\n\n\n\nModule 12 — Hypothesis Testing: Statistical Tests\n\n\nParametric: t-tests, ANOVA\n\n\n\n\n\n\nModule 13 — Assumptions & Test Selection\n\n\nNormality, independence, homogeneity of variance, sample size\n\n\n\n\n\n\nModule 14 — Relationships Between Variables\n\n\nQuant ↔︎ Quant: Pearson/Spearman correlation, covariance\n\n\n\n\n\n\nModule 15 — Exploratory Data Analysis (EDA)\n\n\nMissing values, outlier detection (IQR, z-score), correlation vs causation\n\n\n\n\n\n\nModule 16 — Principal Component Analysis (PCA)\n\n\nQuantitative variables, variance maximization, eigenvectors/values, orthogonality\n\n\n\n\n\n\nModule 17 — Correspondence Analysis (CA)\n\n\nCategorical variables, contingency table, chi-square distance, inertia\n\n\n\n\n\n\nModule 18 — Multiple Correspondence Analysis (MCA)\n\n\nMultiple categorical variables, inertia decomposition\n\n\n\n\n\n\nModule 19 — End-to-End Case Study\n\n\nFull analysis on a real dataset\n\n\n\n\n\n\nModule 20 — Ethics & Bias in Statistics\n\n\nSampling bias, p-hacking, misleading graphs, responsible reporting\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Statistics & Data Analysis for Data Science"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/index.html#assessment",
+    "href": "modules/advanced/statistics/index.html#assessment",
+    "title": "Statistics & Data Analysis for Data Science",
+    "section": "📊 Assessment",
+    "text": "📊 Assessment\n\n\n\nMethod\nWeight\n\n\n\n\nConceptual quizzes\n20%\n\n\nPython-based exercises\n20%\n\n\nPaper-based statistical reasoning\n20%\n\n\nEnd-of-course case study\n40%",
+    "crumbs": [
+      "Statistics & Data Analysis for Data Science"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/index.html#resources",
+    "href": "modules/advanced/statistics/index.html#resources",
+    "title": "Statistics & Data Analysis for Data Science",
+    "section": "📂 Resources",
+    "text": "📂 Resources\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture slides, TD series, and TP notebooks for this module are being prepared.",
+    "crumbs": [
+      "Statistics & Data Analysis for Data Science"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_02.html",
+    "href": "modules/advanced/statistics/weeks/module_02.html",
+    "title": "Module 2 — Types of Data & Measurement Scales",
+    "section": "",
+    "text": "Theory\n\nQualitative: Nominal (no order), Ordinal (ordered categories)\nQuantitative: Discrete (countable), Continuous (measurable)\nMeasurement scales: Nominal, Ordinal, Interval, Ratio\nData structures: Cross-sectional, Time series, Panel\n\nPython Practical\n\ndf['col'].astype('category')\nEncode ordinal variables numerically\ndf.dtypes.value_counts().plot(kind='bar')\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 2 — Types of Data & Measurement Scales"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_04.html",
+    "href": "modules/advanced/statistics/weeks/module_04.html",
+    "title": "Module 4 — Descriptive Statistics: Dispersion",
+    "section": "",
+    "text": "Theory\n\nRange, IQR, Variance, Standard Deviation\nCoefficient of Variation (CV = std / mean)\nOutlier detection: IQR rule, z-scores\n\nPython Practical\n\ndf['col'].var(), .std(), .quantile([0.25, 0.75])\nOutlier thresholds: Q1 - 1.5*IQR, Q3 + 1.5*IQR\nsns.boxplot(df['col'])\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 4 — Descriptive Statistics: Dispersion"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_06.html",
+    "href": "modules/advanced/statistics/weeks/module_06.html",
+    "title": "Module 6 — Probability Fundamentals",
+    "section": "",
+    "text": "Theory\n\nRandom experiments, events, sample space\nProbability axioms; conditional probability; independence\n\nPython Practical\n\nSimulate coin toss: np.random.choice(['H','T'], size=1000)\nConditional probability by filtering samples\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 6 — Probability Fundamentals"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_08.html",
+    "href": "modules/advanced/statistics/weeks/module_08.html",
+    "title": "Module 8 — Normal Distribution & Standardization",
+    "section": "",
+    "text": "Theory\n\nProperties: symmetrical, bell-shaped, defined by μ and σ\nEmpirical rule (68–95–99.7%)\nZ-score: (x − μ) / σ; normality assumption for parametric tests\n\nPython Practical\n\nCompute z-scores: (df['col'] - df['col'].mean()) / df['col'].std()\nNormality test: scipy.stats.shapiro(df['col'])\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 8 — Normal Distribution & Standardization"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_10.html",
+    "href": "modules/advanced/statistics/weeks/module_10.html",
+    "title": "Module 10 — Estimation & Confidence Intervals",
+    "section": "",
+    "text": "Theory\n\nPoint vs interval estimation\nCI = estimate ± margin of error; confidence level interpretation; effect size\n\nPython Practical\n\nstats.t.interval(0.95, df=len(sample)-1, loc=sample.mean(), scale=stats.sem(sample))\nstatsmodels.stats.proportion.proportion_confint()\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 10 — Estimation & Confidence Intervals"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_12.html",
+    "href": "modules/advanced/statistics/weeks/module_12.html",
+    "title": "Module 12 — Hypothesis Testing: Statistical Tests",
+    "section": "",
+    "text": "Theory\n\nParametric: t-tests, ANOVA\nNon-parametric: Mann–Whitney, Wilcoxon, Kruskal–Wallis\nCategorical: Chi-square, Fisher’s exact\n\nPython Practical\n\nttest_ind(), ttest_rel(), f_oneway()\nmannwhitneyu(), wilcoxon(), kruskal()\nchi2_contingency(pd.crosstab(df['cat1'], df['cat2']))\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 12 — Hypothesis Testing: Statistical Tests"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_14.html",
+    "href": "modules/advanced/statistics/weeks/module_14.html",
+    "title": "Module 14 — Relationships Between Variables",
+    "section": "",
+    "text": "Theory\n\nQuant ↔︎ Quant: Pearson/Spearman correlation, covariance\nQual ↔︎ Qual: contingency, Cramér’s V, Phi\nQuant ↔︎ Qual: ANOVA, η², point-biserial\nRegression basics\n\nPython Practical\n\ndf.corr(), spearmanr()\npd.crosstab(); statsmodels.OLS(y, X).fit()\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 14 — Relationships Between Variables"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_16.html",
+    "href": "modules/advanced/statistics/weeks/module_16.html",
+    "title": "Module 16 — Principal Component Analysis (PCA)",
+    "section": "",
+    "text": "Theory\n\nQuantitative variables, variance maximization, eigenvectors/values, orthogonality\nInterpretation: scree plot, correlation circle, factor map\n\nPython Practical\n\nStandardScaler() → sklearn.decomposition.PCA\nPlot scree plot and 2D factor map\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 16 — Principal Component Analysis (PCA)"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_18.html",
+    "href": "modules/advanced/statistics/weeks/module_18.html",
+    "title": "Module 18 — Multiple Correspondence Analysis (MCA)",
+    "section": "",
+    "text": "Theory\n\nMultiple categorical variables, inertia decomposition\nCategory/individual representation\n\nPython Practical\n\nprince.MCA(), 2D plots\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 18 — Multiple Correspondence Analysis (MCA)"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/statistics/weeks/module_20.html",
+    "href": "modules/advanced/statistics/weeks/module_20.html",
+    "title": "Module 20 — Ethics & Bias in Statistics",
+    "section": "",
+    "text": "Theory\n\nSampling bias, p-hacking, misleading graphs, responsible reporting\n\nPython Practical\n\nDetect bias in a dataset\nVisualize and interpret results responsibly\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Curriculum",
+      "Module 20 — Ethics & Bias in Statistics"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_1.html",
+    "href": "modules/advanced/ai/course/chapter_1.html",
+    "title": "Chapter 1 — Introduction to AI",
+    "section": "",
+    "text": "History, Definitions, and Applications\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 1 — Introduction to AI"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_1.html#chapter-overview",
+    "href": "modules/advanced/ai/course/chapter_1.html#chapter-overview",
+    "title": "Chapter 1 — Introduction to AI",
+    "section": "",
+    "text": "History, Definitions, and Applications\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 1 — Introduction to AI"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_3.html",
+    "href": "modules/advanced/ai/course/chapter_3.html",
+    "title": "Chapter 3 — Knowledge Representation",
+    "section": "",
+    "text": "Logic, Ontologies, Expert Systems\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 3 — Knowledge Representation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_3.html#chapter-overview",
+    "href": "modules/advanced/ai/course/chapter_3.html#chapter-overview",
+    "title": "Chapter 3 — Knowledge Representation",
+    "section": "",
+    "text": "Logic, Ontologies, Expert Systems\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 3 — Knowledge Representation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_5.html",
+    "href": "modules/advanced/ai/course/chapter_5.html",
+    "title": "Chapter 5 — Neural Networks",
+    "section": "",
+    "text": "Perceptrons, MLP, Backpropagation\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 5 — Neural Networks"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_5.html#chapter-overview",
+    "href": "modules/advanced/ai/course/chapter_5.html#chapter-overview",
+    "title": "Chapter 5 — Neural Networks",
+    "section": "",
+    "text": "Perceptrons, MLP, Backpropagation\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 5 — Neural Networks"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_7.html",
+    "href": "modules/advanced/ai/course/chapter_7.html",
+    "title": "Chapter 7 — AI Ethics, Bias, and Responsible AI",
+    "section": "",
+    "text": "Ethical considerations and bias in AI systems.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 7 — AI Ethics, Bias, and Responsible AI"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/ai/course/chapter_7.html#chapter-overview",
+    "href": "modules/advanced/ai/course/chapter_7.html#chapter-overview",
+    "title": "Chapter 7 — AI Ethics, Bias, and Responsible AI",
+    "section": "",
+    "text": "Ethical considerations and bias in AI systems.\n\n\n\n\n\n\nWarning🔜 Coming Soon\n\n\n\nLecture notes and materials for this chapter are currently being prepared.",
+    "crumbs": [
+      "Curriculum",
+      "Chapter 7 — AI Ethics, Bias, and Responsible AI"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_01.html",
+    "href": "modules/advanced/business_analytics/weeks/week_01.html",
+    "title": "Week 1 — Business Mindset & the Decision Framework",
+    "section": "",
+    "text": "Format: Lecture + group case study | No code this week — intentional",
+    "crumbs": [
+      "Curriculum",
+      "Week 1 — Business Mindset & the Decision Framework"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_01.html#topics-covered",
+    "href": "modules/advanced/business_analytics/weeks/week_01.html#topics-covered",
+    "title": "Week 1 — Business Mindset & the Decision Framework",
+    "section": "Topics covered",
+    "text": "Topics covered\n\nThe decision gap: why data alone doesn’t decide anything\nKPIs vs vanity metrics — what actually moves the business\nActionable vs descriptive metrics, with real industry examples\nCost of bad decisions: how poor analysis destroys money and trust\nThe decision brief: a one-page format students will use throughout the entire course",
+    "crumbs": [
+      "Curriculum",
+      "Week 1 — Business Mindset & the Decision Framework"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_01.html#case-study",
+    "href": "modules/advanced/business_analytics/weeks/week_01.html#case-study",
+    "title": "Week 1 — Business Mindset & the Decision Framework",
+    "section": "Case study",
+    "text": "Case study\nA product launch that failed despite “good” data. Students identify which KPIs were tracked vs which ones actually mattered, then debate in groups: what decision should have been made, and when?",
+    "crumbs": [
+      "Curriculum",
+      "Week 1 — Business Mindset & the Decision Framework"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_01.html#why-no-code-in-week-1",
+    "href": "modules/advanced/business_analytics/weeks/week_01.html#why-no-code-in-week-1",
+    "title": "Week 1 — Business Mindset & the Decision Framework",
+    "section": "Why no code in week 1?",
+    "text": "Why no code in week 1?\nIntentional. The goal is to build reasoning skills before introducing tools. Students who learn to frame decisions first will write better code later — because they know what they’re trying to answer.",
+    "crumbs": [
+      "Curriculum",
+      "Week 1 — Business Mindset & the Decision Framework"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_01.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_01.html#deliverable",
+    "title": "Week 1 — Business Mindset & the Decision Framework",
+    "section": "Deliverable",
+    "text": "Deliverable\n\nOne-page decision brief on the case study\nGraded on quality of reasoning, not on “correctness” — there is no single right answer",
+    "crumbs": [
+      "Curriculum",
+      "Week 1 — Business Mindset & the Decision Framework"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_03.html",
+    "href": "modules/advanced/business_analytics/weeks/week_03.html",
+    "title": "Week 3 — Causal Thinking & Experimentation",
+    "section": "",
+    "text": "Format: Lecture + mini-project",
+    "crumbs": [
+      "Curriculum",
+      "Week 3 — Causal Thinking & Experimentation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_03.html#topics-covered",
+    "href": "modules/advanced/business_analytics/weeks/week_03.html#topics-covered",
+    "title": "Week 3 — Causal Thinking & Experimentation",
+    "section": "Topics covered",
+    "text": "Topics covered\n\nCorrelation vs causation — industry examples where the confusion cost money\nConfounders: why the data lies and how to spot it\nA/B test design: hypothesis formulation, control group, sample size calculation\nStatistical significance as a business decision — not just a p-value checkbox\nEarly stopping, peeking, and why companies lose money from it\nObservational methods when experiments aren’t possible (difference-in-differences, intro)",
+    "crumbs": [
+      "Curriculum",
+      "Week 3 — Causal Thinking & Experimentation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_03.html#mini-project",
+    "href": "modules/advanced/business_analytics/weeks/week_03.html#mini-project",
+    "title": "Week 3 — Causal Thinking & Experimentation",
+    "section": "Mini-project",
+    "text": "Mini-project\nScenario: a SaaS company is considering a pricing page redesign. Students:\n1. Design the A/B test (write the hypothesis, calculate required sample size and test duration)\n2. Receive pre-given results and interpret them\n3. Make the launch / no-launch call and justify it in a one-page business memo",
+    "crumbs": [
+      "Curriculum",
+      "Week 3 — Causal Thinking & Experimentation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_03.html#tools",
+    "href": "modules/advanced/business_analytics/weeks/week_03.html#tools",
+    "title": "Week 3 — Causal Thinking & Experimentation",
+    "section": "Tools",
+    "text": "Tools\nscipy.stats, pingouin — students must understand the numbers, not just run functions",
+    "crumbs": [
+      "Curriculum",
+      "Week 3 — Causal Thinking & Experimentation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_03.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_03.html#deliverable",
+    "title": "Week 3 — Causal Thinking & Experimentation",
+    "section": "Deliverable",
+    "text": "Deliverable\n\nA/B test design document\nLaunch decision memo (graded on business reasoning, not statistical fluency alone)",
+    "crumbs": [
+      "Curriculum",
+      "Week 3 — Causal Thinking & Experimentation"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_05.html",
+    "href": "modules/advanced/business_analytics/weeks/week_05.html",
+    "title": "Week 5 — Customer Segmentation & Lifetime Value",
+    "section": "",
+    "text": "Format: Lecture + project",
+    "crumbs": [
+      "Curriculum",
+      "Week 5 — Customer Segmentation & Lifetime Value"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_05.html#topics-covered",
+    "href": "modules/advanced/business_analytics/weeks/week_05.html#topics-covered",
+    "title": "Week 5 — Customer Segmentation & Lifetime Value",
+    "section": "Topics covered",
+    "text": "Topics covered\n\nRFM analysis (Recency, Frequency, Monetary) — construction, interpretation, limits\nCustomer Lifetime Value: the simple formula and what it implies strategically\nChurn signals: leading indicators vs lagging indicators\nK-means clustering — conceptual foundations and practical use; how to avoid over-clustering\nSegment naming: make it business-readable (“High-value dormant buyers”, not “Cluster 2”)\nTranslating segment insights into marketing budget allocation decisions",
+    "crumbs": [
+      "Curriculum",
+      "Week 5 — Customer Segmentation & Lifetime Value"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_05.html#project",
+    "href": "modules/advanced/business_analytics/weeks/week_05.html#project",
+    "title": "Week 5 — Customer Segmentation & Lifetime Value",
+    "section": "Project",
+    "text": "Project\nUsing a provided e-commerce customer dataset, students:\n1. Build an RFM model and apply K-means segmentation\n2. Name and describe each segment in plain business language\n3. Propose a targeted marketing strategy for each segment\n4. Estimate the revenue impact of prioritising the highest-value segment",
+    "crumbs": [
+      "Curriculum",
+      "Week 5 — Customer Segmentation & Lifetime Value"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_05.html#tools",
+    "href": "modules/advanced/business_analytics/weeks/week_05.html#tools",
+    "title": "Week 5 — Customer Segmentation & Lifetime Value",
+    "section": "Tools",
+    "text": "Tools\nscikit-learn (KMeans), pandas, matplotlib, seaborn",
+    "crumbs": [
+      "Curriculum",
+      "Week 5 — Customer Segmentation & Lifetime Value"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_05.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_05.html#deliverable",
+    "title": "Week 5 — Customer Segmentation & Lifetime Value",
+    "section": "Deliverable",
+    "text": "Deliverable\n\nSegmentation notebook (annotated)\nMarketing strategy memo — one page per segment\nRevenue impact estimate with assumptions stated clearly",
+    "crumbs": [
+      "Curriculum",
+      "Week 5 — Customer Segmentation & Lifetime Value"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_07.html",
+    "href": "modules/advanced/business_analytics/weeks/week_07.html",
+    "title": "Week 7 — Recommender Systems as Revenue Levers",
+    "section": "",
+    "text": "Format: Lecture + strategy exercise | Links to instructor’s own research",
+    "crumbs": [
+      "Curriculum",
+      "Week 7 — Recommender Systems as Revenue Levers"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_07.html#topics-covered",
+    "href": "modules/advanced/business_analytics/weeks/week_07.html#topics-covered",
+    "title": "Week 7 — Recommender Systems as Revenue Levers",
+    "section": "Topics covered",
+    "text": "Topics covered\n\nCollaborative filtering — intuition and mechanics, without heavy linear algebra\nContent-based vs hybrid recommenders: which fits which business context\nBusiness KPIs for recommenders: CTR, conversion rate, average basket size\nThe relevance vs diversity vs profit triangle — real trade-offs, no perfect answer\nFilter bubbles as both an ethical risk and a business risk (user trust erosion)\nWhen NOT to recommend: over-recommendation, cannibalisation, and recommendation fatigue",
+    "crumbs": [
+      "Curriculum",
+      "Week 7 — Recommender Systems as Revenue Levers"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_07.html#strategy-exercise",
+    "href": "modules/advanced/business_analytics/weeks/week_07.html#strategy-exercise",
+    "title": "Week 7 — Recommender Systems as Revenue Levers",
+    "section": "Strategy exercise",
+    "text": "Strategy exercise\nThree fictional retailers, each with different goals and constraints. Students must:\n1. Select and justify the right recommender strategy for each retailer\n2. Explain the trade-offs they are accepting (e.g. margin vs relevance)\n3. Define the KPIs they would use to measure success post-deployment\nInstructor link: The instructor brings their own recommender research as a live case. Students critique real design choices — this builds critical thinking and shows the gap between academic and production systems.",
+    "crumbs": [
+      "Curriculum",
+      "Week 7 — Recommender Systems as Revenue Levers"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_07.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_07.html#deliverable",
+    "title": "Week 7 — Recommender Systems as Revenue Levers",
+    "section": "Deliverable",
+    "text": "Deliverable\n\nRecommender strategy brief (one page per retailer)\nKPI definition document",
+    "crumbs": [
+      "Curriculum",
+      "Week 7 — Recommender Systems as Revenue Levers"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_09.html",
+    "href": "modules/advanced/business_analytics/weeks/week_09.html",
+    "title": "Week 9 — Fraud Detection & Risk Analytics",
+    "section": "",
+    "text": "Format: Lecture + case study",
+    "crumbs": [
+      "Curriculum",
+      "Week 9 — Fraud Detection & Risk Analytics"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_09.html#topics-covered",
+    "href": "modules/advanced/business_analytics/weeks/week_09.html#topics-covered",
+    "title": "Week 9 — Fraud Detection & Risk Analytics",
+    "section": "Topics covered",
+    "text": "Topics covered\n\nAnomaly detection: rule-based vs statistical vs ML approaches, and when each is appropriate\nPrecision, recall, and F1 — framed entirely as business cost, not model performance\nThe threshold decision: what false positive rate can the business actually afford?\nCost matrix: assigning real monetary costs to each cell of the confusion matrix\nAdversarial drift: fraudsters adapt over time, models degrade — maintenance is not optional\nHuman-in-the-loop design: when to flag for manual review rather than auto-block",
+    "crumbs": [
+      "Curriculum",
+      "Week 9 — Fraud Detection & Risk Analytics"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_09.html#case-study",
+    "href": "modules/advanced/business_analytics/weeks/week_09.html#case-study",
+    "title": "Week 9 — Fraud Detection & Risk Analytics",
+    "section": "Case study",
+    "text": "Case study\nA fintech payment platform needs to choose a fraud detection threshold. Students receive:\n- A confusion matrix at 5 different threshold values\n- Cost data: average cost of a wrongly blocked legitimate user vs average cost of an undetected fraud\n- Business context: customer acquisition cost, churn rate after a false block\nStudents must:\n1. Build a cost model for each threshold\n2. Choose and justify a threshold\n3. Present their recommendation to a fictional risk committee (written)",
+    "crumbs": [
+      "Curriculum",
+      "Week 9 — Fraud Detection & Risk Analytics"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_09.html#tools",
+    "href": "modules/advanced/business_analytics/weeks/week_09.html#tools",
+    "title": "Week 9 — Fraud Detection & Risk Analytics",
+    "section": "Tools",
+    "text": "Tools\nscikit-learn — ROC curve, threshold tuning; custom cost matrix in pandas",
+    "crumbs": [
+      "Curriculum",
+      "Week 9 — Fraud Detection & Risk Analytics"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_09.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_09.html#deliverable",
+    "title": "Week 9 — Fraud Detection & Risk Analytics",
+    "section": "Deliverable",
+    "text": "Deliverable\n\nCost model (notebook or spreadsheet)\nThreshold recommendation with business justification (1 page, addressed to risk committee)",
+    "crumbs": [
+      "Curriculum",
+      "Week 9 — Fraud Detection & Risk Analytics"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_11.html",
+    "href": "modules/advanced/business_analytics/weeks/week_11.html",
+    "title": "Week 11 — Data Ethics, GDPR & the EU AI Act",
+    "section": "",
+    "text": "Format: Structured debate + compliance memo | A full week — not a footnote",
+    "crumbs": [
+      "Curriculum",
+      "Week 11 — Data Ethics, GDPR & the EU AI Act"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_11.html#why-this-deserves-a-full-week",
+    "href": "modules/advanced/business_analytics/weeks/week_11.html#why-this-deserves-a-full-week",
+    "title": "Week 11 — Data Ethics, GDPR & the EU AI Act",
+    "section": "Why this deserves a full week",
+    "text": "Why this deserves a full week\nEvery French and EU employer expects data scientists to know this material from day one. The EU AI Act is now in force. GDPR has been enforceable since 2018. Algorithmic bias is not just an ethical concern — it is an employment law and liability issue. Students who cannot speak to these topics will struggle in French job interviews.",
+    "crumbs": [
+      "Curriculum",
+      "Week 11 — Data Ethics, GDPR & the EU AI Act"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_11.html#topics-covered",
+    "href": "modules/advanced/business_analytics/weeks/week_11.html#topics-covered",
+    "title": "Week 11 — Data Ethics, GDPR & the EU AI Act",
+    "section": "Topics covered",
+    "text": "Topics covered\n\nGDPR article-by-article: what it concretely bans for a practising data scientist\nEU AI Act: high-risk AI system classification and what compliance looks like in practice\nAlgorithmic bias as legal liability — the basics of EU discrimination law\nData monetisation: what a company can and cannot sell or share without consent\nPrivacy-preserving techniques: anonymisation, pseudonymisation, and a conceptual intro to differential privacy\nThe right to explanation under GDPR Article 22 — and what it demands of model design",
+    "crumbs": [
+      "Curriculum",
+      "Week 11 — Data Ethics, GDPR & the EU AI Act"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_11.html#debate-format",
+    "href": "modules/advanced/business_analytics/weeks/week_11.html#debate-format",
+    "title": "Week 11 — Data Ethics, GDPR & the EU AI Act",
+    "section": "Debate format",
+    "text": "Debate format\nCase: a French company has built an automated CV-screening tool. Evidence emerges that it systematically ranks women lower in technical roles.\nTeams of students argue one of three positions:\n- Deploy with guardrails — propose specific technical and process mitigations\n- Do not deploy — argue on legal and ethical grounds with specific article citations\n- Redesign from scratch — propose an alternative system that would be compliant\nAll positions must cite specific GDPR articles or EU AI Act provisions. Vague ethical arguments are not accepted.",
+    "crumbs": [
+      "Curriculum",
+      "Week 11 — Data Ethics, GDPR & the EU AI Act"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_11.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_11.html#deliverable",
+    "title": "Week 11 — Data Ethics, GDPR & the EU AI Act",
+    "section": "Deliverable",
+    "text": "Deliverable\n\nDebate participation (graded on argument quality and legal accuracy)\nCompliance memo: final individual recommendation with legal justification (1 page)",
+    "crumbs": [
+      "Curriculum",
+      "Week 11 — Data Ethics, GDPR & the EU AI Act"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_13.html",
+    "href": "modules/advanced/business_analytics/weeks/week_13.html",
+    "title": "Week 13 — Build",
+    "section": "",
+    "text": "Format: Build Lab\nStudents build a working prototype. “Working” means: given an input, it produces a meaningful output. “Polished” is not required.",
+    "crumbs": [
+      "Curriculum",
+      "Week 13 — Build"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_13.html#requirements",
+    "href": "modules/advanced/business_analytics/weeks/week_13.html#requirements",
+    "title": "Week 13 — Build",
+    "section": "Requirements",
+    "text": "Requirements\n\nModel selection must be justified by the business context, not benchmarked against a leaderboard\nDocumentation: who uses this, what decision it informs, what it cannot do, and when it should not be used\nLab sessions: instructor office hours available, one structured peer code review session",
+    "crumbs": [
+      "Curriculum",
+      "Week 13 — Build"
+    ]
+  },
+  {
+    "objectID": "modules/advanced/business_analytics/weeks/week_13.html#deliverable",
+    "href": "modules/advanced/business_analytics/weeks/week_13.html#deliverable",
+    "title": "Week 13 — Build",
+    "section": "Deliverable",
+    "text": "Deliverable\n\nWorking prototype\nDocumentation (GitHub README minimum)",
+    "crumbs": [
+      "Curriculum",
+      "Week 13 — Build"
+    ]
+  }
+]

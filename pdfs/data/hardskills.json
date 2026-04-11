@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Project Management Tools",
+      "tools": [
+        { "name": "Jira", "url": "https://www.atlassian.com/software/jira",  "level": 8  },
+        { "name": "Confluence", "url": "https://www.atlassian.com/software/confluence",  "level": 9  },
+        { "name": "Trello", "url": "https://trello.com/" , "level": 8 },
+        { "name": "Slack", "url": "https://slack.com/" , "level": 8},
+        { "name": "Microsoft Teams", "url": "https://www.microsoft.com/en-us/microsoft-teams" , "level": 8}
+      ]
+    },
+    {
+      "title": "Programming Languages",
+      "tools": [
+        { "name": "Java", "url": "https://github.com/8-chems?tab=repositories&q=&type=source&language=java" , "level": 8},
+        { "name": "Python", "url": "https://github.com/8-chems?tab=repositories&q=&type=source&language=python" , "level": 9},
+        { "name": "Matlab", "url": "https://github.com/8-chems?tab=repositories&q=&type=source&language=matlab" , "level": 7},
+        { "name": "C#", "url": "https://github.com/8-chems?tab=repositories&q=&type=source&language=?" , "level": 6}
+      ]
+    },
+    {
+      "title": "Libraries & Tools",
+      "tools": [
+        { "name": "Surprise", "url": "http://surpriselib.com" , "level": 5},
+        { "name": "Pandas", "url": "https://pandas.pydata.org" , "level": 8},
+        { "name": "Keras", "url": "https://keras.io" , "level": 6},
+        { "name": "Mahout", "url": "https://mahout.apache.org" , "level": 9},
+        { "name": "Weka", "url": "https://www.cs.waikato.ac.nz/ml/weka/" , "level": 9},
+        { "name": "RankSys", "url": "https://github.com/RankSys/RankSys" , "level": 9}
+      ]
+    }
+  ]
+  

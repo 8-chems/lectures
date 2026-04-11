@@ -1,0 +1,33 @@
+[
+    {
+      "id": "data_reduction_optimization",
+      "title": "Data Reduction & Optimization",
+      "content": [
+        "Evolutionary algorithms",
+        "Statistical-based data reduction techniques"
+      ]
+    },
+    {
+      "id": "recommender_system",
+      "title": "Recommendation Systems",
+      "content": [
+        "Recommendation evaluation",
+        "Rating prediction",
+        "Recommendation ranking",
+        "Re-ranking",
+        "Scalability"
+      ]
+    },
+    {
+      "id": "semantic_web_open_linked_data",
+      "title": "Semantic Web & Open Linked Data",
+      "content": [
+        "Knowledge representation",
+        "Vectorization",
+        "Mining",
+        "Classification",
+        "Exploration"
+      ]
+    }
+  ]
+  

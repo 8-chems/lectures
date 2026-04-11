@@ -1,0 +1,105 @@
+[
+  {
+    "id": "fds",
+    "title": "Fundamentals of Data Science",
+    "files": [
+      {
+        "type": "lecture",
+        "name": "chapter_1.pdf",
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/lectures/chapter_1.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/chapter_1.json"
+      },
+      {
+        "type": "lecture", 
+        "name": "chapter_2.pdf",
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/lectures/chapter_2.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/chapter_2.json"
+      },
+       {
+        "type": "lecture", 
+        "name": "chapter_3.pdf",
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/lectures/chapter_3.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/chapter_3.json"
+      },
+       {
+        "type": "lecture", 
+        "name": "chapter_4.pdf",
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/lectures/chapter_4.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/chapter_4.json"
+      },
+       {
+        "type": "lecture", 
+        "name": "chapter_5.pdf",
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/lectures/chapter_5.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/chapter_5.json"
+      },
+      {
+        "type": "exercise",
+        "name": "series_1.pdf", 
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/exercises/series_1.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/series_1.json"
+      },
+      {
+        "type": "exercise",
+        "name": "series_2.pdf", 
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/exercises/series_2.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/series_2.json"
+      },
+      {
+        "type": "exercise",
+        "name": "series_3.1.pdf", 
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/exercises/series_3.1.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/series_3.1.json"
+      },
+      {
+        "type": "exercise",
+        "name": "series_3.2.pdf", 
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/exercises/series_3.2.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/series_3.2.json"
+      },
+      {
+        "type": "exercise",
+        "name": "series_3.3.pdf", 
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/exercises/series_3.3.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/series_3.3.json"
+      },
+      {
+        "type": "exercise",
+        "name": "series_3.4.pdf", 
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/exercises/series_3.4.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/series_3.4.json"
+      }
+      ,
+      {
+        "type": "exercise",
+        "name": "series_4.1.pdf", 
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/exercises/series_4.1.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/series_4.1.json"
+      }
+      ,
+      {
+        "type": "exercise",
+        "name": "series_4.2.pdf", 
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/exercises/series_4.2.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/series_4.2.json"
+      },
+      {
+        "type": "exercise",
+        "name": "series_5.pdf", 
+        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/exercises/series_5.pdf",
+        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/series_5.json"
+      }
+    ]
+  }
+  , {
+    "id": "ml",
+    "title": "Comming soon: Machine Learning",
+    "files": []
+  }
+  ,
+   {
+    "id": "csa",
+    "title": "Comming soon: Cyber Security Audit",
+    "files": []
+   }
+]

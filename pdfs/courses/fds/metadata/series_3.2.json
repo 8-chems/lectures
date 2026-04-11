@@ -1,0 +1,86 @@
+{
+  "modules": [
+    {
+      "id": "fds",
+      "title": "Fundamentals of Data Science",
+      "metadata": {
+        "author": "Dr. Data Science",
+        "lastUpdated": "2025-07-31T09:00:00Z",
+        "version": "1.0",
+        "description": "Core concepts of data science",
+        "tags": ["data science", "fundamentals"],
+        "difficulty": "Beginner",
+        "estimatedTime": "10 hours"
+      },
+      "chapters": [
+        {
+          "fileName": "chapter_1.pdf",
+          "metadata": {
+            "author": "Dr. Data Science",
+            "lastUpdated": "2025-07-31T09:00:00Z",
+            "version": "1.0",
+            "description": "Introduction to data science concepts",
+            "tags": ["introduction", "theory"],
+            "difficulty": "Beginner",
+            "estimatedTime": "45 minutes"
+          },
+          "exercises": [
+            {
+              "fileName": "series_1.pdf",
+              "metadata": {
+                "author": "Dr. Data Science",
+                "lastUpdated": "2025-07-31T09:00:00Z",
+                "version": "1.0",
+                "description": "Basic data science exercises",
+                "tags": ["exercise", "practice"],
+                "difficulty": "Beginner",
+                "estimatedTime": "30 minutes"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ml",
+      "title": "Machine Learning Basics",
+      "metadata": {
+        "author": "Dr. Machine Learning",
+        "lastUpdated": "2025-07-31T09:00:00Z",
+        "version": "1.0",
+        "description": "Introduction to machine learning",
+        "tags": ["machine learning", "basics"],
+        "difficulty": "Intermediate",
+        "estimatedTime": "12 hours"
+      },
+      "chapters": [
+        {
+          "fileName": "chapter_1.pdf",
+          "metadata": {
+            "author": "Dr. Machine Learning",
+            "lastUpdated": "2025-07-31T09:00:00Z",
+            "version": "1.0",
+            "description": "Introduction to machine learning algorithms",
+            "tags": ["algorithms", "theory"],
+            "difficulty": "Intermediate",
+            "estimatedTime": "1 hour"
+          },
+          "exercises": [
+            {
+              "fileName": "series_1.pdf",
+              "metadata": {
+                "author": "Dr. Machine Learning",
+                "lastUpdated": "2025-07-31T09:00:00Z",
+                "version": "1.0",
+                "description": "Practical ML exercises",
+                "tags": ["exercise", "practical"],
+                "difficulty": "Intermediate",
+                "estimatedTime": "45 minutes"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

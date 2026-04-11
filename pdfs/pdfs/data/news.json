@@ -1,0 +1,19 @@
+[
+    {
+      "title": "AI Research Milestone",
+      "date": "2025-06-15",
+      "category": "AI",
+      "tags": ["LLM", "Open Source", "Breakthrough"],
+      "description": "OpenAI just released a new model with groundbreaking performance.",
+      "markdown": "## AI Research Milestone\n\nDetails about the recent advancements in AI.\n\n**Highlights:**\n- New benchmarks passed\n- Increased efficiency\n- Open-source release"
+    },
+    {
+      "title": "Security Conference 2025",
+      "date": "2025-07-01",
+      "category": "Cybersecurity",
+      "tags": ["Conference", "Security", "Talk"],
+      "description": "Chems spoke at SecCon 2025 about modern LLM vulnerabilities.",
+      "markdown": "### Security Talk Summary\n\nChemseddine discussed:\n- Prompt injection examples\n- Mitigation strategies\n- Future of LLM safety"
+    }
+  ]
+  

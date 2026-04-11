@@ -1,0 +1,168 @@
+[
+  {
+    "listing": "/modules/advanced/business_analytics/index.html",
+    "items": [
+      "/modules/advanced/business_analytics/weeks/week_01.html",
+      "/modules/advanced/business_analytics/weeks/week_02.html",
+      "/modules/advanced/business_analytics/weeks/week_03.html",
+      "/modules/advanced/business_analytics/weeks/week_04.html",
+      "/modules/advanced/business_analytics/weeks/week_05.html",
+      "/modules/advanced/business_analytics/weeks/week_06.html",
+      "/modules/advanced/business_analytics/weeks/week_07.html",
+      "/modules/advanced/business_analytics/weeks/week_08.html",
+      "/modules/advanced/business_analytics/weeks/week_09.html",
+      "/modules/advanced/business_analytics/weeks/week_10.html",
+      "/modules/advanced/business_analytics/weeks/week_11.html",
+      "/modules/advanced/business_analytics/weeks/week_12.html",
+      "/modules/advanced/business_analytics/weeks/week_13.html",
+      "/modules/advanced/business_analytics/weeks/week_14.html"
+    ]
+  },
+  {
+    "listing": "/modules/advanced/ai/index.html",
+    "items": [
+      "/modules/advanced/ai/course/chapter_1.html",
+      "/modules/advanced/ai/course/chapter_2.html",
+      "/modules/advanced/ai/course/chapter_3.html",
+      "/modules/advanced/ai/course/chapter_4.html",
+      "/modules/advanced/ai/course/chapter_5.html",
+      "/modules/advanced/ai/course/chapter_6.html",
+      "/modules/advanced/ai/course/chapter_7.html"
+    ]
+  },
+  {
+    "listing": "/modules/fundamental/python_java/index.html",
+    "items": [
+      "/modules/fundamental/python_java/course/p1.html",
+      "/modules/fundamental/python_java/course/p2.html",
+      "/modules/fundamental/python_java/course/p3.html",
+      "/modules/fundamental/python_java/course/p4.html",
+      "/modules/fundamental/python_java/course/j1.html",
+      "/modules/fundamental/python_java/course/j2.html",
+      "/modules/fundamental/python_java/course/j3.html",
+      "/modules/fundamental/python_java/course/j4.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/modules/fundamental/oop/index.html",
+      "/modules/fundamental/data_structures/index.html",
+      "/modules/fundamental/database/index.html",
+      "/modules/fundamental/programming/index.html",
+      "/modules/fundamental/python_java/index.html",
+      "/modules/advanced/data_science/index.html",
+      "/modules/advanced/machine_learning/index.html",
+      "/modules/advanced/statistics/index.html",
+      "/modules/advanced/ai/index.html"
+    ]
+  },
+  {
+    "listing": "/modules/fundamental/oop/index.html",
+    "items": [
+      "/modules/fundamental/oop/course/chapter_1.html",
+      "/modules/fundamental/oop/course/chapter_2.html",
+      "/modules/fundamental/oop/course/chapter_3.html",
+      "/modules/fundamental/oop/course/chapter_4.html",
+      "/modules/fundamental/oop/course/chapter_5.html"
+    ]
+  },
+  {
+    "listing": "/modules/fundamental/data_structures/index.html",
+    "items": [
+      "/modules/fundamental/data_structures/course/chapter_1.html",
+      "/modules/fundamental/data_structures/course/chapter_2.html",
+      "/modules/fundamental/data_structures/course/chapter_3.html",
+      "/modules/fundamental/data_structures/course/chapter_4.html",
+      "/modules/fundamental/data_structures/course/chapter_5.html",
+      "/modules/fundamental/data_structures/course/chapter_6.html",
+      "/modules/fundamental/data_structures/course/chapter_7.html"
+    ]
+  },
+  {
+    "listing": "/modules/fundamental/database/index.html",
+    "items": [
+      "/modules/fundamental/database/course/chapter_1.html",
+      "/modules/fundamental/database/course/chapter_2.html",
+      "/modules/fundamental/database/course/chapter_3.html",
+      "/modules/fundamental/database/course/chapter_4.html",
+      "/modules/fundamental/database/course/chapter_5.html",
+      "/modules/fundamental/database/course/chapter_6.html",
+      "/modules/fundamental/database/course/chapter_7.html"
+    ]
+  },
+  {
+    "listing": "/modules/fundamental/programming/index.html",
+    "items": [
+      "/modules/fundamental/programming/course/chapter_1.html",
+      "/modules/fundamental/programming/course/chapter_2.html",
+      "/modules/fundamental/programming/course/chapter_3.html",
+      "/modules/fundamental/programming/course/chapter_4.html",
+      "/modules/fundamental/programming/course/chapter_5.html",
+      "/modules/fundamental/programming/course/chapter_6.html"
+    ]
+  },
+  {
+    "listing": "/modules/advanced/data_science/index.html",
+    "items": [
+      "/modules/advanced/data_science/course/chapter_1/index.html",
+      "/modules/advanced/data_science/course/chapter_2/index.html",
+      "/modules/advanced/data_science/course/chapter_3/index.html",
+      "/modules/advanced/data_science/course/chapter_4/index.html",
+      "/modules/advanced/data_science/course/chapter_5/index.html"
+    ]
+  },
+  {
+    "listing": "/modules/advanced/machine_learning/index.html",
+    "items": [
+      "/modules/advanced/machine_learning/weeks/week_01.html",
+      "/modules/advanced/machine_learning/weeks/week_02.html",
+      "/modules/advanced/machine_learning/weeks/week_03.html",
+      "/modules/advanced/machine_learning/weeks/week_04.html",
+      "/modules/advanced/machine_learning/weeks/week_05.html",
+      "/modules/advanced/machine_learning/weeks/week_06.html",
+      "/modules/advanced/machine_learning/weeks/week_07.html",
+      "/modules/advanced/machine_learning/weeks/week_08.html",
+      "/modules/advanced/machine_learning/weeks/week_09.html",
+      "/modules/advanced/machine_learning/weeks/week_10.html",
+      "/modules/advanced/machine_learning/weeks/week_11.html",
+      "/modules/advanced/machine_learning/weeks/week_12.html",
+      "/modules/advanced/machine_learning/weeks/week_13.html",
+      "/modules/advanced/machine_learning/weeks/week_14.html",
+      "/modules/advanced/machine_learning/weeks/week_15.html",
+      "/modules/advanced/machine_learning/weeks/week_16.html",
+      "/modules/advanced/machine_learning/weeks/week_17.html",
+      "/modules/advanced/machine_learning/weeks/week_18.html",
+      "/modules/advanced/machine_learning/weeks/week_19.html",
+      "/modules/advanced/machine_learning/weeks/week_20.html",
+      "/modules/advanced/machine_learning/weeks/week_21.html",
+      "/modules/advanced/machine_learning/weeks/week_22.html",
+      "/modules/advanced/machine_learning/weeks/week_23.html"
+    ]
+  },
+  {
+    "listing": "/modules/advanced/statistics/index.html",
+    "items": [
+      "/modules/advanced/statistics/weeks/module_01.html",
+      "/modules/advanced/statistics/weeks/module_02.html",
+      "/modules/advanced/statistics/weeks/module_03.html",
+      "/modules/advanced/statistics/weeks/module_04.html",
+      "/modules/advanced/statistics/weeks/module_05.html",
+      "/modules/advanced/statistics/weeks/module_06.html",
+      "/modules/advanced/statistics/weeks/module_07.html",
+      "/modules/advanced/statistics/weeks/module_08.html",
+      "/modules/advanced/statistics/weeks/module_09.html",
+      "/modules/advanced/statistics/weeks/module_10.html",
+      "/modules/advanced/statistics/weeks/module_11.html",
+      "/modules/advanced/statistics/weeks/module_12.html",
+      "/modules/advanced/statistics/weeks/module_13.html",
+      "/modules/advanced/statistics/weeks/module_14.html",
+      "/modules/advanced/statistics/weeks/module_15.html",
+      "/modules/advanced/statistics/weeks/module_16.html",
+      "/modules/advanced/statistics/weeks/module_17.html",
+      "/modules/advanced/statistics/weeks/module_18.html",
+      "/modules/advanced/statistics/weeks/module_19.html",
+      "/modules/advanced/statistics/weeks/module_20.html"
+    ]
+  }
+]

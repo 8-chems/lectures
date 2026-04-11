@@ -1,0 +1,15 @@
+{
+  "listing": "/404.html",
+  "items": [
+    "/modules/advanced/ai/index.html",
+    "/modules/advanced/business_analytics/index.html",
+    "/modules/advanced/data_science/index.html",
+    "/modules/fundamental/data_structures/index.html",
+    "/modules/fundamental/database/index.html",
+    "/modules/advanced/machine_learning/index.html",
+    "/modules/fundamental/oop/index.html",
+    "/modules/fundamental/programming/index.html",
+    "/modules/fundamental/python_java/index.html",
+    "/modules/advanced/statistics/index.html"
+  ]
+}

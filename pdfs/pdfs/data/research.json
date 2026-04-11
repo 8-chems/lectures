@@ -1,0 +1,34 @@
+[
+    {
+      "title": "An Overlapping Clustering Approach for Precision, Diversity and Novelty-Aware Recommendations.",
+      "authors": "Chemseddine Berbague, Karabadji Nour El-Islem, Seridi Hassina, Panagiotis Symeionidis, Yannis Manopolous, Wajdi Dhifli.",
+      "year": 2021,
+      "journal": "Expert Systems with Applications",
+      "links": [
+        { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=nQbdgSUAAAAJ" },
+        { "label": "DOI", "url": "https://doi.org/10.1016/j.eswa.2021.114917" }
+      ],
+      "isSelected": true
+    },
+    {
+      "title": "Safe and effective recommendation of drug combinations based on matrix co-factorization",
+      "authors": "P Symeonidis, L Bellinazzi, C Berbague, M Zanker.",
+      "year": 2023,
+      "journal": "IEEE 36th international symposium on computer-based medical systems.",
+      "links": [
+        { "label": "Reference", "url": "https://ieeexplore.ieee.org/abstract/document/10178804/" }
+      ],
+      "isSelected": false
+    },
+    {
+      "title": "Sequence-aware news recommendations by combining intra-with inter-session user information.",
+      "authors": "P Symeonidis, D Chaltsev, C Berbague, M Zanker.",
+      "year": 2022,
+      "journal": "Information Retrieval Journal",
+      "links": [
+        { "label": "Reference", "url": "https://link.springer.com/article/10.1007/s10791-022-09415-w" }
+      ],
+      "isSelected": false
+    }
+  ]
+  

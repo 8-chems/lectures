@@ -1,0 +1,31 @@
+{
+    "academic": [
+      {
+        "id": "associate-professor",
+        "title": "Associate Professor",
+        "year": "2022 - Present",
+        "content": "Since 2022, I Joined ESTIN as an associate professor, in which I lecture in Data Science, Security Audit, and POO."
+      },
+      {
+        "id": "researcher",
+        "title": "Researcher",
+        "year": "Ongoing",
+        "content": "Former PhD student within the laboratory <a href='http://labged.univ-annaba.dz' target='_blank'><b>LabGed</b></a>, and currently an active researcher at LITAN LAB, ESTIN."
+      }
+    ],
+    "professional": [
+      {
+        "id": "data_management_engineer",
+        "title": "Data Management Engineer",
+        "year": "2021 - 2022",
+        "content": "As an Odoo developer and business analyst at <a href='https://web.facebook.com/NechmaGroup/' target='_blank'>Nechma Group Company</a>, I collaborated within a team to analyze company needs and proposed solutions for automating information processes."
+      },
+      {
+        "id": "freelance_web_developer",
+        "title": "Freelance Web Developer",
+        "year": "2018 - 2021",
+        "content": "I worked on various web applications using React, VueJS, and Bootstrap. <a href='https://github.com/8-chems?tab=repositories&type=source&language=javascript' target='_blank'>View some open-source samples.</a>"
+      }
+    ]
+  }
+  

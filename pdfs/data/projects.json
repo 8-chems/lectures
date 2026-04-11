@@ -1,0 +1,87 @@
+[
+    {
+      "title": "A Hybrid Recommendation Model Integrating Content-Based and Collaborative Filtering with Deep Contrastive Clustering",
+      "institute": "ESTIN",
+      "year": "2023-2024",
+      "description": "Check and evaluate different feature extraction models; Propose an adjustment of deep learning clustering approach and test a new hybrid recommender system.",
+      "detailedDescription": "# A Hybrid Recommendation Model\n## Overview\nThis project focuses on developing a hybrid recommendation model that integrates content-based and collaborative filtering techniques, enhanced by deep contrastive clustering.\n\n## Objectives\n- Evaluate various feature extraction models for accuracy and efficiency.\n- Propose an innovative adjustment to deep learning clustering approaches.\n- Test the hybrid recommender system on benchmark datasets.\n\n## Methodology\n- **Feature Extraction**: Compared models like TF-IDF, word embeddings, and CNN-based feature extractors.\n- **Clustering**: Implemented a deep contrastive clustering approach to group similar items/users.\n- **Hybrid Model**: Combined content-based filtering (using item features) with collaborative filtering (using user-item interactions).\n\n## Results\n- Achieved a 15% improvement in recommendation accuracy compared to baseline models.\n- Reduced latency in real-time recommendations by optimizing clustering algorithms.\n\n## Technologies Used\n- Python, TensorFlow, PyTorch\n- Scikit-learn for baseline models\n- Pandas and NumPy for data processing",
+      "category": "Supervision",
+      "type": "Research Collaboration",
+      "status": "Done",
+      "tags": ["Recommender Systems", "Deep Learning"],
+      "link": ""
+    },
+    {
+      "title": "Enhancing Recommender Systems with LLM-Based Prompt Tuning",
+      "institute": "ESTIN",
+      "year": "2024-2025",
+      "description": "Investigate the ability of LLMs to model sequential recommendations.",
+      "detailedDescription": "# LLM-Based Recommender System\n## Overview\nThis project explores the use of Large Language Models (LLMs) with prompt tuning to enhance sequential recommendation systems.\n\n## Objectives\n- Investigate how LLMs can capture sequential patterns in user behavior.\n- Develop a prompt-tuning framework to fine-tune LLMs for recommendation tasks.\n\n## Methodology\n- **Prompt Design**: Created task-specific prompts to guide LLM behavior.\n- **Fine-Tuning**: Applied prompt tuning to adapt pre-trained LLMs for recommendation tasks.\n- **Evaluation**: Tested on datasets like MovieLens and Amazon Reviews.\n\n## Current Progress\n- Successfully implemented prompt-based recommendation for movie datasets.\n- Ongoing experiments to optimize prompt efficiency and scalability.\n\n## Technologies Used\n- Hugging Face Transformers\n- Python, PyTorch\n- Datasets library for data handling",
+      "category": "Supervision",
+      "type": "Research Collaboration",
+      "status": "Ongoing",
+      "tags": ["LLMs", "Recommender Systems"],
+      "link": ""
+    },
+    {
+      "title": "AI-Powered Chatbot for University Admissions",
+      "institute": "ESTIN",
+      "year": "2024-2025",
+      "description": "Develop a chatbot to assist students with university admission queries.",
+      "detailedDescription": "# University Admissions Chatbot\n## Overview\nThis project aims to develop an AI-powered chatbot to assist prospective students with university admission queries, providing accurate and timely responses.\n\n## Objectives\n- Build a conversational AI system to handle admission-related questions.\n- Integrate with university databases for real-time information retrieval.\n\n## Methodology\n- **NLP Pipeline**: Utilized LLMs for natural language understanding and generation.\n- **Knowledge Base**: Integrated a structured knowledge base with admission FAQs.\n- **User Interface**: Developed a web-based interface using React and Flask.\n\n## Current Status\n- Initial prototype completed with basic query handling.\n- Planning integration with university admission systems.\n\n## Technologies Used\n- React, Flask\n- Hugging Face Transformers\n- SQLite for knowledge base storage",
+      "category": "Supervision",
+      "type": "Development",
+      "status": "Offered",
+      "tags": ["LLMs", "Chatbots"],
+      "link": ""
+    },
+    {
+      "title": "LLM-Powered Vision for Medical Image Analysis",
+      "institute": "ESTIN",
+      "year": "2024-2025",
+      "description": "Explore the use of LLMs for interpreting and analyzing medical images.",
+      "detailedDescription": "# LLM-Powered Medical Image Analysis\n## Overview\nThis project investigates the application of Large Language Models (LLMs) in interpreting and analyzing medical images, combining vision and language processing.\n\n## Objectives\n- Explore multimodal LLMs for medical image captioning and diagnosis.\n- Develop a framework for integrating image and text data for medical analysis.\n\n## Methodology\n- **Multimodal Training**: Fine-tuned vision-language models like CLIP on medical datasets.\n- **Image Analysis**: Used LLMs to generate diagnostic reports from images.\n- **Evaluation**: Benchmarked against traditional computer vision models.\n\n## Current Status\n- Early-stage exploration of model architectures.\n- Planning dataset collection and annotation.\n\n## Technologies Used\n- PyTorch, Hugging Face\n- Medical imaging datasets (e.g., ChestX-ray)\n- Python for preprocessing",
+      "category": "Supervision",
+      "type": "Research Collaboration",
+      "status": "Offered",
+      "tags": ["LLMs", "Computer Vision", "Medical AI"],
+      "link": ""
+    },
+    {
+      "title": "RAG System for Legal Document Retrieval",
+      "institute": "ESTIN",
+      "year": "2024-2025",
+      "description": "Develop a Retrieval-Augmented Generation (RAG) system for efficient legal document retrieval and summarization.",
+      "detailedDescription": "# RAG System for Legal Documents\n## Overview\nThis project focuses on building a Retrieval-Augmented Generation (RAG) system to retrieve and summarize legal documents efficiently.\n\n## Objectives\n- Develop a RAG pipeline for legal document retrieval.\n- Implement summarization capabilities using LLMs.\n\n## Methodology\n- **Retrieval**: Used dense retrieval models to fetch relevant documents.\n- **Generation**: Applied LLMs to generate concise summaries of retrieved documents.\n- **Evaluation**: Tested on legal datasets for precision and recall.\n\n## Current Status\n- Initial design of RAG pipeline completed.\n- Seeking legal datasets for testing.\n\n## Technologies Used\n- LangChain for RAG implementation\n- Hugging Face Transformers\n- Elasticsearch for document storage",
+      "category": "Supervision",
+      "type": "Development",
+      "status": "Offered",
+      "tags": ["RAG", "LLMs", "Legal Tech"],
+      "link": ""
+    },
+    {
+      "title": "Titanic Survival Prediction",
+      "institute": "Personal",
+      "year": "2024",
+      "description": "Machine learning model to predict Titanic passenger survival using various classification algorithms.",
+      "detailedDescription": "# Titanic Survival Prediction\n## Overview\nA Kaggle project to predict passenger survival on the Titanic using machine learning classification algorithms.\n\n## Objectives\n- Build and compare multiple classification models for survival prediction.\n- Optimize model performance by using feature engineering and hyperparameter tuning.\n\n## Methodology\n- **Data Preprocessing**: Handled missing data values, encoded categorical data features.\n- **Models**: Tested with Logistic Regression, Random Forest, and XGBoost models.\n- **Evaluation**: Achieved top ranking in the top 10% on the Kaggle leaderboard.\n\n## Results\n- The Best model (XGBoost) achieved 0.78 accuracy on the test set.\n- Key features: Passenger class, gender, and age.\n\n## Technologies Used\n- Python, scikit-learn, XGBoost\n- Pandas and NumPy\n- Jupyter Notebook for data processing",
+      "category": "Kaggle",
+      "type": "Data Science",
+      "status": "Done",
+      "tags": ["Machine Learning", "Data Science", "Kaggle"],
+      "link": "https://kaggle.com"
+    },
+    {
+      "title": "Portfolio Website",
+      "institute": "Personal",
+      "year": "2024",
+      "description": "Personal portfolio website built with React and Tailwind CSS to showcase projects.",
+      "detailedDescription": "# Portfolio Website\n## Overview\nA personal portfolio website to showcase projects, built using modern web development technologies.\n\n## Objectives\n- Create a responsive and visually appealing portfolio site.\n- Integrate dynamic project filtering and display.\n\n## Methodology\n- **Frontend**: Built with React and Tailwind CSS for styling.\n- **Features**: Implemented project filtering by category, type, and status.\n- **Deployment**: Hosted on GitHub Pages with CI/CD pipeline.\n\n## Results\n- Successfully deployed portfolio with interactive project cards.\n- Responsive design compatible with mobile and desktop.\n\n## Technologies Used\n- React, Tailwind CSS\n- JavaScript, HTML\n- GitHub Actions for deployment",
+      "category": "GitHub",
+      "type": "Development",
+      "status": "Done",
+      "tags": ["React", "Web Development", "Tailwind CSS"],
+      "link": "https://github.com/username/portfolio"
+    }
+  ]
+  
